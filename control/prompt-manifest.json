@@ -1,0 +1,47 @@
+{
+  "question_source": "questions.md",
+  "question_sha256": "f00c77be592a206fd2bbf2d1dfd574168eaa2bfa203e44745b69c5e542675f41",
+  "instructions": "Use each text file verbatim, one fresh no-folder Claude session per question. No attached sources, no repository, no gold key. Save unedited provider transcript into control/raw/.",
+  "prompts": [
+    {
+      "id": "Q1",
+      "filename": "control/prompts/Q1.txt",
+      "sha256": "4ce2a9f10c2aa86c42b9047640f40084e6c7d9694baf8f9ab95bf193cbb8e021"
+    },
+    {
+      "id": "Q2",
+      "filename": "control/prompts/Q2.txt",
+      "sha256": "0eda8bbafd30b7b500f8e3d34164edc2f1eae42d9e422701cfa379b63ca13551"
+    },
+    {
+      "id": "Q3",
+      "filename": "control/prompts/Q3.txt",
+      "sha256": "1ba3cea20ae88ca7bb62bcac90afc632062b062ea2c0b78b0edf386d4e904e13"
+    },
+    {
+      "id": "Q4",
+      "filename": "control/prompts/Q4.txt",
+      "sha256": "b98fa03ab66630d6145a2ba8edf43a94712b5e0826872df73ee44fc8696ad552"
+    },
+    {
+      "id": "Q5",
+      "filename": "control/prompts/Q5.txt",
+      "sha256": "095888580aca1d5c3d9af477237e7013a8f4f41bee14f450e919aef6a1efb73f"
+    },
+    {
+      "id": "Q6",
+      "filename": "control/prompts/Q6.txt",
+      "sha256": "d7538c08a604a6a4079671e335e15fc562c17e5c0e526416228ee820df4b99bf"
+    },
+    {
+      "id": "Q7",
+      "filename": "control/prompts/Q7.txt",
+      "sha256": "c7dbaefc62ea7a0c7ebcd143bc8c5841873ec94eedbb4f94c8ad494c0bc6f88e"
+    },
+    {
+      "id": "Q8",
+      "filename": "control/prompts/Q8.txt",
+      "sha256": "01ed9e1af350ef45dff6cd8a8ffb85c34387eab632c27136c34609b169b32b18"
+    }
+  ]
+}
