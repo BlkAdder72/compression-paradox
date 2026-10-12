@@ -1,0 +1,21 @@
+# Control run manifest — Arm A (no-folder)
+
+- Arm: A / no-folder
+- Status: **EXECUTED** (run A2). Run A1 failed before reaching the model (see Errors).
+- Git baseline commit: df36e7d (frozen design); c8b15c7 (capture kit) was HEAD at execution
+- Frozen questions SHA256: f00c77be592a206fd2bbf2d1dfd574168eaa2bfa203e44745b69c5e542675f41 (verified by scripts/verify_control_capture.py)
+- Provider / interface: Anthropic first-party, via Claude Code CLI 2.1.288 (bundled with Claude desktop app, Windows 11) in non-interactive print mode (`-p`), authenticated with claude.ai subscription (OAuth). Runner: `scripts/run_control_cli.sh`.
+- Named model and identifier: `claude-opus-5-5` (requested with `--model`; confirmed in each capture's init event and every assistant message). Server-side revision: unavailable.
+- Generation settings: temperature/top-p not adjustable in this interface — unavailable. Effort level: CLI default (not set). Fast mode: off (per capture).
+- Tools: built-in `Read`, `Glob`, `Grep` only (`--tools "Read,Glob,Grep"`); no MCP servers (`--strict-mcp-config`); no web tools; permission mode `default` (non-interactive, so any read outside the session's working directory is denied). Read-only file tools were enabled so that the treatment arm can use identical tool availability to read its folder.
+- Custom settings: Claude Code default system prompt (not exportable from the capture; disclosed as inaccessible). User-level settings, built-in plugins and skills listed in each init event were present; no CLAUDE.md exists in the user config dir; each session's auto-memory directory was new and empty (per-path).
+- Timestamp/timezone: 2026-10-12, 15:33:10Z–15:35:26Z (UTC; per-question start/end in A2-run-log.txt).
+- Source exposure: no folder, no policy corpus, no answer key, no repository. Each question ran in its own new empty directory outside the repository (`<scratchpad>/arm-a/A2-Qn`).
+- Session strategy: eight fresh independent sessions, `--no-session-persistence`; Q1–Q8 in order; prompt delivered as the exact bytes of control/prompts/Qn.txt on stdin; no added instructions.
+- Raw capture filenames: control/raw/A2-Qn.stream.jsonl (full stream-json event log: init, assistant messages, tool calls/results, result), A2-Qn.stderr.txt (all empty), A2-run-log.txt. SHA256 values listed in control/raw/SHA256SUMS.txt.
+- Errors, retries, interruptions:
+  - **Run A1 (15:24:34Z–15:24:58Z): all 8 sessions failed with `authentication_failed` ("Not logged in")** — the bundled CLI had no login. No prompt reached a model. Records retained unedited as A1-*.
+  - The user then logged the CLI in; run A2 executed once. No retries, no selection of runs.
+- Observed tool behaviour (A2): every session ran Glob on its empty working directory; 7 of 8 attempted Glob/Grep on parent directories (searching for "Meridian"); all such attempts were **denied** by the permission system (logged as `permission_denials` in each result event). No session read any file. No session reached the repository.
+- Disclosure of inaccessible system messages/tool logs: the Claude Code system prompt text is not included in stream-json output and is not reproduced here.
+- Treatment matching plan: identical runner flags, model, CLI version and session strategy; only difference is the working directory contains the specialist folder files.
