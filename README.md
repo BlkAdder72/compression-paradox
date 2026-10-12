@@ -1,6 +1,6 @@
 # THE COMPRESSION PARADOX — Competition #14
 
-**Status: Stage 1 (precommit benchmark) complete; no model trials performed.**
+**Status: Stage 2 executed 2026-10-12 — arms A, B, C run once each with `claude-opus-5-5`; D/E pending. See `RESULTS.md`.** (Stage 1 text below is unchanged.)
 
 Research question: Can evidence-preserving context compression improve specialist navigation without hiding essential conditions? The official no-folder versus folder test measures the *combined* effect of supplying references and structure; a source-only supplementary arm is required to isolate architectural value.
 
