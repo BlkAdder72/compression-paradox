@@ -27,7 +27,7 @@ Per question (capped totals):
 Every A response said it lacked the Meridian Works policy and invented no thresholds, so A made 0 unsupported claims and 0 false authorizations. On Q7, A reasoned conditionally that "urgent" without evidence of risk would likely not qualify, which earned partial credit (assessor's judgement call: conclusion 2 vs 0, capped total 4 either way). Under the rubric, refusals earn no conclusion points because the answers were checkable.
 
 ## Secondary metrics (measured from captures)
-- Wall time per session (`duration_ms`): A mean ≈ 14.0 s, B ≈ 26.0 s, C ≈ 19.6 s.
+- Wall time per session (`duration_ms`): A mean ≈ 13.8 s, B ≈ 26.0 s, C ≈ 19.6 s.
 - Visible source reads: A 0 files. B read all 10 folder files in 7 of 8 sessions (8 in Q6). C read all 6 sources in every session.
 - Permission denials (attempted reads outside the session directory, all blocked): A 7 of 8 sessions, B 1 of 8, C 1 of 8.
 - Run-to-run consistency: **not measured** (single run per arm).
