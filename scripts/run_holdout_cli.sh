@@ -4,6 +4,8 @@
 #      RUN_ID=DH1 SRC_DIR=diagnostics/aggressive-summary OUT_DIR=diagnostics/aggressive-summary/raw \
 #      bash scripts/run_holdout_cli.sh
 set -u
+# Never overwrite any existing run evidence or accept path-bearing identifiers.
+[[ "${RUN_ID:-}" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "RUN_ID must contain only letters, digits, underscore or dash" >&2; exit 2; }
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 CLAUDE="${CLAUDE_BIN:?required}"; MODEL="${MODEL:-claude-opus-5-5}"
 SANDBOX_BASE="${SANDBOX_BASE:?required}"; RUN_ID="${RUN_ID:?required}"
@@ -17,6 +19,7 @@ case "$OUT_DIR" in
   *) echo "Unsupported output directory: $OUT_DIR" >&2; exit 2 ;;
 esac
 mkdir -p "$ROOT/$OUT_DIR" "$SANDBOX_BASE"
+if [ -e "$ROOT/$OUT_DIR/$RUN_ID-run-log.txt" ]; then echo "REFUSE existing run log" >&2; exit 4; fi
 for n in 1 2 3 4 5 6 7 8; do
   q="H$n"; dir="$SANDBOX_BASE/$RUN_ID-$q"
   if [ -e "$dir" ]; then echo "REFUSE existing session directory $dir" >&2; exit 3; fi

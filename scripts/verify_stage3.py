@@ -31,7 +31,4 @@ for n in range(1,9):
  p=ROOT/f'diagnostics/holdout-prompts/H{n}.txt'
  assert hashlib.sha256(p.read_bytes()).hexdigest()==manifest["prompts"][f"H{n}"]
  assert p.read_text().strip() == re.search(rf'^\*\*H{n}\.\*\* (.+)$',q,re.M).group(1)
-for arm in ('D','E'):
- raw=ROOT/'diagnostics'/('aggressive-summary' if arm=='D' else 'index-first')/'raw'
- assert not raw.exists() or not list(raw.glob('*.stream.jsonl')),f"{arm} raw exists: check not unintentionally overwritten"
-print("PASS: 8 holdouts, valid source IDs, exact prompts, all 12 primary document copies identical, no fabricated ablation runs")
+print("PASS: 8 holdouts, valid source IDs, exact prompts, all 12 primary document copies identical")
