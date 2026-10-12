@@ -1,0 +1,4 @@
+# Raw captures must stay byte-identical to their recorded SHA256 values.
+control/raw/** -text
+treatment/raw/** -text
+diagnostics/**/raw/** -text
