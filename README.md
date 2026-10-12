@@ -1,21 +1,26 @@
 # THE COMPRESSION PARADOX — Competition #14
 
-**Status: Stage 2 executed 2026-10-12 (arms A, B, C on Q1–Q8); Stage 4 executed 2026-10-12 (arms C, D, E on supplemental H1–H8, two scored runs each: C 80/80, E 80/80, D 80/77), with `claude-opus-5-5`. See `RESULTS.md`.** (Stage 1 text below is unchanged.)
+**Current status (2026-10-12):** Official A/B completed; supplementary C and D/E experiments completed. Actual records, caveats and failures appear in [`results.md`](results.md). The original uppercase `RESULTS.md` is retained as a historical record; `results.md` is the specification-required root report.
 
-Research question: Can evidence-preserving context compression improve specialist navigation without hiding essential conditions? The official no-folder versus folder test measures the *combined* effect of supplying references and structure; a source-only supplementary arm is required to isolate architectural value.
+## What the folder does
 
-The six `fixture/` documents define a self-contained **fictional** policy. Eight frozen questions are in `questions.md`; independent answers and scoring appear in `evaluation/`. The specialist folder is intentionally **not** created in Stage 1, because precommitting questions before building the folder is part of the competition.
+The specialist interprets the six-document **fictional Meridian Works policy** by using compressed navigation as a pointer to primary rules, not a substitute for them. The required ICM files are in [`specialist/`](specialist/): `identity.md`, `rules.md`, `examples.md`, `reference/`, and `README.md`.
 
-## Ordered procedure
-1. Inspect `questions.md`, policy fixture, gold answers, rubric and protocol. Run `python scripts/verify_fixture.py`. Commit the baseline BEFORE creating a specialist folder.
-2. Run no-folder control in real model sessions and save **unedited** raw transcripts under `control/raw/` with a run manifest; commit.
-3. Create `specialist/{identity.md,rules.md,examples.md,README.md,reference/}`. Copy fixture sources into `specialist/reference/`; design an index that points to evidence instead of substituting summaries. Commit before testing.
-4. Run treatment under matching conditions and save unedited records to `treatment/raw/`; commit.
-5. Score with original answer key, report ties, regressions and wins, then run source-only and optional ablations as **separate** diagnostics. No model runs or measured wins are claimed by this Stage 1 package.
+## What the experiment actually found
 
-## Avoid deceptive interpretation
-The no-folder control lacks the private fictional policy, so an A/B improvement alone does **not** prove architectural superiority. A source-only diagnostic is central to testing the Compression Paradox hypothesis. This benchmark is small and makes no claim of statistical significance.
+- Official no-folder A2: **11/80**; treatment B1: **80/80**. All 8 official questions improved, but this comparison is confounded: A lacked the policy source while B had it.
+- Full-sources-only C1: **78/80**, also **8/8 correct operational conclusions**. The two treatment points above C were citation-format differences, not decision quality.
+- Supplemental H-series, two runs each: **C 80/80 twice; D 80/80 then 77/80; E 80/80 twice**. All three variants made 8/8 correct decisions in both runs. The proposed condition-coverage advantage of index-first navigation was **not observed**.
+- Excluded contaminated attempts DH2/EH2 remain preserved and documented. The H-series questions were not independently authored blind questions.
 
-## Stage 3 diagnostic preparation
+## Judge quick start
 
-Aggressive-summary and index-first ablation variants and eight supplemental post-analysis challenge questions have been frozen, with offline verification in `scripts/verify_stage3.py`. They were **run in Stage 4** (see `RESULTS.md`). Do not interpret these as reproduction or performance evidence. See `diagnostics/README-stage3.md`.
+1. Confirm chronology with `git log --oneline --reverse`: benchmark frozen at `df36e7d`, control before specialist, treatment after.
+2. Read [`questions.md`](questions.md), [`protocol.md`](protocol.md), [`evaluation/scoring-rubric.md`](evaluation/scoring-rubric.md), [`evaluation/expected-answers.md`](evaluation/expected-answers.md).
+3. Read [`results.md`](results.md) for question-level wins, ties, losses, original and supplemental findings and exclusions.
+4. Run `python scripts/verify_submission.py` and `python scripts/verify_stage3.py` to inspect static integrity. These are **not** model performance tests.
+5. Follow [`REPRODUCE.md`](REPRODUCE.md) for a fresh, real Claude rerun, with a different run ID. Exact results are nondeterministic and not yet independently verified.
+
+## Scientific limitations
+
+A/B improvement cannot isolate context architecture; source-only provides the meaningful comparator. Single-run A/B, same-family assessor, eight-question ceiling effects, different levels of source exposure, and model aliases limit inference. We report those limitations rather than claim that compression architecture independently improved accuracy.
