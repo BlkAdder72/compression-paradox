@@ -64,4 +64,27 @@ Per question: every response scored 10 on H1–H8 in every arm. **D vs C, E vs C
 3. **Assessor uncertainty.** R16 (D, H8) cites mostly `file:line` plus DEF-3, a real section not in H8's controlling list. The assessor awarded the evidence point. Under a stricter reading (controlling-list IDs only), D scores 79/80. Operational conclusion unaffected either way.
 4. **Rubric adaptation.** The rubric names false-authorization questions only for the Q-series. For H, the assessor was told to flag any omitted pre-purchase approval or any wrongly asserted waiver or compliance. This mapping was set before scoring.
 5. **Not blind questions.** H1–H8 were written after the Stage 2 results were known, so they are supplemental post-analysis challenge questions, not independent holdouts. D/E were not run on Q1–Q8.
-6. Single run per arm; run-to-run consistency not measured; no statistical significance claimed. Arms ran sequentially (D, E, C) rather than interleaved.
+6. Arms ran sequentially (D, E, C) rather than interleaved. No statistical significance claimed. Run-to-run consistency: see the repeat below.
+
+## Stage 4 — repeat run (run 2) and run-to-run consistency
+
+**Scored runs: CH2, DH3, EH3 · same CLI build, model, runner and prompts as run 1 · raw captures committed (e4d5bd2, fcecdea) before scoring · fresh blind assessor, new shuffle (`evaluation/scoring-run-3/`).** All gates and capture checks passed; 24/24 sessions exit 0, no permission denials.
+
+**Excluded runs DH2 and EH2 (operator error, disclosed).** The run-1 manifests had been saved inside `diagnostics/aggressive-summary/` and `diagnostics/index-first/`, which the runner copies into every session. Several DH2/EH2 sessions opened them. They held run settings only (no answers, key or scores), but exposure differed from run 1, so those runs are kept unedited and not scored (`raw/run-manifest-?H2.md`). Fix (b3d2417): manifests moved into `raw/` (the runner strips it), and `preflight_stage4.py` now fails if an arm folder holds anything beyond its frozen files. D and E were then rerun cleanly as DH3/EH3. CH2 was unaffected (arm C copies `fixture/`). `verify_stage4_capture.py` was also fixed to read UTF-8: it had rejected the valid CH2-H6 capture on Windows (cp1252 default).
+
+| Arm | Run 1 | Run 2 | Correct conclusions (run 1 / run 2) | False authorizations | Critical omissions |
+|---|---|---|---|---|---|
+| C — source-only | 80 | **80** | 8/8 · 8/8 | 0 | 0 |
+| D — aggressive summary | 80 | **77** | 8/8 · 8/8 | 0 | 0 |
+| E — index-first | 80 | **80** | 8/8 · 8/8 | 0 | 0 |
+
+Run 2, per question: C and E scored 10 everywhere. D scored 9 on H2, H3 and H7, and 10 elsewhere.
+- **D H2, D H3 (evidence 0):** cited only `file:line`, no section identifier. This is the same formatting failure seen in Stage 2's C1 and in the borderline DH1 H8 item.
+- **D H7 (exceptions 1):** correct conclusion, but it hedged that a "strict reading" of EMG-1 ("approved vendor") might deny the exception that EMG-2 extends to authorised prohibited vendors. That ambiguity comes from the primary text, not the summary, which says nothing about vendors in emergencies.
+- **Pairwise, run 2:** E vs D 3 wins / 5 ties / 0 losses. C vs D 3 / 5 / 0. E vs C 0 / 8 / 0.
+
+**Consistency.** Across two runs, all 48 C/E responses and all 16 D responses reached the correct operational conclusion, with no false authorizations or critical omissions. C and E were perfectly stable (80/80 twice). D was the only arm to drop points (80 → 77), all on secondary rubric items.
+
+**Hypothesis, updated.** The pre-registered claim concerned *condition coverage*: that E would preserve conditions more consistently than D. It remains **not supported**, because neither arm omitted a condition in either run. There is a weak directional signal that D is less stable on citation form and hedging (3 points in one of two runs). It is too small to distinguish from run-to-run noise with n = 2. Mean wall time, run 2: C ≈ 21.0 s, D ≈ 23.9 s, E ≈ 22.5 s.
+
+**Assessor notes (run 2).** The assessor could not confirm DEF-3 and VEN-3 from the packet and treated them as real. They are real: both exist in the fixture, so no change. It judged C's H7 answer (R02) as covering "authorization does not replace manager approval" (lenient reading) and noted a minor date-scope inconsistency in C's H5 (R09) without deduction. A stricter assessor might have docked those items. Same-family single assessor, no adjudication.
