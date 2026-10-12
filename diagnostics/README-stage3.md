@@ -1,6 +1,6 @@
 # Stage 3 pre-registered compression ablation (supplemental, not official A/B)
 
-Status: **constructed; NOT RUN**. Historical A/B/C transcript scores remain unchanged.
+Status: constructed in Stage 3; **executed in Stage 4 (DH1, EH1, CH1), see `RESULTS.md`**. Historical A/B/C transcript scores remain unchanged.
 
 - **D — aggressive-summary**: short threshold-oriented `SUMMARY.md` and permissive `README.md` plus byte-identical full source documents. The short summary intentionally omits qualifications; source can still be consulted.
 - **E — index-first**: an index that identifies topic-to-section locations, emphasizes primary source verification and exact citations, plus byte-identical full source documents.

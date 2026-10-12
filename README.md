@@ -1,6 +1,6 @@
 # THE COMPRESSION PARADOX — Competition #14
 
-**Status: Stage 2 executed 2026-10-12 — arms A, B, C run once each with `claude-opus-5-5`; D/E pending. See `RESULTS.md`.** (Stage 1 text below is unchanged.)
+**Status: Stage 2 executed 2026-10-12 (arms A, B, C on Q1–Q8); Stage 4 executed 2026-10-12 (arms C, D, E on supplemental H1–H8, all 80/80). Each arm run once with `claude-opus-5-5`. See `RESULTS.md`.** (Stage 1 text below is unchanged.)
 
 Research question: Can evidence-preserving context compression improve specialist navigation without hiding essential conditions? The official no-folder versus folder test measures the *combined* effect of supplying references and structure; a source-only supplementary arm is required to isolate architectural value.
 
@@ -18,4 +18,4 @@ The no-folder control lacks the private fictional policy, so an A/B improvement 
 
 ## Stage 3 diagnostic preparation
 
-Aggressive-summary and index-first ablation variants and eight supplemental post-analysis challenge questions have been frozen, with offline verification in `scripts/verify_stage3.py`. They are **not yet run**. Do not interpret these as reproduction or performance evidence. See `diagnostics/README-stage3.md`.
+Aggressive-summary and index-first ablation variants and eight supplemental post-analysis challenge questions have been frozen, with offline verification in `scripts/verify_stage3.py`. They were **run in Stage 4** (see `RESULTS.md`). Do not interpret these as reproduction or performance evidence. See `diagnostics/README-stage3.md`.
