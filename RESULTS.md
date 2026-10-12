@@ -44,7 +44,7 @@ The aggressive-summary (D) and index-first (E) variants, together with eight sup
 
 ## Stage 4 — H-series supplemental runs (executed 2026-10-12)
 
-**Runs DH1, EH1, CH1 · one run per arm · `claude-opus-5-5` via Claude Code CLI 2.1.288 (same build as Stage 2) · unmodified `scripts/run_holdout_cli.sh` at commit 206da8e · raw captures committed at 9855e10 before scoring.** All preflight gates and all three `verify_stage4_capture.py` checks passed; 24/24 sessions exit 0, no permission denials, no retries. Manifests: `diagnostics/*/run-manifest-?H1.md`.
+**Runs DH1, EH1, CH1 · one run per arm · `claude-opus-5-5` via Claude Code CLI 2.1.288 (same build as Stage 2) · unmodified `scripts/run_holdout_cli.sh` at commit 206da8e · raw captures committed at 9855e10 before scoring.** All preflight gates and all three `verify_stage4_capture.py` checks passed; 24/24 sessions exit 0, no permission denials, no retries. Manifests: `diagnostics/{aggressive-summary,index-first}/raw/run-manifest-?H1.md`, `diagnostics/source-only/run-manifest-CH1.md`.
 
 | Arm | Exposure | Score /80 | Correct operational conclusions | False authorizations | Critical omissions |
 |---|---|---|---|---|---|
