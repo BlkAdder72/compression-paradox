@@ -54,7 +54,7 @@ The aggressive-summary (D) and index-first (E) variants, together with eight sup
 
 Per question: every response scored 10 on H1–H8 in every arm. **D vs C, E vs C, E vs D: 0 wins, 8 ties, 0 losses.**
 
-- **Pre-registered hypothesis** ("E will preserve condition coverage more consistently than D on boundary and cross-policy cases"): **not supported**. D and E tied at ceiling; neither omitted a condition. The secondary clause (E may take longer or open more files) was not borne out: D opened the most files (6–8 per session, mean wall time ≈ 23.7 s), E opened 7 (≈ 24.1 s), C opened 6 (≈ 19.8 s).
+- **Pre-registered hypothesis** ("E will preserve condition coverage more consistently than D on boundary and cross-policy cases"): **not supported**. D and E tied at ceiling; neither omitted a condition. The secondary clause (E may take longer or open more files) was not borne out: D opened the most files (6–8 per session, mean wall time ≈ 23.7 s), E opened 7 (≈ 24.1 s), C opened 6 (≈ 20.0 s).
 - **Compression Paradox check:** the aggressive summary did **not** hide essential conditions in this run, but the reason matters. Every D session also read the full primary sources, often *before* SUMMARY.md. In 4 of 8 (H3, H5, H6, H8) the answer explicitly flagged the summary as incomplete and relied on the primary text (citing DEF-3). So this run tests "summary plus full sources" against a careful reader, not "summary alone". A harder test would remove or demote the sources, or penalise the extra reads.
 - **Ceiling effect persists.** All three arms are at 80/80 on questions designed to stress boundaries. This set cannot separate the arms either.
 
