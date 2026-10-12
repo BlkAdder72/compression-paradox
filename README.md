@@ -15,3 +15,7 @@ The six `fixture/` documents define a self-contained **fictional** policy. Eight
 
 ## Avoid deceptive interpretation
 The no-folder control lacks the private fictional policy, so an A/B improvement alone does **not** prove architectural superiority. A source-only diagnostic is central to testing the Compression Paradox hypothesis. This benchmark is small and makes no claim of statistical significance.
+
+## Stage 3 diagnostic preparation
+
+Aggressive-summary and index-first ablation variants and eight supplemental post-analysis challenge questions have been frozen, with offline verification in `scripts/verify_stage3.py`. They are **not yet run**. Do not interpret these as reproduction or performance evidence. See `diagnostics/README-stage3.md`.

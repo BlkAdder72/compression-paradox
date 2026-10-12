@@ -37,3 +37,7 @@ Every A response said it lacked the Meridian Works policy and invented no thresh
 2. **Assessor.** Scoring was done by an independent subagent (same model family) that received only the rubric, key, questions and 24 shuffled responses with directory paths removed (`evaluation/scoring-run-1/`). A responses are recognisable by content (refusals), so blinding was effective only between B and C. No second assessor was used, so no disagreements were adjudicated.
 3. **Interface.** Claude Code print mode adds Claude Code's default system prompt (not exportable). Read/Glob/Grep were enabled in all arms for parity, and temperature was not controllable. The first control attempt (A1) failed authentication before reaching the model. Its records are retained.
 4. **Ceiling effect.** B and C are both at or near ceiling, so this 8-question set cannot separate structure from sources. Harder holdout questions, D/E ablations and repeated runs are needed.
+
+## Stage 3 — Pre-registered supplemental work (pending)
+
+The aggressive-summary (D) and index-first (E) variants, together with eight supplemental post-analysis challenge questions (H1–H8), have been committed as experimental materials. **No D/E/H scores exist yet.** The H questions were designed after the Stage 2 results were known and are not truly blind unseen questions. All Stage 2 scores above remain unchanged. See `diagnostics/README-stage3.md` and `evaluation/holdout/`.
