@@ -54,18 +54,11 @@ def main():
             preflight=(folder/(qid+'.preflight.txt')).read_text(encoding='utf8')
             assert 'menuitemcheckbox "Memory" [checked]' not in preflight
             assert 'menuitemcheckbox "Research" [checked]' not in preflight
-            # A Q2 preserved the Devices submenu after the separate connector inspection.
-            # Do not pretend this file contains a connector toggle snapshot.
-            if (arm,qid)==('A','Q2'):
-                assert 'menu "Devices"' in preflight
-            else:
-                # A Q2 preserved the Devices submenu after the separate connector inspection.
-            # Do not pretend this file contains a connector toggle snapshot.
+            # A Q2 saved Devices, not the earlier connector-toggle inspection.
             if (arm,qid)==('A','Q2'):
                 assert 'menu "Devices"' in preflight
             else:
                 assert 'menu "Connectors"' in preflight
-                assert not any('menuitemcheckbox' in line and ' icon ' in line and '[checked]' in line for line in preflight.splitlines())
                 assert not any('menuitemcheckbox' in line and ' icon ' in line and '[checked]' in line for line in preflight.splitlines())
         for name, expected in row['sha256'].items():
             assert Path(name).name == name
