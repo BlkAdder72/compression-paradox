@@ -1,4 +1,12 @@
-> Current correction (2026-10-13): root `questions.md` is now v2, with self-contained Q4 and expected answers. All existing Q-series captures and scores below are v1, preserved in `history/questions-v1.md`. No corrected-v2 model results exist yet. Reproduce old evidence with `--suite legacy`; execute corrected questions with `--suite official` and new v2 run IDs. This post-results correction is not original preregistration.
+> **Current headline (2026-10-13).** Three separate evidence sets. They are not pooled.
+>
+> | Evidence set | A — no folder | B — specialist folder | C — sources only | B vs A | B vs C |
+> |---|---|---|---|---|---|
+> | Corrected official v2, Q1–Q8 (A/B/C_V2_01) | 14/80 | 80/80 | 80/80 | 8 W / 0 T / 0 L | 0 W / 8 T / 0 L |
+> | Separate-session U1–U8 (A/B/C_U_01) | 8/80 | 77/80 | 80/80 | 8 / 0 / 0 | **0 / 7 / 1** |
+> | Original v1, Q1–Q8 (A2/B1/C1; reruns below) | 11 | 80 | 78 | 8 / 0 / 0 | 2 / 6 / 0 |
+>
+> The folder beats no folder on every question, but A has no policy text, so A/B mostly measures source availability. Against the six sources alone (C), the folder tied on all corrected v2 questions and on 7 of 8 questions it did not write. It **lost U8** by 3 points: it treated a genuinely ambiguous vendor branch as settled, where the frozen criterion required both readings. Nothing in the folder was changed because of this; the folder is frozen for these tests (see the end of this report). Sections below are chronological. Everything before "Corrected official v2" scores the original **v1** questions (archived in `history/questions-v1.md`). Root `questions.md` is now v2: Q4 was made self-contained after the folder already existed, so v2 is a correction, not original pre-registration.
 
 # Results — Compression Paradox benchmark, Stage 2 (single run per arm)
 
@@ -164,6 +172,84 @@ Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Un
    - These are same-day results on a small, near-ceiling benchmark, with no significance claimed.
 6. **Not run:** G1–G4 (`evaluation/challenge/`) remain generated, non-independent and unexecuted. No external author was available, so no independent unseen questions exist.
 
-## Separately authored U1–U8: inputs accepted, execution pending
+## Corrected official v2 (executed 2026-10-13)
 
-The user supplied external-questions.json and AUTHORING-NOTE.md from a separate Claude session. Original bytes are preserved under evaluation/unseen-20261013/. Eight standalone questions and cited sections were validated; the specialist was not changed. U6/U8 expose approved-vendor versus authorized-prohibited-vendor ambiguity; the prospective evaluation plan states the scoring treatment before any U-series run. No U-series score or folder advantage is claimed. Provenance is same-family AI authorship reported by the source, not independent human review.
+**Runs A_V2_01, B_V2_01, C_V2_01 · revision `ef44500` (pre-registered in `evaluation/v2-20261013/PLAN.md`) · Claude Code CLI 2.1.288 · observed model `claude-opus-5-5` in all 24 sessions · fresh sessions, identical flags, fixed order A→B→C · raw evidence committed (`c7afda4`) before scoring.**
+- Questions are root `questions.md` v2, prompts in `control/prompts-v2/`. Q4 now states its own facts; the other seven prompts are byte-identical to v1.
+- v2 is a separate evidence set. v1 Q4 scores are not reused.
+- Evidence and run records: `evidence/v2-20261013/` (`RUN-RECORD.md`, `tool-access-review.txt`). Scoring files: `evaluation/v2-20261013/official/`.
+
+| Arm | Score /80 | Strict evidence | Correct conclusions | False auth. | Critical omissions | Mean wall time |
+|---|---|---|---|---|---|---|
+| A — no folder | **14** | 14 | 0 / 8 | 0 | 8 (no policy access) | 13.1 s |
+| B — specialist folder | **80** | 80 | 8 / 8 | 0 | 0 | 18.9 s |
+| C — sources only | **80** | 80 | 8 / 8 | 0 | 0 | 15.3 s |
+
+| | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
+|---|---|---|---|---|---|---|---|---|
+| A | 1 | 1 | 1 | 4 | 1 | 1 | 4 | 1 |
+| B | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+| C | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+
+- **Category scores** (conclusion/rules/exceptions/evidence/unsupported): every B and C answer scored 4/2/2/1/1.
+  - A Q1, Q2, Q3, Q5, Q6 and Q8 scored 0/0/0/0/1. Each said the policy was unavailable, with no checkable answer.
+  - A Q4 scored 2/1/1/0/1, capped at 4.
+  - A Q7 scored 2/0/1/0/1, capped at 4.
+- **Pairwise:** B vs A 8/0/0; C vs A 8/0/0; **B vs C 0/8/0**.
+- With the self-contained Q4, B and C both answered Q4 fully. The v1 remark "could not see Q3's facts" no longer occurs.
+- **Interpretation:** A/B shows the folder beats no folder, but A lacked the policy. B/C shows **no measurable benefit from the folder's structure beyond supplying the sources** on this question set, which is at ceiling.
+
+## U1–U8: questions generated in a separate Claude session (executed 2026-10-13)
+
+**Runs A_U_01, B_U_01, C_U_01 · same revision, CLI, model, flags and order as v2 · only each `prompt` field was sent · raw evidence committed (`c7afda4`) before scoring.**
+- **Provenance:** per the supplied `AUTHORING-NOTE.md`, U1–U8 were generated in a separate Claude session (configured `claude-opus-5-5`) using only the six primary documents. They were not written by the folder's author session.
+  - Independent human authorship, cross-model-family independence and moderator acceptance are **not** claimed.
+  - The operator had seen the questions before running them, and the specialist was not changed.
+- **Scoring** used the frozen rules in `evaluation/unseen-20261013/REVIEW-AND-RUN-PLAN.md`, committed before any run. These include the prospective U6/U8 "acknowledge both readings" criterion and the U8 24-hour-notice clarification.
+- Evidence and run records: `evidence/unseen-20261013/`. Scoring files: `evaluation/unseen-20261013/scoring-U_01/`.
+
+| Arm | Score /80 | Strict evidence | Correct conclusions | False auth. | Critical omissions | Ambiguity deductions | Mean wall time |
+|---|---|---|---|---|---|---|---|
+| A — no folder | **8** | 8 | 0 / 8 | 0 | 8 (no policy access) | 0 | 13.6 s |
+| B — specialist folder | **77** | 77 | 8 / 8 | 0 | 1 (U8 branch) | **3 (U8)** | 21.7 s |
+| C — sources only | **80** | 80 | 8 / 8 | 0 | 0 | 0 | 22.6 s |
+
+| | U1 | U2 | U3 | U4 | U5 | U6 | U7 | U8 |
+|---|---|---|---|---|---|---|---|---|
+| A | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| B | 10 | 10 | 10 | 10 | 10 | 10 | 10 | **7** |
+| C | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+
+- **Category scores:**
+  - Every A answer scored 0/0/0/0/1: the policy was unavailable and no answer was given.
+  - B U8 scored 2/2/1/1/1.
+  - Every other B and C answer scored 4/2/2/1/1, with every subpart correct.
+- **Pairwise:** B vs A 8/0/0; C vs A 8/0/0; **B vs C 0/7/1 (the folder lost U8)**.
+- **The loss (B U8, 7/10):**
+  - **What B got right:** travel-office approval is required, manager approval was obtained, the approved-vendor branch is correct, the neither-approved-nor-prohibited branch is correct, and a prohibited vendor with no authorization must not proceed.
+  - **What it missed:** for an airline that is prohibited but holds written compliance-officer authorization, it stated the restrictive reading (EMG-1 plus VEN-3: no waiver, so advance finance approval is needed) as settled. It never gave the textually supported permissive reading (EMG-2: waiver applies, plus a 24-hour finance notice).
+  - **Scoring:** the frozen criterion required both readings, so this is an **ambiguity-related deduction of 3**. It is not a false authorization, because the advice is more cautious than either reading requires.
+  - **C U8:** stated the permissive reading in its table and the restrictive reading in a note, and scored 10. On U6, which tests the same tension, B and C both gave both readings and scored 10. A had no policy text.
+- **Possible cause (not established):** the folder's rule 8 ("Vendor restrictions are checked independently of every other exception") and its README index line ("Vendor restrictions survive other exceptions") may push toward the restrictive reading. One run cannot separate this from run-to-run variation.
+- **What changed in the folder because of it: nothing.** The specialist is frozen for these unseen tests. Tuning it after seeing U1–U8 would invalidate them. A candidate change for a future, separately tested revision is a rule that, when provisions conflict, both readings must be stated with their consequences. That revision would need new unseen questions.
+- **Interpretation:** on questions the folder's author did not write, the folder again beats no folder (source availability). Against sources alone it tied 7 and lost 1. There is **no evidence of an advantage from the folder's structure**.
+
+## Disclosures for v2 and U1–U8
+1. **Contamination review** (`scripts/review_fresh_captures.py`): all six runs CLEAN.
+   - Session folders contained exactly the allowlisted copies (A 0, B 80, C 48 per set), and nothing outside them was read.
+   - A: 7 (v2) and 8 (U) denied searches of its parent run folder, all blocked. It also made 5 (v2) and 1 (U) permitted searches of Claude Code's own per-session auto-memory folder, all of which returned "No files found".
+   - B and C: no denials.
+2. **Failures and retries:** none. All 48 sessions completed on the first attempt with exit code 0 and empty stderr.
+3. **Assessors:**
+   - Two blinded assessor subagents per set, each given only its packet; the U-series assessors also received the verbatim frozen rules.
+   - **Conflict:** the assessors are the same model family as the tested model, the U-question author and the orchestrator.
+   - **Agreement:** 23 of 24 items in each set. Assessor totals: v2 A 15 vs 14, B and C 80/80; U B 77 vs 79, A and C identical.
+   - **Adjudication** (in writing, in the adjudicated files):
+     - v2 A Q4 was capped at 4, because it left open an emergency override of the vendor ban (the key's disqualifying mistake).
+     - U8 B was scored 7, because the rubric awards conclusion 4 only to fully correct answers.
+4. **Recognisable arms:** A answers are recognisable by content, and several name their `A_V2_01` or `A_U_01` working folder. B and C answers carried no identifying paths in either packet.
+5. **Limits:**
+   - One round per arm in a fixed order (not counterbalanced), on the same machine and account, with inherited user-level Claude Code configuration.
+   - The server-side model revision is not observable, and temperature is not controllable.
+   - Small question sets near ceiling; no statistical significance is claimed.
+   - G1–G4 remain generated and unexecuted.

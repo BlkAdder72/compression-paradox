@@ -35,3 +35,12 @@ Input: `compression-paradox-release-2026-10-13.zip`, SHA-256 `02d126059be7b9e7df
 - Preserved external-questions.json and AUTHORING-NOTE.md byte-for-byte.
 - Validated U1–U8 schema, citations, self-containment, arithmetic and source-policy support; froze source, specialist, rubric and plan hashes.
 - Added prospective ambiguity grading and A/B/C run instructions plus verify_unseen.py. No tested-folder changes or model calls.
+
+## Corrected v2 and U1–U8 execution — 2026-10-13 (Claude Code)
+Input: `compression-paradox-unseen-ready-2026-10-13B.zip`, SHA-256 `6ff1ffb2103fde5f46e143b1583cf446e2b14706a664bce91bba788dad8ddf75`, HEAD `4b499ac` (verified). History is preserved and not rewritten.
+- `ef44500` prereg: `evaluation/v2-20261013/PLAN.md` (run IDs, order, paths, contamination rule, scoring for both sets) before any call.
+- `c7afda4` evidence: six runs (v2 and U, A/B/C), contamination review, run records, root `control/README.md` and `treatment/README.md` pointers. Committed before scoring.
+- `c5250f1` scoring prep: `scripts/prepare_v2_packet.py`, the v2 packet, the U packet via `prepare_blind.py`, and U assessor instructions with the frozen rules verbatim.
+- `7b5f474` scored: two assessors per set, two written adjudications, `scripts/score_v2_u.py`, `evaluation/v2-u-summary.json`.
+- Docs: `results.md` headline and v2/U sections, `README.md` status, `RELEASE-READINESS.md`, `REPRODUCE.md` executed commands, `competition/SPEC-CHECK.md`, `HANDOFF-TO-CODEX.md`, and verification logs in `verification/2026-10-13B/`.
+- No change to the specialist, fixture, rubric, keys or frozen U inputs.

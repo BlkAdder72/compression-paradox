@@ -1,4 +1,4 @@
-> Current correction (2026-10-13): root `questions.md` is now v2, with self-contained Q4 and expected answers. All existing Q-series captures and scores below are v1, preserved in `history/questions-v1.md`. No corrected-v2 model results exist yet. Reproduce old evidence with `--suite legacy`; execute corrected questions with `--suite official` and new v2 run IDs. This post-results correction is not original preregistration.
+> **Status 2026-10-13:** corrected official v2 and separate-session U1–U8 were run with A/B/C and scored. See the headline at the top of `results.md`: v2 A 14 / B 80 / C 80; U A 8 / B 77 / C 80, where the folder lost U8 to sources-only. Raw evidence pointers are in `control/README.md` and `treatment/README.md`. Older sections below describe the v1 history.
 
 # THE COMPRESSION PARADOX — Competition #14
 

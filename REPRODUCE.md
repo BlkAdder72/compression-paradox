@@ -1,4 +1,4 @@
-> Current correction (2026-10-13): root `questions.md` is now v2, with self-contained Q4 and expected answers. All existing Q-series captures and scores below are v1, preserved in `history/questions-v1.md`. No corrected-v2 model results exist yet. Reproduce old evidence with `--suite legacy`; execute corrected questions with `--suite official` and new v2 run IDs. This post-results correction is not original preregistration.
+> Current state (2026-10-13): root `questions.md` is v2 (self-contained Q4). Corrected v2 and U1–U8 have been run (A/B/C_V2_01, A/B/C_U_01) and scored; see `results.md`. All older Q-series captures and scores are v1 (`history/questions-v1.md`); reproduce them with `--suite legacy`. v2 is a post-results correction, not original pre-registration.
 
 # Reproduce and audit Competition #14
 
@@ -95,3 +95,28 @@ python scripts/run_trials.py --suite official --arm C --run-id C_V2_01 --workspa
 ```
 
 Use the frozen rubric and unchanged gold conclusions; grade new responses separately. Do not substitute old Q4 scores. All eight questions must be sent in the same order in each arm. Record that v2 was corrected after the folder existed. The historical v1 chronology is retained; do not claim v2 preceded original folder creation.
+
+## Commands actually executed for v2 and U1–U8 (2026-10-13)
+
+These were run from a fresh `git clone --no-local` of `ef44500`, a clean tree, on Windows 11 with Git Bash. `CL` is the native `claude.exe` at its real MSIX path (see "Actual prerequisites"); it is version 2.1.288.
+
+```text
+python scripts/verify_unseen.py
+python scripts/run_trials.py --suite official --arm A --run-id A_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures --claude CL
+python scripts/run_trials.py --suite official --arm B --run-id B_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures --claude CL
+python scripts/run_trials.py --suite official --arm C --run-id C_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures --claude CL
+python scripts/run_trials.py --suite challenge --questions evaluation/unseen-20261013/external-questions.json --arm A --run-id A_U_01 --workspace C:/paradox-u-sessions --output C:/paradox-u-captures --claude CL
+python scripts/run_trials.py --suite challenge --questions evaluation/unseen-20261013/external-questions.json --arm B --run-id B_U_01 --workspace C:/paradox-u-sessions --output C:/paradox-u-captures --claude CL
+python scripts/run_trials.py --suite challenge --questions evaluation/unseen-20261013/external-questions.json --arm C --run-id C_U_01 --workspace C:/paradox-u-sessions --output C:/paradox-u-captures --claude CL
+python scripts/review_fresh_captures.py --sessions-root C:/paradox-v2-sessions evidence/v2-20261013/A_V2_01 evidence/v2-20261013/B_V2_01 evidence/v2-20261013/C_V2_01
+python scripts/review_fresh_captures.py --sessions-root C:/paradox-u-sessions evidence/unseen-20261013/A_U_01 evidence/unseen-20261013/B_U_01 evidence/unseen-20261013/C_U_01
+python scripts/prepare_v2_packet.py
+python scripts/prepare_blind.py --questions evaluation/unseen-20261013/external-questions.json --run A=<abs>/evidence/unseen-20261013/A_U_01 --run B=<abs>/evidence/unseen-20261013/B_U_01 --run C=<abs>/evidence/unseen-20261013/C_U_01 --output <abs>/evaluation/unseen-20261013/scoring-U_01/packet
+python scripts/score_v2_u.py disagreements
+python scripts/score_v2_u.py summary
+```
+
+- Captures were copied byte-for-byte into `evidence/` and committed before the packets were built.
+- To re-run, use new run IDs and empty workspace and output folders. The runner refuses existing IDs.
+- A mod's re-run should match the pattern rather than exact text: A has no policy access, and B and C reach the key conclusions with section citations.
+- Model output varies run to run, so exact wording and the U8 ambiguity handling may differ.
