@@ -1,0 +1,149 @@
+{
+  "A_SEVEN_01/Q1": {},
+  "A_SEVEN_01/Q2": {},
+  "A_SEVEN_01/Q3": {},
+  "A_SEVEN_01/Q5": {},
+  "A_SEVEN_01/Q6": {},
+  "A_SEVEN_01/Q7": {},
+  "A_SEVEN_01/Q8": {},
+  "B_SEVEN_01/Q1": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q2": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q3": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q5": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q6": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q7": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "B_SEVEN_01/Q8": {
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q1": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q2": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q3": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q5": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q6": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q7": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "C_SEVEN_01/Q8": {
+    "01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  }
+}
