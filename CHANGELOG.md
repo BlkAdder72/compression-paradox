@@ -23,3 +23,10 @@ Input: `compression-paradox-release-2026-10-13.zip`, SHA-256 `02d126059be7b9e7df
 6. `a941589`: `scripts/prepare_fresh_packets.py` and the blinded packets.
 7. `07e2cbe`: two assessors per set, adjudication, and `scripts/score_fresh.py` summary.
 8. Documentation: results, readiness, the MSIX CLI path in `REPRODUCE.md`, verification logs and `HANDOFF-TO-CODEX.md`.
+
+## Spec-aware follow-up repair
+- Fixed disagreements.json and its generator to emit one JSON array; archived original malformed bytes.
+- Archived exact original questions and created version 2 with self-contained Q4; seven other prompts unchanged.
+- Embedded expected answers in root questions.md; model runner uses question-only files.
+- Default official suite now v2; explicit legacy suite preserves reproduction of all existing Q scores.
+- Added supplied competition spec and requirement check; public repo not yet created, unseen-question and corrected-run checks pending.

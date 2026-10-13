@@ -1,0 +1,78 @@
+🏆 WEEKLY COMP #14: THE CONTROL 🏆
+🎁 $1,000 IN EDUBAWARE CREDITS 🎁
+One winner takes it.
+📋THE CHALLENGE
+Build a folder. Then prove it earns its place.
+Every comp so far has assumed the folder helps. Nobody has had to show it. This week you run a control: same model, same questions, no folder. Then the same questions with the folder. You commit both runs, raw, and you report what actually changed.
+This week's deliverable is a folder plus the evidence that it beats no folder.
+🎯PICK YOUR FOLDER
+Any specialist you want. Coach, researcher, editor, auditor, translator, something new. The folder is not the test. The test is the test.
+Pick a domain where you can write five to ten questions a stranger could grade. Questions with checkable answers. If the only way to judge the answer is taste, the control will not tell you anything.
+A few sparks:
+- A folder that answers questions about one codebase you can pin in the repo
+- A folder that answers policy questions against one document you ship in reference/
+- A folder that handles one support category against a shipped FAQ
+- A folder that answers questions about one dataset you include
+- A folder that converts one input shape, graded against a spec in reference/
+The pattern is the same every time. The answers have to live somewhere a mod can check.
+🔥 THE ANGLE THIS WEEK
+Last comp was The Translator. The test was three runs on the same input to see if the shape held. The Control points that same test at the folder itself.
+In the Cartographer round, Marcelo ran a control before he changed a single card. Same model, same four questions, no map. It got the answers right, slower and with more reading, and it found two things his cards understated. He fixed both. Then after he rebuilt the map, the model read six files instead of ten and quoted the README's own rule as its reason for skipping the code.
+That is the only comp result all year that told us something we did not already believe. This week everyone runs one.
+Three things separate a real control from a demo:
+1. The questions come first. Write questions.md with expected answers and commit it before you run anything. The git history is the proof. Questions written after the folder are questions the folder was built to pass.
+2. Both runs are raw. Control transcript and treatment transcript, committed unedited, with the exact prompts. A mod will re-run both. If yours do not reproduce, the control was staged.
+3. You report the losses. Where the folder tied. Where the folder was slower. Where no folder got it right and the folder got it wrong. A results file that only reports wins is marketing.
+The folder's quality is not the score. The honesty of the comparison is. 💪
+🚫 THE ONE WAY TO LOSE THIS
+Last cycle we named the failure and nobody made it. Here is this cycle's:
+A run that mods cannot reproduce has failed.
+We are going to re-run your control and your treatment on your committed questions. If what we get looks nothing like what you committed, the whole entry is out. Do not clean the transcripts. Do not drop the bad run. Commit what happened.
+🗂️ THE METHODOLOGY
+If this is your first comp, welcome. Here is what you need to know:
+This week (and every week) you are learning interpretable context methodology. Folders as architecture. Each file does one job well.
+Your folder is the usual five:
+- 📄 identity.md
+- 📐 rules.md
+- 💬 examples.md
+- 📚 reference/
+- 📖 README.md
+Plus four more things at the repo root that make this a control:
+- 📝 questions.md: five to ten questions with expected answers, committed before any run
+- 🧪 control/: raw transcript of the no-folder run, exact prompts included
+- 🧪 treatment/: raw transcript of the with-folder run, same questions, same order
+- 📊 results.md: what changed, question by question, including where the folder lost or tied, and what you changed in the folder because of it
+Drop the folder into a Claude project. Run the questions. Pull it out. Run them again. Commit both. That is the whole method.
+💼 WHY THIS LANDS ON YOUR RESUME
+Every AI build gets the same question from the person paying for it. Does this actually help, or does it just look like it helps.
+Almost nobody can answer with evidence. You will be able to. "I ran a control on my own build, here are both transcripts, here is where it won and where it did not" is the sentence that ends that conversation. 🚀
+Win or lose, you walk out with the one thing most AI portfolios are missing: a measured result.
+📐THE BAR
+A mod clones your repo, reads questions.md, re-runs both arms, and gets roughly what you got. Then they read results.md and it matches.
+If the questions were written after the folder, it is a demo.
+If the transcripts were edited, it is marketing.
+If results.md only has wins, it is a pitch.
+None of those are the assignment.
+🆕 NEW TO THIS? START HERE.
+You do not need a big folder. You need a small one with answers a stranger can check.
+Pick a short document you know well. Write five questions about it with the answers. Commit that. Ask Claude the questions cold. Save the transcript. Build a folder with the document in reference/. Ask again. Save that. Write down what changed.
+That is a complete entry. Most of the field will overbuild the folder and underbuild the test. Do the opposite.
+📝 HOW TO SUBMIT
+Drop a public GitHub repo link in the comments. Plus 2-3 sentences on what the folder does and the single most surprising line in your results.md.
+⚖️ JUDGING
+The mods, scored against a full rubric. Same method as the last three cycles: we clone every repo, pin it to the last commit before the deadline, and try to break it.
+✅ Were the questions committed before the runs?
+✅ Do both runs reproduce when we re-run them?
+✅ Does results.md report losses and ties, not just wins?
+✅ Does the folder's advantage hold on a question you did not write?
+🎟️ WHO CAN ENTER
+Premium and VIP members only. No exceptions.
+🆓 Free members watching this thinking "I could win that"? You are probably right. $1,000 in Edubaware credits is on the line. Upgrade to Premium and you are in the running.
+📅 DATES
+⏰ Submit by: Tuesday, October 13th, 11:59 PM EST
+🎉 Winner announced: Saturday, October 17th
+Every entrant gets a feedback file, not just the winner.
+🚀 One last thing.
+Cartographers cite. Auditors check against a rule. Translators hold a shape. All three live on whether a stranger can verify the work.
+The Control asks the question underneath all of them. Did the folder help. Show me.
+LFG 🚀

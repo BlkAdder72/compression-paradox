@@ -1,3 +1,5 @@
+> Current correction (2026-10-13): root `questions.md` is now v2, with self-contained Q4 and expected answers. All existing Q-series captures and scores below are v1, preserved in `history/questions-v1.md`. No corrected-v2 model results exist yet. Reproduce old evidence with `--suite legacy`; execute corrected questions with `--suite official` and new v2 run IDs. This post-results correction is not original preregistration.
+
 # Results — Compression Paradox benchmark, Stage 2 (single run per arm)
 
 **Scored 2026-10-12 · model `claude-opus-5-5` via Claude Code CLI 2.1.288 · n = 8 questions · one run per arm · no statistical significance claimed.**

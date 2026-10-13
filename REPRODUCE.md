@@ -1,3 +1,5 @@
+> Current correction (2026-10-13): root `questions.md` is now v2, with self-contained Q4 and expected answers. All existing Q-series captures and scores below are v1, preserved in `history/questions-v1.md`. No corrected-v2 model results exist yet. Reproduce old evidence with `--suite legacy`; execute corrected questions with `--suite official` and new v2 run IDs. This post-results correction is not original preregistration.
+
 # Reproduce and audit Competition #14
 
 ## Actual prerequisites
@@ -79,3 +81,17 @@ See `evaluation/challenge/PROTOCOL.md` for exact G-series run and blinded-packet
 ## Optional Bash wrappers
 
 Set PYTHON_BIN, CLAUDE_BIN, MODEL, RUN_ID, SANDBOX_BASE and OUTPUT_BASE. `run_control_cli.sh` fixes A; `run_arm_cli.sh` uses ARM=B or C; `run_holdout_cli.sh` uses ARM=C, D or E. Old SRC_DIR/OUT_DIR examples are obsolete; direct Python commands are preferred on Windows.
+
+## Corrected v2 execution and legacy reproduction
+
+The default `--suite official` now selects `control/prompts-v2/`, including self-contained Q4. Original `control/prompts/` and its manifest are unchanged; their `question_source` describes the historical root location, now archived as `history/questions-v1.md`. Use `--suite legacy` to reproduce every existing Q-series score. Answer keys embedded in root questions.md are never sent to model sessions.
+
+After committing v2 and starting from a clean checkout, use distinct run IDs:
+
+```text
+python scripts/run_trials.py --suite official --arm A --run-id A_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures
+python scripts/run_trials.py --suite official --arm B --run-id B_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures
+python scripts/run_trials.py --suite official --arm C --run-id C_V2_01 --workspace C:/paradox-v2-sessions --output C:/paradox-v2-captures
+```
+
+Use the frozen rubric and unchanged gold conclusions; grade new responses separately. Do not substitute old Q4 scores. All eight questions must be sent in the same order in each arm. Record that v2 was corrected after the folder existed. The historical v1 chronology is retained; do not claim v2 preceded original folder creation.
