@@ -12,6 +12,17 @@ from unittest.mock import patch
 import run_trials as runner
 
 class RunnerTests(unittest.TestCase):
+    def test_official_excludes_only_q4(self):
+        current = runner.prompts('official')
+        legacy = dict(runner.prompts('legacy'))
+        corrected = dict(runner.prompts('official-v2'))
+        self.assertEqual([q for q, _ in current], ['Q1','Q2','Q3','Q5','Q6','Q7','Q8'])
+        self.assertEqual(len(corrected), 8)
+        for q, prompt in current:
+            self.assertEqual(prompt, legacy[q])
+            self.assertEqual(prompt, corrected[q])
+        self.assertNotEqual(legacy['Q4'], corrected['Q4'])
+
     def test_exact_sources(self):
         for arm, expected in [('A', 0), ('B', 10), ('C', 6), ('D', 8), ('E', 7)]:
             files = runner.source_files(arm)
@@ -73,7 +84,7 @@ class RunnerTests(unittest.TestCase):
                 out = base / 'out' / 'UNIT_TEST_ONLY'
                 manifest = json.loads((out / 'manifest.json').read_text())
                 self.assertEqual(manifest['status'], 'COMPLETE_UNGRADED' if mode == 'success' else 'FAILED_OR_INTERRUPTED')
-                self.assertEqual(len(manifest['records']), 8 if mode == 'success' else 1)
+                self.assertEqual(len(manifest['records']), 7 if mode == 'success' else 1)
                 self.assertTrue((out / 'Q1.stream.jsonl').exists())
                 self.assertTrue((out / 'SHA256SUMS.txt').exists())
 

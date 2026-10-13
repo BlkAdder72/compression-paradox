@@ -1,0 +1,75 @@
+{
+  "provenance": "Seven unchanged questions and answer rows from df36e7d; selected after earlier results to exclude amended Q4. Not independently authored and not an originally preregistered seven-item selection.",
+  "questions": [
+    {
+      "id": "Q1",
+      "prompt": "Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,400 on October 12, 2026. What approvals are required before proceeding?",
+      "gold": "Manager approval before purchase",
+      "critical_requirements": [
+        "No finance approval required for routine $2,400; threshold $2,500 inclusive",
+        "Evidence sections: EXP-1, AMD-2",
+        "Disqualifying mistake: Finance approval required"
+      ]
+    },
+    {
+      "id": "Q2",
+      "prompt": "Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,600 on October 12, 2026. What approvals are required before proceeding?",
+      "gold": "Manager AND finance before purchase",
+      "critical_requirements": [
+        "$2,600 is above current $2,500 threshold",
+        "Evidence sections: EXP-2, AMD-2",
+        "Disqualifying mistake: Manager alone sufficient"
+      ]
+    },
+    {
+      "id": "Q3",
+      "prompt": "Under Meridian Works policy, an immediate operational risk that cannot reasonably await normal approval requires a $4,000 non-travel purchase on October 12, 2026, from an approved vendor. What approvals and notifications are required?",
+      "gold": "Manager before purchase; finance notified within 24 hours after purchase; no advance finance approval",
+      "critical_requirements": [
+        "Qualified immediate risk, approved vendor, $4,000 <= $5,000, non-travel",
+        "Evidence sections: EMG-1, DEF-1, DEF-2, EXP-3",
+        "Disqualifying mistake: No manager approval; finance approval confused with notification"
+      ]
+    },
+    {
+      "id": "Q5",
+      "prompt": "An employee plans a routine $900 airfare purchase on October 12, 2026, under Meridian Works policy. What approvals are required before the purchase?",
+      "gold": "Advance travel-office AND manager before purchase",
+      "critical_requirements": [
+        "Airfare $900 > $800; $900 <= $2,500; approvals independent",
+        "Evidence sections: TRV-1, TRV-2, EXP-1, EXP-3",
+        "Disqualifying mistake: Travel approval replaces manager approval"
+      ]
+    },
+    {
+      "id": "Q6",
+      "prompt": "Under Meridian Works policy, what approvals were required for a routine, non-travel $2,300 purchase on June 15, 2025?",
+      "gold": "Manager AND finance before purchase",
+      "critical_requirements": [
+        "Historic pre-July-2025 threshold $2,000; $2,300 > $2,000",
+        "Evidence sections: AMD-1, AMD-2",
+        "Disqualifying mistake: Applies $2,500 threshold retroactively"
+      ]
+    },
+    {
+      "id": "Q7",
+      "prompt": "An employee requests a $4,000 non-travel purchase on October 12, 2026, calling it 'urgent' but providing no evidence of immediate operational or safety risk. Can the employee use Meridian Works' emergency exception, and what approval requirements apply on the supplied facts?",
+      "gold": "Emergency qualification not established; ordinary manager AND finance approval required on supplied facts",
+      "critical_requirements": [
+        "'Urgent' does not prove immediate risk; $4,000 > $2,500",
+        "Evidence sections: EMG-2, EMG-3, DEF-1, EXP-2",
+        "Disqualifying mistake: Definitively authorizes emergency waiver"
+      ]
+    },
+    {
+      "id": "Q8",
+      "prompt": "Under Meridian Works policy, a $4,000 non-travel purchase on October 12, 2026, qualifies as an emergency and uses an approved vendor, but the employee cannot obtain manager approval. May the employee proceed solely under the emergency exception? Explain.",
+      "gold": "No, cannot proceed",
+      "critical_requirements": [
+        "Emergency waives only advance finance; manager approval remains required",
+        "Evidence sections: EMG-1, EMG-3, EXP-3",
+        "Disqualifying mistake: Assumes manager can be bypassed"
+      ]
+    }
+  ]
+}

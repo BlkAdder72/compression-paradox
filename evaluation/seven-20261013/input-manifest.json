@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_BEFORE_SEVEN_RUNS",
+  "ids": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "original_commit": "df36e7d",
+  "sha256": {
+    "questions.md": "001bc3752e29162e85b3a26edffbde6088f1f909ebb3e749147fc901476dbbf5",
+    "evaluation/seven-20261013/questions.json": "756a35c663db0d2a5d3c72cfec726b01d1d7900164fded6569fc9d776452f013",
+    "evaluation/seven-20261013/PLAN.md": "fa87b4b6d3cbb0562c03cc006216a2a28fb82c03452e19daecdeca7367eec755",
+    "evaluation/scoring-rubric.md": "925dee9b17d61cfc21ae30ff5f44a625d85c52f0f32627013131079dc46a8d90",
+    "scripts/run_trials.py": "9ce4ac672f8dbf07f5723df420e2862f525c9f4c787d51c1c66507c96a1dcf0e",
+    "specialist/examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "specialist/identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "specialist/README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "specialist/rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7",
+    "specialist/reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "specialist/reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "specialist/reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "specialist/reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "specialist/reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "specialist/reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163",
+    "fixture/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "fixture/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "fixture/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "fixture/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "fixture/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "fixture/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  }
+}

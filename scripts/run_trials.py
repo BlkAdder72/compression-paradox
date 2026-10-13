@@ -32,11 +32,12 @@ def source_files(arm):
     return [(base / name, name) for name in sorted(expected)]
 
 def prompts(suite, question_file=None):
-    if suite == 'challenge':
+    if suite in ('challenge', 'official'):
+        question_file = ROOT / 'evaluation/seven-20261013/questions.json' if suite == 'official' else question_file
         data = json.loads(Path(question_file).read_text(encoding='utf-8'))
         rows = [(q['id'], q['prompt'].encode('utf-8') + b'\n') for q in data['questions']]
     else:
-        prefix, folder = {'official': ('Q', 'control/prompts-v2'), 'legacy': ('Q', 'control/prompts'), 'holdout': ('H', 'diagnostics/holdout-prompts')}[suite]
+        prefix, folder = {'official-v2': ('Q', 'control/prompts-v2'), 'legacy': ('Q', 'control/prompts'), 'holdout': ('H', 'diagnostics/holdout-prompts')}[suite]
         rows = [(f'{prefix}{i}', (ROOT / folder / f'{prefix}{i}.txt').read_bytes()) for i in range(1, 9)]
     if not rows or len({q for q, _ in rows}) != len(rows) or any(not re.fullmatch(r'[A-Za-z0-9_-]+', q) for q, _ in rows):
         raise ValueError('Empty, duplicate or unsafe question IDs')
@@ -50,7 +51,7 @@ def successful_stream(path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--arm', choices=SOURCES, required=True)
-    ap.add_argument('--suite', choices=['official', 'legacy', 'holdout', 'challenge'], default='official')
+    ap.add_argument('--suite', choices=['official', 'official-v2', 'legacy', 'holdout', 'challenge'], default='official')
     ap.add_argument('--questions', help='Challenge JSON, kept outside model workspace')
     ap.add_argument('--run-id', required=True)
     ap.add_argument('--workspace', required=True, type=Path)
@@ -72,13 +73,15 @@ def main():
         ap.error('Run ID already exists; never overwrite or resume captures')
     if a.suite == 'challenge' and not a.questions:
         ap.error('--questions required')
+    if a.suite == 'official':
+        a.questions = str(ROOT / 'evaluation/seven-20261013/questions.json')
     rows = prompts(a.suite, a.questions)
     files = source_files(a.arm)
     for p, _ in files:
         if not p.is_file() or p.is_symlink():
             ap.error('Missing or symlink source: ' + str(p))
     manifest = {'status': 'DRY_RUN' if a.dry_run else 'STARTED', 'arm': a.arm, 'suite': a.suite,
-                'model_requested': a.model, 'run_id': a.run_id, 'benchmark_version': 'v2' if a.suite == 'official' else ('v1' if a.suite == 'legacy' else a.suite),
+                'model_requested': a.model, 'run_id': a.run_id, 'benchmark_version': 'seven-original' if a.suite == 'official' else ('v2' if a.suite == 'official-v2' else ('v1' if a.suite == 'legacy' else a.suite)),
                 'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
                 'sources': {name: sha(p) for p, name in files},
                 'prompts': {q: hashlib.sha256(b).hexdigest() for q, b in rows},

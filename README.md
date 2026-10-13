@@ -1,3 +1,5 @@
+> Seven-question revision in progress: root questions.md now retains Q1–Q3 and Q5–Q8 from the original pre-folder commit. Fresh A/B/C_SEVEN_01 runs are planned in evaluation/seven-20261013/PLAN.md; no new results yet. Eight-question results below are historical and remain unchanged.
+
 # The Compression Paradox — Competition #14: The Control
 
 Our folder beat no folder. Then we added a harder control: the same primary documents without the specialist instructions or index. That control tied the folder on the corrected benchmark and outscored it on the separately authored set. These runs demonstrate no incremental accuracy benefit from our architecture; they do not show that context folders generally fail.

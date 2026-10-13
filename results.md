@@ -1,3 +1,5 @@
+> Seven-question revision in progress: root questions.md now retains Q1–Q3 and Q5–Q8 from the original pre-folder commit. Fresh A/B/C_SEVEN_01 runs are planned in evaluation/seven-20261013/PLAN.md; no new results yet. Eight-question results below are historical and remain unchanged.
+
 > **Current headline (2026-10-13).** Three separate evidence sets. They are not pooled.
 >
 > | Evidence set | A — no folder | B — specialist folder | C — sources only | B vs A | B vs C |
