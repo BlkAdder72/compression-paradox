@@ -1,0 +1,213 @@
+{
+  "status": "COMPLETE_UNGRADED",
+  "arm": "B",
+  "suite": "challenge",
+  "model_requested": "claude-opus-5-5",
+  "run_id": "B_U_01",
+  "benchmark_version": "challenge",
+  "commit": "ef4450074e4d53ce532791b25b61bbec4e23eb8a",
+  "sources": {
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7"
+  },
+  "prompts": {
+    "U1": "a9ddde562b3e77292bbd084c20db716425985048ad41fb7670f14d07231fe660",
+    "U2": "561fc90943abb7b24d91eb7af18bbba80b884cb3e28545d9692876ffead739e6",
+    "U3": "3c2641f95bd804925e621503d31b36eeb16c3d5743338068e17ae65bf6146865",
+    "U4": "32fb77d4829c4c4c5ea90badf2f24be8bf9a5da64b5d7c9373e7b8995535846a",
+    "U5": "1afc7f4869af572ab390456b2c5ae63e685dcd34f3b01c37bd2d15c173c89f0f",
+    "U6": "cecd5162c14bded76387c4cc242daa43938f6dcdcbdebe67e1f158d8d76f9c54",
+    "U7": "983d6ade83fb450c29b5efcb81b7ff7426d58fd680b109c16ed7d0945c737b1e",
+    "U8": "9af9f8e430b64735a6d5f1b63a23cf2363014156a336b483e6535518dcbea962"
+  },
+  "question_file_sha256": "b229c9fe6ede47b5130eb42bfa66fe9c3bc05ed126a4069d6f2e7b7a1369b2ae",
+  "limitations": "Directory separation is not OS isolation. Review tool reads and permission denials. Model alias and external authorship are not authenticated by this runner.",
+  "records": [
+    {
+      "question": "U1",
+      "start_utc": "2026-10-13T20:47:47.369731+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:48:07.377257+00:00"
+    },
+    {
+      "question": "U2",
+      "start_utc": "2026-10-13T20:48:07.391242+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:48:26.345941+00:00"
+    },
+    {
+      "question": "U3",
+      "start_utc": "2026-10-13T20:48:26.361370+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:48:50.911942+00:00"
+    },
+    {
+      "question": "U4",
+      "start_utc": "2026-10-13T20:48:50.928830+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:49:16.040237+00:00"
+    },
+    {
+      "question": "U5",
+      "start_utc": "2026-10-13T20:49:16.047853+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:49:37.802466+00:00"
+    },
+    {
+      "question": "U6",
+      "start_utc": "2026-10-13T20:49:37.817739+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:50:08.932940+00:00"
+    },
+    {
+      "question": "U7",
+      "start_utc": "2026-10-13T20:50:08.947003+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:50:33.604570+00:00"
+    },
+    {
+      "question": "U8",
+      "start_utc": "2026-10-13T20:50:33.612022+00:00",
+      "command": [
+        "C:/Users/mmazu/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/claude-code/2.1.288/36aa8c97bf86\\claude.exe",
+        "-p",
+        "--model",
+        "claude-opus-5-5",
+        "--output-format",
+        "stream-json",
+        "--verbose",
+        "--tools",
+        "Read,Glob,Grep",
+        "--strict-mcp-config",
+        "--no-session-persistence",
+        "--permission-mode",
+        "default"
+      ],
+      "exit": 0,
+      "success_event": true,
+      "end_utc": "2026-10-13T20:51:07.515607+00:00"
+    }
+  ],
+  "cli_version": "2.1.288 (Claude Code)",
+  "started_utc": "2026-10-13T20:47:47.361805+00:00"
+}
