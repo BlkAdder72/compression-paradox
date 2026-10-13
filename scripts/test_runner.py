@@ -6,6 +6,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import contextlib
+import io
 from unittest.mock import patch
 import run_trials as runner
 
@@ -40,6 +42,40 @@ class RunnerTests(unittest.TestCase):
             with patch.object(sys, 'argv', args), patch.object(runner.shutil, 'which', side_effect=AssertionError('provider called')):
                 runner.main()
             self.assertFalse((base / 'out').exists())
+
+    def test_capture_success_failure_timeout_and_malformed(self):
+        # In-memory process stub only; temporary files are deleted by TemporaryDirectory.
+        # These are runner regression tests, never saved as competition evidence.
+        for mode in ['success', 'failed', 'timeout', 'malformed']:
+            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as folder:
+                base = Path(folder)
+                args = ['runner', '--arm', 'A', '--run-id', 'UNIT_TEST_ONLY', '--workspace', str(base / 'sessions'), '--output', str(base / 'out')]
+                def check_output(command, **kwargs):
+                    if '--version' in command:
+                        return 'UNIT TEST STUB'
+                    if 'status' in command:
+                        return b''
+                    return 'UNIT_TEST_REVISION'
+                def process(command, **kwargs):
+                    self.assertEqual(list(Path(kwargs['cwd']).iterdir()), [])
+                    if mode == 'timeout':
+                        kwargs['stdout'].write(b'{"type":"UNIT_TEST_ONLY"}\n')
+                        raise subprocess.TimeoutExpired(command, 1)
+                    payload = b'NOT JSON' if mode == 'malformed' else json.dumps({'type': 'result', 'subtype': 'success' if mode == 'success' else 'error', 'is_error': mode != 'success', 'result': 'UNIT TEST ONLY'}).encode() + b'\n'
+                    kwargs['stdout'].write(payload)
+                    return subprocess.CompletedProcess(command, 0 if mode != 'failed' else 1)
+                with patch.object(sys, 'argv', args), patch.object(runner.shutil, 'which', return_value='UNIT_TEST_STUB'), patch.object(runner.subprocess, 'check_output', side_effect=check_output), patch.object(runner.subprocess, 'run', side_effect=process), contextlib.redirect_stdout(io.StringIO()):
+                    if mode == 'success':
+                        runner.main()
+                    else:
+                        with self.assertRaises(SystemExit):
+                            runner.main()
+                out = base / 'out' / 'UNIT_TEST_ONLY'
+                manifest = json.loads((out / 'manifest.json').read_text())
+                self.assertEqual(manifest['status'], 'COMPLETE_UNGRADED' if mode == 'success' else 'FAILED_OR_INTERRUPTED')
+                self.assertEqual(len(manifest['records']), 8 if mode == 'success' else 1)
+                self.assertTrue((out / 'Q1.stream.jsonl').exists())
+                self.assertTrue((out / 'SHA256SUMS.txt').exists())
 
 if __name__ == '__main__':
     unittest.main()

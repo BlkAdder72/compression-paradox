@@ -10,6 +10,10 @@ def check(cond, explanation):
 def git(*args):
     return subprocess.run(['git',*args],cwd=ROOT,capture_output=True,text=True,check=True).stdout.strip()
 check(all((ROOT/p).is_file() for p in ['README.md','questions.md','results.md','protocol.md','specialist/identity.md','specialist/rules.md','specialist/examples.md','specialist/README.md','evaluation/expected-answers.md','evaluation/scoring-rubric.md']), 'required files present')
+tracked = git('ls-files').splitlines()
+check('results.md' in tracked and 'RESULTS.md' not in tracked, 'exact lowercase root results.md tracked without uppercase collision')
+check(len(tracked) == len({p.casefold() for p in tracked}), 'tracked paths have no case-insensitive collisions')
+check((ROOT/'history/RESULTS-original.md').read_bytes() == subprocess.check_output(['git','show','4392931:RESULTS.md'],cwd=ROOT), 'historical uppercase report bytes preserved')
 check(len(list((ROOT/'specialist/reference').glob('*.md')))==6, 'reference corpus present')
 check('df36e7d' in git('log','--oneline'), 'original preregistration commit still in history')
 commits=git('rev-list','--reverse','HEAD').splitlines()
