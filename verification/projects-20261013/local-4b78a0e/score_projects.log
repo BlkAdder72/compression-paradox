@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\mmazu\.codex\.chatgpt-projects\g-p-6ac95167498c8191b5c62e774bdc6e46\final-review\compression-paradox\scripts\score_projects.py", line 4, in <module>
+    from verify_projects import main as verify_raw
+  File "C:\Users\mmazu\.codex\.chatgpt-projects\g-p-6ac95167498c8191b5c62e774bdc6e46\final-review\compression-paradox\scripts\verify_projects.py", line 64
+    if (arm,qid)==('A','Q2'):
+    ^^
+IndentationError: expected an indented block after 'else' statement on line 61

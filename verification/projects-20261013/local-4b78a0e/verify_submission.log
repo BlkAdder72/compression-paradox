@@ -1,0 +1,22 @@
+PASS: required files present
+PASS: exact lowercase root results.md tracked without uppercase collision
+PASS: tracked paths have no case-insensitive collisions
+PASS: results.md is the only root results report (others live under history/)
+PASS: historical uppercase report bytes preserved
+PASS: reference corpus present
+PASS: original preregistration commit still in history
+PASS: questions precede recorded control and specialist commits
+PASS: A original eight raw streams retained
+PASS: B original eight raw streams retained
+PASS: C original eight raw streams retained
+PASS: C CH1: 8 raw challenge streams retained
+PASS: C CH2: 8 raw challenge streams retained
+PASS: D DH1: 8 raw challenge streams retained
+PASS: D DH3: 8 raw challenge streams retained
+PASS: E EH1: 8 raw challenge streams retained
+PASS: E EH3: 8 raw challenge streams retained
+PASS: excluded attempts disclosed in preserved run manifests
+PASS: working tree clean
+PASS: results includes source-only limitations
+LIMITATION: Passing offline checks does NOT prove provider authenticity, correct scoring or fresh-model reproducibility.
+PASS: offline submission integrity checks

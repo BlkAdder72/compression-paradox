@@ -1,0 +1,117 @@
+{
+  "head": "b2e8a3bd0b4373d992b7f23f72722cb68ca381e3",
+  "checks": [
+    {
+      "check": "scripts/verify_submission.py",
+      "exit": 0,
+      "log": "verify_submission.log"
+    },
+    {
+      "check": "scripts/verify_stage3.py",
+      "exit": 0,
+      "log": "verify_stage3.log"
+    },
+    {
+      "check": "scripts/preflight_stage4.py",
+      "exit": 0,
+      "log": "preflight_stage4.log"
+    },
+    {
+      "check": "scripts/verify_control_capture.py",
+      "exit": 0,
+      "log": "verify_control_capture.log"
+    },
+    {
+      "check": "scripts/verify_unseen.py",
+      "exit": 0,
+      "log": "verify_unseen.log"
+    },
+    {
+      "check": "scripts/verify_seven.py",
+      "exit": 0,
+      "log": "verify_seven.log"
+    },
+    {
+      "check": "scripts/audit_evidence.py",
+      "exit": 0,
+      "log": "audit_evidence.log"
+    },
+    {
+      "check": "scripts/test_runner.py",
+      "exit": 0,
+      "log": "test_runner.log"
+    },
+    {
+      "check": "scripts/test_blind_packet.py",
+      "exit": 0,
+      "log": "test_blind_packet.log"
+    },
+    {
+      "check": "scripts/score_seven.py --check",
+      "exit": 0,
+      "log": "score_seven.log"
+    },
+    {
+      "check": "scripts/verify_projects.py",
+      "exit": 0,
+      "log": "verify_projects.log"
+    },
+    {
+      "check": "scripts/score_projects.py --check",
+      "exit": 0,
+      "log": "score_projects.log"
+    },
+    {
+      "check": "git fsck --full",
+      "exit": 0,
+      "log": "fsck-full.log"
+    },
+    {
+      "check": "git status --porcelain",
+      "exit": 0,
+      "log": "status-porcelain.log"
+    },
+    {
+      "check": "git diff --check",
+      "exit": 0,
+      "log": "diff-check.log"
+    }
+  ],
+  "json_validated": [
+    "evaluation/projects-20261013/assessment-codex.json",
+    "evaluation/projects-20261013/input-manifest.json",
+    "evaluation/projects-20261013/setup-sha256.json",
+    "evaluation/projects-20261013/summary.json",
+    "evidence/projects-20261013/manifest.json",
+    "evidence/projects-20261013/A_UI_01/Q1.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q2.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q3.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q5.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q6.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q7.metadata.json",
+    "evidence/projects-20261013/A_UI_01/Q8.metadata.json",
+    "evidence/projects-20261013/B_UI_01/knowledge-import.json",
+    "evidence/projects-20261013/B_UI_01/Q1.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q2.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q3.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q5.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q6.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q7.metadata.json",
+    "evidence/projects-20261013/B_UI_01/Q8.metadata.json",
+    "evidence/projects-20261013/C_UI_01/knowledge-import.json",
+    "evidence/projects-20261013/C_UI_01/project.json",
+    "evidence/projects-20261013/C_UI_01/Q1.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q2.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q3.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q5.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q6.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q7.metadata.json",
+    "evidence/projects-20261013/C_UI_01/Q8.metadata.json",
+    "evaluation/seven-20261013/assessment-codex.json",
+    "evaluation/seven-20261013/input-manifest.json",
+    "evaluation/seven-20261013/questions.json",
+    "evaluation/seven-20261013/summary.json"
+  ],
+  "current_path_case_collisions": 0,
+  "passed": true
+}
