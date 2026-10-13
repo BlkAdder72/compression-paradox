@@ -1,0 +1,7 @@
+# Pre-Q2 resume note
+
+Access restored through Microsoft Edge in the same Claude account. Q1 remains the original Chrome call; it was not regenerated. Its original failed clipboard capture is preserved and a separate rendered-article recovery was saved. All subsequent calls use Edge. This browser change and interruption prevent describing the whole run as uninterrupted or a single browser execution.
+
+Before Q2, project memory still said No memory yet and Use account memory was off. New chat Memory resets to on, so explicitly turn it off before EACH question. Research and all six displayed external connectors are off. Devices submenu lists two Claude Desktop entries, neither checked in the new-chat menu; no device was selected by the operator. Q1's header nevertheless displayed a connected desktop, so do not claim full tool isolation. Preserve/review visible activity on every answer for outside policy retrieval. Any observed outside policy retrieval invalidates that item for a clean arm comparison; keep the attempt and disclose it. No provider-hidden trace is available.
+
+No questions, files, model, grading criteria or arm order changed. Model remains displayed Opus 5.5 Medium, Manual. Main-page rendered DOM and response article text are the capture mechanism; avoid clipboard dependence. Preserve raw before assessment. Initial STATUS.md remains the historical interruption record; later completion status must be separately recorded.
