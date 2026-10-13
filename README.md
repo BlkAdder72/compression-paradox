@@ -1,33 +1,32 @@
-> Seven-question revision in progress: root questions.md now retains Q1–Q3 and Q5–Q8 from the original pre-folder commit. Fresh A/B/C_SEVEN_01 runs are planned in evaluation/seven-20261013/PLAN.md; no new results yet. Eight-question results below are historical and remain unchanged.
-
 # The Compression Paradox — Competition #14: The Control
 
-Our folder beat no folder. Then we added a harder control: the same primary documents without the specialist instructions or index. That control tied the folder on the corrected benchmark and outscored it on the separately authored set. These runs demonstrate no incremental accuracy benefit from our architecture; they do not show that context folders generally fail.
+Our folder beat no folder. Then we tested it against the same primary documents without specialist instructions or an index: the sources-only arm matched it, with a shorter mean session time in this round. Supplementary questions exposed one case where the folder did worse. No incremental accuracy benefit from our architecture was demonstrated; this is not a general claim that context folders fail.
 
-## What the folder does
-The specialist answers purchasing-policy questions for fictional Meridian Works. Its identity, rules, examples, six-document reference directory and README index are in [specialist/](specialist/). Compressed navigation points to the primary rules.
+## Current official entry: seven original questions, freshly rerun
+| Arm | Score /70 | Fully correct conclusions | Mean session time |
+|---|---:|---:|---:|
+| A — no folder | 10 | 0/7 | 13.6 s |
+| B — specialist folder | 70 | 7/7 | 18.5 s |
+| C — same sources only | 70 | 7/7 | 15.4 s |
 
-## Current recorded results
-| Separate evidence set | A: no folder | B: specialist | C: sources only | B vs A W/T/L | B vs C W/T/L |
-|---|---:|---:|---:|---|---|
-| Corrected v2 Q1–Q8 | 14/80 | 80/80 | 80/80 | 8/0/0 | 0/8/0 |
-| Separate-session U1–U8 | 8/80 | 77/80 | 80/80 | 8/0/0 | 0/7/1 |
+B beats A on all seven questions and ties C on all seven. In the separate-session U1–U8 supplementary test, A scored 8/80, B 77/80 and C 80/80: B tied C on seven and lost U8 for treating an ambiguous policy branch as settled. These are separate evidence sets, not pooled results.
 
-The folder lost U8 by three points for giving only one reading of an ambiguous provision. It has seven fully correct U conclusions and one partial conclusion; no false authorization was recorded. A had no policy text, so A/B cannot isolate the benefit of structure. The specialist remains frozen; a possible future ambiguity-handling change would need new unseen tests.
+## What the specialist does
+The folder answers purchasing-policy questions for fictional Meridian Works. Its five required components are in [specialist/](specialist/): identity.md, rules.md, examples.md, reference/ and README.md. The six primary documents make the answers checkable. The index points to source provisions rather than replacing them.
 
 ## Judge quick start
-1. Read [questions.md](questions.md) and [results.md](results.md), including per-question scores, timings, losses and limitations.
-2. Inspect [control/README.md](control/README.md) and [treatment/README.md](treatment/README.md) for exact prompts and raw transcripts. Failed/excluded historical attempts are retained.
-3. Follow [REPRODUCE.md](REPRODUCE.md) for offline checks and fresh model runs. Full Git history is included in the release ZIP.
-4. Read the [supplied-spec matrix](competition/SPEC-CHECK.md) and [release readiness](RELEASE-READINESS.md) for unresolved submission gates.
+1. Read [questions.md](questions.md): seven prompts and their original expected answers. Original IDs Q1–Q3 and Q5–Q8 are retained for traceability.
+2. Inspect [control/](control/README.md) and [treatment/](treatment/README.md): current raw transcripts are directly under their raw/ directories. Exact prompts are in control/prompts-seven/.
+3. Read [results.md](results.md): per-question results, ties/losses, timing, provenance and unchanged specialist.
+4. Follow [REPRODUCE.md](REPRODUCE.md): the default official suite runs exactly the seven submitted questions, in separate fresh sessions. Never give a tested model the whole repository or answer key.
+5. Check the [frozen run plan](evaluation/seven-20261013/PLAN.md) and [spec matrix](competition/SPEC-CHECK.md).
 
-## Provenance and limits
-Original questions and a separate answer key preceded the original control and specialist. Current v2 fixes Q4 after the folder existed, but before the corrected runs; it is a disclosed amendment, not original preregistration. The executed v2 source is archived unchanged; current questions.md changes only status prose.
+## Chronology and limits
+All seven prompts AND gold answers are unchanged from df36e7d, before original control da56555 and specialist 3d9be31. Gold answers were originally a separate file. The current combined root file and fresh-run plan were committed and pushed at 4f0c0b8 before the new calls; raw evidence 2df7042 preceded grading. The seven-item selection happened after earlier results to exclude Q4's context dependency and later amendment. Every Q4 version, score and transcript remains available. We do not claim this exact subset was originally preregistered or guarantee moderator interpretation of original file placement.
 
-U questions were generated from the six sources in a separate Claude session according to the supplied authoring note. Human or cross-family independence is not claimed; the operator saw them before execution. Tested model, author and assessors share a model family. CLI execution differs from the competition's Projects walkthrough. One fixed-order round per current set, inherited account configuration and ceiling effects limit inference. No significance or general causal claim is made.
+Testing uses Claude Code CLI, not the Projects UI. The fresh seven-question scores have one disclosed, unblinded Codex assessor. Earlier two-assessor results remain supplementary; same-family U authoring is not human independence. One fixed-order round, inherited account configuration and ceiling effects limit inference. A failed attempt to read a nonexistent Claude memory file is retained and disclosed in results.md.
 
-Current results and earlier v1/H results are separate. Historical documents and frozen pre-run manifests retain their original wording. No new model calls were made for this documentation and metric-label revision. Public GitHub publication, entry-comment submission and Premium/VIP eligibility remain unconfirmed.
+Public repository: https://github.com/BlkAdder72/compression-paradox. Entry-comment submission and Premium/VIP eligibility are separate user steps.
 
 ## License
-
-See [LICENSE](LICENSE) for the Competition Evaluation and Non-Commercial Review License, copyright 2026 Matthew Mazur. It expressly permits competition judging and non-commercial evaluation, including cloning, running and locally modifying the materials. Commercial use requires separate permission.
+[Competition Evaluation and Non-Commercial Review License](LICENSE), copyright 2026 Matthew Mazur. Judges may clone, run, locally modify for evaluation and retain reasonable copies. Commercial use requires separate permission.

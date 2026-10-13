@@ -56,3 +56,11 @@ Input: `compression-paradox-unseen-ready-2026-10-13B.zip`, SHA-256 `6ff1ffb2103f
 ## License addition — 2026-10-13
 
 Added the LICENSE from the prior PrepMe_Sim entry unchanged, and linked it from the judges' README. No test inputs, scores, scripts or raw evidence changed.
+
+## Fresh seven-question release — 2026-10-13
+- Retained seven exact original prompts and gold answers (Q1–Q3,Q5–Q8); excluded amended Q4 with all original evidence retained. Disclosed post-results selection and original separate-key placement.
+- Committed/pushed combined questions.md and plan at 4f0c0b8 before 21 fresh Claude calls. Raw evidence and access review committed/pushed at 2df7042 before grading.
+- New scores A10/B70/C70 under unchanged per-item rubric; one disclosed unblinded Codex assessor. Detailed rationales and a raw-hash-bound arithmetic validator added. No old scores regraded.
+- Default official runner now selects seven; official-v2 explicitly preserves corrected eight-question reproduction. Added exact original-content/chronology verifier and runner regression.
+- Placed current raw A/B files directly under root control/ and treatment/; preserved identical evidence copies, all Q4 records and full history. A's nonexistent-memory read retains its automated review flag and no-content manual disposition.
+- Reconciled current README/results/reproduction/spec/readiness/publication statements and submission comment. Archived earlier current-status documents. Specialist, fixture and original rubric unchanged.

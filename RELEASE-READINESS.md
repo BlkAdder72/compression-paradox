@@ -1,29 +1,9 @@
-# Release readiness — 2026-10-13 (after corrected v2 and U1–U8 execution)
+# Release readiness — fresh seven-question entry
 
-Verdict: **model testing and scoring complete and locally verified. Not yet a submitted entry: the public GitHub repository, publication and the competition comment are PENDING (user action), and Premium/VIP eligibility must be confirmed by the user.**
+Current official benchmark: seven original prompts and answers; fresh A/B/C_SEVEN_01 complete at 4f0c0b8. Scores A10/B70/C70, 21/21 sessions completed; B/C tie all seven. Raw evidence 2df7042 precedes assessment. One unblinded Codex assessor, with rationales and hashes exposed. Earlier separate-session U evidence remains A8/B77/C80, including the U8 loss.
 
-## Done (evidence in the repository)
-- **Corrected official v2:** A/B/C_V2_01 executed at `ef44500` (pre-registered), 24/24 sessions, all runs clean. Scored by two blinded assessors with one written adjudication. **A 14, B 80, C 80; B vs C 0/8/0.**
-- **Separate-session U1–U8:** A/B/C_U_01 executed under the frozen run plan, 24/24 sessions, all runs clean. Two blinded assessors with one written adjudication. **A 8, B 77, C 80; B vs C 0/7/1 (folder lost U8 on the frozen both-readings criterion).**
-- Raw evidence and the contamination review were committed before packets and scores. Root `control/README.md` and `treatment/README.md` point to every raw transcript and exact prompt.
-- The specialist is unchanged (hashes verified by `verify_unseen.py`). Results report ties and the loss, plus what was and was not changed in the folder.
-- Earlier execution-release checks are preserved in `verification/2026-10-13B/`; they apply to the earlier revision. This documentation/metric revision has a separate verification report alongside its release ZIP. No new model calls were made.
+Public GitHub: https://github.com/BlkAdder72/compression-paradox. Full history and all prior raw evidence retained. See questions.md, results.md and REPRODUCE.md for the current benchmark and suite. Current local/public-clone verification is recorded in the release verification report; historical logs apply to their named earlier revisions.
 
-## Pending / blockers
-1. **Public GitHub repository: PENDING.**
-   - The user has not created it. Nothing was published, pushed or submitted.
-   - After creation: push the full history, check signed-out access, and confirm that the published HEAD equals the tested final commit (see `HANDOFF-TO-CODEX.md`).
-2. **Competition comment submission: PENDING (user).** Post the repository link plus 2–3 sentences. A draft is in `HANDOFF-TO-CODEX.md`.
-3. **Eligibility: PENDING (user).** Premium/VIP membership.
-4. **Deadline:** the supplied text says "Tuesday, October 13th, 11:59 PM EST". The EST label is ambiguous in October (EDT is in effect), so target 11:59 PM Eastern local time, which is 03:59 UTC on October 14.
-5. **Unseen-question independence:** U1–U8 were generated in a separate Claude session of the same model family. This is not human or cross-family independence, and moderator acceptance is not guaranteed.
+Remaining external gates: post the public link plus the updated three-sentence comment, confirm Premium/VIP eligibility and meet the supplied deadline (Tuesday, October 13th, 11:59 PM EST; conservative target 11:59 PM Eastern local). No competition comment has been posted by this assistant.
 
-## Scientific limits
-- A/B confounds source availability with structure; B/C is the structure test (ties, plus one loss).
-- One round per arm in a fixed order, not counterbalanced.
-- Assessors are the same model family as the tested model.
-- Inherited user-level Claude Code configuration; server-side model revision unobservable.
-- Small question sets near ceiling.
-
-## Rule-interpretation qualifications
-Original expected answers were in a separate file; v2 was amended after the folder existed; the recorded interface is Claude Code CLI rather than the Projects walkthrough. These are disclosed in competition/SPEC-CHECK.md. Local readiness is not moderator certification.
+Qualifications: original answers were a separate pre-folder file; seven-item selection is post-results; CLI differs from Projects; unseen-question acceptance and fresh model reproducibility are moderator decisions. The seven rerun resolves the amended-Q4 mismatch, not all possible interpretations. A's nonexistent-memory read retains its automated REVIEW flag and documented no-content manual disposition. No claim of full moderator certification.

@@ -1,0 +1,81 @@
+{
+  "benchmark": "seven-original",
+  "maximum_per_arm": 70,
+  "ids": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "assessor": "Codex assistant; single model assessor with prior experiment knowledge; unblinded, not independent human review",
+  "arms": {
+    "A": {
+      "run_id": "A_SEVEN_01",
+      "total": 10,
+      "per_question": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": 4,
+        "Q8": 1
+      },
+      "fully_correct_conclusions": 0,
+      "false_authorizations": [],
+      "mean_duration_seconds": 13.582285714285714
+    },
+    "B": {
+      "run_id": "B_SEVEN_01",
+      "total": 70,
+      "per_question": {
+        "Q1": 10,
+        "Q2": 10,
+        "Q3": 10,
+        "Q5": 10,
+        "Q6": 10,
+        "Q7": 10,
+        "Q8": 10
+      },
+      "fully_correct_conclusions": 7,
+      "false_authorizations": [],
+      "mean_duration_seconds": 18.512
+    },
+    "C": {
+      "run_id": "C_SEVEN_01",
+      "total": 70,
+      "per_question": {
+        "Q1": 10,
+        "Q2": 10,
+        "Q3": 10,
+        "Q5": 10,
+        "Q6": 10,
+        "Q7": 10,
+        "Q8": 10
+      },
+      "fully_correct_conclusions": 7,
+      "false_authorizations": [],
+      "mean_duration_seconds": 15.371714285714287
+    }
+  },
+  "pairwise": {
+    "B vs A": {
+      "wins": 7,
+      "ties": 0,
+      "losses": 0
+    },
+    "C vs A": {
+      "wins": 7,
+      "ties": 0,
+      "losses": 0
+    },
+    "B vs C": {
+      "wins": 0,
+      "ties": 7,
+      "losses": 0
+    }
+  }
+}

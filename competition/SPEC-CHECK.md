@@ -1,19 +1,23 @@
-# Competition #14 — supplied-spec check
+# Competition #14 — current supplied-spec matrix
 
-Source: [user-supplied text](spec-user-supplied-2026-10-13.txt). Original post URL was not supplied; this is an artifact comparison, not moderator certification.
+Source: spec-user-supplied-2026-10-13.txt. No original post URL, separate full judging rubric or later moderator clarifications were supplied. This is an evidence comparison, not moderator certification.
 
-| Requirement | Current evidence / qualification |
+| Requirement | Current evidence and qualification |
 |---|---|
-| Five specialist components | All present in specialist/: identity.md, rules.md, examples.md, reference/, README.md. |
-| 5–10 questions with expected answers | Eight root v2 questions with answer table; Q4 is self-contained. |
-| Questions before folder and runs | Original df36e7d has questions and separate evaluation/expected-answers.md; control da56555 precedes specialist 3d9be31. Literal same-file packaging differs. v2 correction 504bae1 follows folder creation but precedes execution ef44500; cannot claim v2 preceded the folder. Moderator interpretation remains a risk. |
-| Same model, questions and order in A/B | v2 and U records support identical question order and observed model claude-opus-5-5, CLI 2.1.288. Claude Code CLI differs from the Projects UI walkthrough; this is disclosed. |
-| Root control/ and treatment/ raw evidence | Original captures plus README pointers to exact current evidence and prompts. Unedited evidence c7afda4 precedes grading. Failed/excluded earlier runs retained. |
-| results.md wins, ties, losses, slower cases, changes | Question-level scores and timings present. B/C v2 ties all eight; U ties seven and loses U8. Folder unchanged to preserve frozen testing; prospective change identified. |
-| Advantage on a question entrant did not write | Separate Claude-session U questions: B beats A on all eight, but loses U8 to C. Same-family generation, authoring-note provenance and operator exposure disclosed. No human/cross-family independence; moderator acceptance unconfirmed. |
-| Reproduction | Executable capture and scoring kit; full history; exact prompts and sources preserved. See REPRODUCE.md. Future provider availability and exact output are not guaranteed. |
-| Public GitHub link and 2–3 sentence entry comment | Pending. No actual repository URL supplied or publication performed. See SUBMISSION-COMMENT.md. |
-| Premium/VIP membership | User confirmation pending. |
-| Deadline | Supplied wording: Tuesday, October 13th, 11:59 PM EST. Submit before 11:59 PM Eastern local time as a conservative interpretation of the timezone label. |
+| Five specialist components | Present under specialist/, unchanged. |
+| Five–ten questions and expected answers at root | Seven in questions.md, original IDs Q1–Q3,Q5–Q8. |
+| Questions/answers before runs | Exact retained content at df36e7d before original control; combined root file and new plan at 4f0c0b8 before all fresh seven-question calls. |
+| Questions before folder | All seven retained prompts and gold rows predate specialist 3d9be31. The seven-item selection itself occurred after prior results and is explicitly disclosed. |
+| Literal original same-file expected answers | Original key was evaluation/expected-answers.md at df36e7d, not inside questions.md. Current file consolidates them before fresh runs; original packaging cannot be rewritten and remains a moderator interpretation risk. |
+| Same model, questions, order | New A/B/C_SEVEN_01: same observed claude-opus-5-5, CLI 2.1.288, seven exact prompts in same order, separate fresh sessions; raw committed before grading. |
+| Raw control/ and treatment/ | New actual raw captures are directly in control/raw/A_SEVEN_01 and treatment/raw/B_SEVEN_01; exact prompts in control/prompts-seven. All old Q4 and failed/excluded records retained. |
+| Results, ties/losses, slower cases, changes | A10/B70/C70; B/C seven ties and B longer mean session duration. Supplementary U8 loss retained. Specialist unchanged; prospective improvement identified without tuning against known tests. |
+| Question entrant did not write | Earlier U1–U8 generated in separate Claude session from sources: B beats A on all eight; B loses U8 to C. Same-family authoring and operator exposure disclosed. Judges' own unseen test remains theirs to perform. |
+| Reproduction | Executable current seven-run suite and exact inputs. Public cloning previously verified; final verification accompanies this release. Future model behavior not guaranteed. |
+| Claude Projects workflow | Actual calls use Claude Code CLI, not Projects. Interface difference disclosed; moderator interpretation unconfirmed. |
+| Public GitHub | https://github.com/BlkAdder72/compression-paradox; full history published. |
+| Comment with link and 2–3 sentences | Updated draft in SUBMISSION-COMMENT.md; actual posting not verified. |
+| Premium/VIP eligibility | User confirmation required. |
+| Deadline | Supplied wording: Tuesday, October 13th, 11:59 PM EST. Use 11:59 PM Eastern local time as conservative target. Judges pin the last commit before their cutoff. |
 
-The supplied spec asks for a question the entrant did not write; it does not expressly require a human author. Separate-session AI authorship is disclosed, not certified as independent. Historical chronology cannot be repaired retroactively, and this release does not conceal it.
+The test is the deliverable: B/A demonstrates the folder including sources beats no folder; C asks whether architecture adds anything. A sources-only tie is relevant honest evidence, not grounds to conceal it. Reporting no specialist change preserves the measured artifact; a future change would require new tests. Do not claim independent human grading or an originally preregistered seven-item selection.

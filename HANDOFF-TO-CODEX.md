@@ -1,11 +1,9 @@
-# Submission release handoff — 2026-10-13
+# Current seven-question release handoff
 
-This release revises the documentation and conclusion metric after input HEAD d1251e7845b00110005ea521e5548a22fbf59b7f. It adds no model calls and changes no original scores, prompts, expected answers, specialist files or raw evidence. Full ancestry remains intact.
+Use root questions.md and default --suite official for the seven retained original IDs. The prior eight-question corrected suite is --suite official-v2; legacy is original v1. All original prompts, gold rows, specialist and evidence remain traceable and unchanged.
 
-Current results: v2 A14/B80/C80; U A8/B77/C80. B U8 is a partial conclusion, so B has seven fully correct U conclusions. The derived summary distinguishes full credit, partial credit and absence of a disqualifying conclusion. Prior summary and exact executed question source are archived in history/.
+Pre-call freeze and public push: 4f0c0b8. Raw-capture commit: 2df7042. New run IDs: A_SEVEN_01, B_SEVEN_01, C_SEVEN_01. Fresh scores: A10/B70/C70; B/C seven ties. The exact final release SHA is in the accompanying verification report and git log -1. Do not confuse the earlier licensed ZIP at f1a9db9 with this new release.
 
-The prior execution handoff is preserved byte-for-byte at history/HANDOFF-Claude-final.md. Its clone, case-sensitive and model-execution records describe that earlier revision, not a new test performed by this revision. Current release verification is delivered alongside the ZIP.
+The new scores have one disclosed unblinded Codex assessor. Earlier two-assessor U results and Q4 runs remain supplementary/historical. A's failed nonexistent-memory read is documented; no observed outside content. The current specialist remains frozen, and the seven combined question/answer file was committed before these new calls.
 
-Next steps: extract to a short path; publish the complete Git repository including .git history to the user's public GitHub repository; verify signed-out access and matching HEAD; post the URL with SUBMISSION-COMMENT.md; confirm Premium/VIP eligibility. No remote URL is currently known, and no publication or comment submission was performed.
-
-Read competition/SPEC-CHECK.md for the disclosed original separate answer-key packaging, post-folder v2 amendment, CLI interface and same-family authoring limitations. These cannot be retroactively removed by documentation changes; moderator acceptance is unconfirmed.
+Repository: https://github.com/BlkAdder72/compression-paradox. Publish the final release HEAD, verify public clone and checks, then use SUBMISSION-COMMENT.md. Actual comment submission and Premium/VIP eligibility remain user actions. Original separate answer-key packaging, post-results selection and CLI/Projects difference must remain disclosed; do not rewrite history to claim perfect original compliance.

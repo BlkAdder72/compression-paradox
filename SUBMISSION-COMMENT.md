@@ -1,5 +1,3 @@
-# Submission comment draft
+https://github.com/BlkAdder72/compression-paradox
 
-Put the verified public GitHub repository URL on the first line, followed by these three sentences. Replace no score values; do not post until the full-history release is publicly accessible.
-
-Our Meridian Works purchasing-policy specialist combines identity, rules, examples, six primary documents and a navigation index, with raw transcripts and two-assessor scoring for corrected questions and eight questions generated in a separate Claude session. It beat no folder on every question (80 versus 14 on corrected v2; 77 versus 8 on the separate-session set), but sources alone scored 80 on both sets. The surprising result: the folder tied sources-only on all eight corrected questions, then lost U8 for treating an ambiguous policy branch as settled—no incremental accuracy benefit from our architecture was demonstrated.
+For **The Compression Paradox**, I built a specialist folder to answer questions about a fictional company's purchasing policies, then ran seven original questions against no folder, the specialist folder and the same documents alone. The folder beat no folder 70–10 but tied the documents alone at 70, while an earlier test on eight questions generated in a separate Claude session favored the documents 80–77. The surprise was where the folder lost: it treated an ambiguous policy as settled while the documents-only answer covered both readings—all raw transcripts, the disclosed question-selection history, scores and reproduction instructions are in the repo.
