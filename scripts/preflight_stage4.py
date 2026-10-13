@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 checks=['questions.md','protocol.md','evaluation/holdout/questions.md','evaluation/holdout/expected-answers.md','diagnostics/holdout-prompts/manifest.json']
 for f in checks:
     assert (ROOT/f).is_file(),f'missing {f}'
-manifest=json.loads((ROOT/'diagnostics/holdout-prompts/manifest.json').read_text())
+manifest=json.loads((ROOT/'diagnostics/holdout-prompts/manifest.json').read_text(encoding='utf-8'))
 for i in range(1,9):
     name=f'H{i}'
     p=ROOT/'diagnostics/holdout-prompts'/f'{name}.txt'

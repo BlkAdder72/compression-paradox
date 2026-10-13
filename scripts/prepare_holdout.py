@@ -18,7 +18,7 @@ for n,s in hits:
 manifest={"holdout_questions_sha256":hashlib.sha256(q.read_bytes()).hexdigest(),
           "prompts":{f"H{n}":hashlib.sha256((s+'\n').encode()).hexdigest() for n,s in hits}}
 manifestpath=out/'manifest.json'
-if manifestpath.exists() and __import__("json").loads(manifestpath.read_text())!=manifest:
+if manifestpath.exists() and __import__("json").loads(manifestpath.read_text(encoding='utf-8'))!=manifest:
  raise SystemExit("REFUSE changed prompt manifest")
 manifestpath.write_text(__import__('json').dumps(manifest,indent=2)+'\n')
 print("PASS: eight immutable holdout prompts extracted")
