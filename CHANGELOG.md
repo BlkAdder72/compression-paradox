@@ -44,3 +44,11 @@ Input: `compression-paradox-unseen-ready-2026-10-13B.zip`, SHA-256 `6ff1ffb2103f
 - `7b5f474` scored: two assessors per set, two written adjudications, `scripts/score_v2_u.py`, `evaluation/v2-u-summary.json`.
 - Docs: `results.md` headline and v2/U sections, `README.md` status, `RELEASE-READINESS.md`, `REPRODUCE.md` executed commands, `competition/SPEC-CHECK.md`, `HANDOFF-TO-CODEX.md`, and verification logs in `verification/2026-10-13B/`.
 - No change to the specialist, fixture, rubric, keys or frozen U inputs.
+
+# Submission documentation and metric revision — 2026-10-13
+
+- Reconciled current README, spec matrix, questions status, readiness and reproduction instructions; archived prior landing page, reproduction instructions and handoff unchanged.
+- Preserved exact executed v2 question source and manifest. Verifier now guards both its frozen hash and equality of every published question/expected answer.
+- Replaced the ambiguous derived correct-conclusions field with explicit full-credit, partial-credit and no-disqualifying-conclusion counts. B U8 remains 7/10 and U total remains 77/80; raw scores and adjudications are unchanged. Archived previous summary.
+- Led with the sources-only control finding and U8 loss; added a three-sentence submission draft and explicit moderator-interpretation qualifications.
+- No new model execution, external author, GitHub publication or submission claimed. All original evidence and full Git ancestry preserved.

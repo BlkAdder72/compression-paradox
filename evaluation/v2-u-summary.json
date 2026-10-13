@@ -90,7 +90,9 @@
       "evidence_strict": 0
      }
     },
-    "correct_conclusions": 0,
+    "fully_correct_conclusions": 0,
+    "partial_conclusion_credit": 2,
+    "without_disqualifying_conclusion": 0,
     "false_authorizations": [],
     "critical_omissions": {
      "Q1": "No conclusion: manager-only approval and $2,500 inclusive threshold not stated",
@@ -193,7 +195,9 @@
       "evidence_strict": 1
      }
     },
-    "correct_conclusions": 8,
+    "fully_correct_conclusions": 8,
+    "partial_conclusion_credit": 0,
+    "without_disqualifying_conclusion": 8,
     "false_authorizations": [],
     "critical_omissions": {},
     "ambiguity_deductions": {},
@@ -278,7 +282,9 @@
       "evidence_strict": 1
      }
     },
-    "correct_conclusions": 8,
+    "fully_correct_conclusions": 8,
+    "partial_conclusion_credit": 0,
+    "without_disqualifying_conclusion": 8,
     "false_authorizations": [],
     "critical_omissions": {},
     "ambiguity_deductions": {},
@@ -394,7 +400,9 @@
       "evidence_strict": 0
      }
     },
-    "correct_conclusions": 0,
+    "fully_correct_conclusions": 0,
+    "partial_conclusion_credit": 0,
+    "without_disqualifying_conclusion": 0,
     "false_authorizations": [],
     "critical_omissions": {
      "U1": [
@@ -544,7 +552,9 @@
       "evidence_strict": 1
      }
     },
-    "correct_conclusions": 8,
+    "fully_correct_conclusions": 7,
+    "partial_conclusion_credit": 1,
+    "without_disqualifying_conclusion": 8,
     "false_authorizations": [],
     "critical_omissions": {
      "U8": [
@@ -635,7 +645,9 @@
       "evidence_strict": 1
      }
     },
-    "correct_conclusions": 8,
+    "fully_correct_conclusions": 8,
+    "partial_conclusion_credit": 0,
+    "without_disqualifying_conclusion": 8,
     "false_authorizations": [],
     "critical_omissions": {},
     "ambiguity_deductions": {},

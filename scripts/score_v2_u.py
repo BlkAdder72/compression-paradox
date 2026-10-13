@@ -81,7 +81,9 @@ def summary():
                 'total_strict_evidence': sum(capped(qs[q], 'evidence_strict') for q in order),
                 'per_question': {q: qs[q]['capped_total'] for q in order},
                 'categories': {q: {k: qs[q][k] for k in list(CATS) + ['evidence_strict']} for q in order},
-                'correct_conclusions': sum(not qs[q]['conclusion_wrong'] for q in order),
+                'fully_correct_conclusions': sum(qs[q]['conclusion'] == 4 and not qs[q]['conclusion_wrong'] for q in order),
+                'partial_conclusion_credit': sum(0 < qs[q]['conclusion'] < 4 for q in order),
+                'without_disqualifying_conclusion': sum(not qs[q]['conclusion_wrong'] for q in order),
                 'false_authorizations': [q for q in order if qs[q]['false_authorization']],
                 'critical_omissions': {q: qs[q].get('critical_omissions') or qs[q].get('critical_omission') for q in order
                                        if qs[q].get('critical_omissions') or qs[q].get('critical_omission')},

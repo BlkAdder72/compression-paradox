@@ -14,8 +14,10 @@ for item in manifest['prompts']:
     assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
 print('PASS: all 8 legacy control prompts match archived v1 benchmark exactly')
 current=json.loads((root/'control/prompt-manifest-v2.json').read_text(encoding='utf-8'))
-source=(root/'questions.md').read_bytes()
+source=(root/'history/questions-v2-executed.md').read_bytes()
 assert hashlib.sha256(source).hexdigest()==current['question_sha256']
+published=(root/'questions.md').read_text(encoding='utf-8')
+assert published[published.index('**Q1.**'):] == source.decode()[source.decode().index('**Q1.**'):], 'Published questions or expected answers differ from executed source'
 expected_v2=dict((('Q'+n),p) for n,p in re.findall(r'^\*\*Q([1-8])\.\*\* (.*)$',source.decode(),re.M))
 assert len(current['prompts']) == len(expected_v2) == 8
 for item in current['prompts']:

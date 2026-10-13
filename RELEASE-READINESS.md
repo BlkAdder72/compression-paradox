@@ -7,7 +7,7 @@ Verdict: **model testing and scoring complete and locally verified. Not yet a su
 - **Separate-session U1–U8:** A/B/C_U_01 executed under the frozen run plan, 24/24 sessions, all runs clean. Two blinded assessors with one written adjudication. **A 8, B 77, C 80; B vs C 0/7/1 (folder lost U8 on the frozen both-readings criterion).**
 - Raw evidence and the contamination review were committed before packets and scores. Root `control/README.md` and `treatment/README.md` point to every raw transcript and exact prompt.
 - The specialist is unchanged (hashes verified by `verify_unseen.py`). Results report ties and the loss, plus what was and was not changed in the folder.
-- Offline checks, regression tests, score aggregation, JSON validation, `git fsck --full`, clean-tree checks, fresh-clone checks and ZIP re-checks pass. Logs are in `verification/2026-10-13B/`.
+- Earlier execution-release checks are preserved in `verification/2026-10-13B/`; they apply to the earlier revision. This documentation/metric revision has a separate verification report alongside its release ZIP. No new model calls were made.
 
 ## Pending / blockers
 1. **Public GitHub repository: PENDING.**
@@ -24,3 +24,6 @@ Verdict: **model testing and scoring complete and locally verified. Not yet a su
 - Assessors are the same model family as the tested model.
 - Inherited user-level Claude Code configuration; server-side model revision unobservable.
 - Small question sets near ceiling.
+
+## Rule-interpretation qualifications
+Original expected answers were in a separate file; v2 was amended after the folder existed; the recorded interface is Claude Code CLI rather than the Projects walkthrough. These are disclosed in competition/SPEC-CHECK.md. Local readiness is not moderator certification.

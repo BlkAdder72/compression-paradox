@@ -1,6 +1,6 @@
 # QUESTIONS — corrected benchmark v2.0
 
-Version 2 corrects Q4 to include its full facts. Q1–Q3 and Q5–Q8 are unchanged. This correction was made after the folder and version-1 results existed; it is NOT an original preregistration. No v2 model run has been executed. Original preregistered questions are preserved byte-for-byte in `history/questions-v1.md` and Git history. All existing Q-series scores refer to v1. Commit this version before new runs; report v2 results separately.
+Version 2 corrects Q4 to include its full facts. Q1–Q3 and Q5–Q8 are unchanged. This correction was made after the folder and version-1 results existed; it is NOT an original preregistration. Corrected v2 runs A_V2_01, B_V2_01 and C_V2_01 are complete; see results.md. Original preregistered questions are preserved byte-for-byte in `history/questions-v1.md` and Git history. The executed v2 source is preserved byte-for-byte in history/questions-v2-executed.md and bound by the unchanged control/prompt-manifest-v2.json. This later documentation-only update changes no prompts or expected answers. v1 and v2 results are reported separately.
 
 Send only each question prompt, in order, to separate fresh sessions in both arms. Never provide the expected answers below to a tested model. `control/prompts-v2/` contains question-only files for current execution; legacy `control/prompts/` is unchanged.
 

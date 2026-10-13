@@ -1,27 +1,19 @@
-# Competition #14: The Control — supplied-spec check
+# Competition #14 — supplied-spec check
 
-Source: `spec-user-supplied-2026-10-13.txt`, supplied by the user; original post URL not supplied. This is a check against that text, not independent website authentication.
+Source: [user-supplied text](spec-user-supplied-2026-10-13.txt). Original post URL was not supplied; this is an artifact comparison, not moderator certification.
 
-| Requirement | Evidence / current status |
+| Requirement | Current evidence / qualification |
 |---|---|
-| Five specialist components | Present under specialist/: identity.md, rules.md, examples.md, reference/, README.md |
-| 5–10 checkable questions with expected answers in root questions.md | Eight questions and expected-answer table now present. v2 Q4 contains all facts. |
-| Questions before runs; questions before folder | Original v1 history retained. Expected answers were originally separate. v2 is explicitly a later correction; must be committed before corrected runs and cannot claim original preregistration. |
-| Same model/questions/order, raw A/B committed | Legacy v1 records retained. Corrected v2 A/B rerun PENDING; no old scores relabeled. |
-| Root control/ and treatment/ with prompts/raw evidence | Original v1 present. New corrected captures should be committed with manifests and clear root-directory pointers before submission. |
-| results.md includes ties/losses and what changed | Original and fresh comparisons retained, including B/C ties. Folder unchanged by this repair; JSON and benchmark corrected. No unsupported architecture benefit claimed. |
-| Advantage on a question you did not write | Not yet tested. Separate Claude authoring session can provide unseen-to-folder questions, but same-family AI provenance must be disclosed. Human/external independence is not established by a new chat alone. |
-| Public GitHub repository and comment with 2–3 sentences | User confirms no repository yet. Creation/publication/comment submission PENDING. Nothing published here. |
-| Premium or VIP membership | User must confirm eligibility. |
-| Deadline | Supplied wording: Tuesday, October 13th, 11:59 PM EST. Preserve exact wording. EST vs Eastern daylight-time intent is ambiguous; submit before 11:59 PM Eastern local time as the conservative target. |
+| Five specialist components | All present in specialist/: identity.md, rules.md, examples.md, reference/, README.md. |
+| 5–10 questions with expected answers | Eight root v2 questions with answer table; Q4 is self-contained. |
+| Questions before folder and runs | Original df36e7d has questions and separate evaluation/expected-answers.md; control da56555 precedes specialist 3d9be31. Literal same-file packaging differs. v2 correction 504bae1 follows folder creation but precedes execution ef44500; cannot claim v2 preceded the folder. Moderator interpretation remains a risk. |
+| Same model, questions and order in A/B | v2 and U records support identical question order and observed model claude-opus-5-5, CLI 2.1.288. Claude Code CLI differs from the Projects UI walkthrough; this is disclosed. |
+| Root control/ and treatment/ raw evidence | Original captures plus README pointers to exact current evidence and prompts. Unedited evidence c7afda4 precedes grading. Failed/excluded earlier runs retained. |
+| results.md wins, ties, losses, slower cases, changes | Question-level scores and timings present. B/C v2 ties all eight; U ties seven and loses U8. Folder unchanged to preserve frozen testing; prospective change identified. |
+| Advantage on a question entrant did not write | Separate Claude-session U questions: B beats A on all eight, but loses U8 to C. Same-family generation, authoring-note provenance and operator exposure disclosed. No human/cross-family independence; moderator acceptance unconfirmed. |
+| Reproduction | Executable capture and scoring kit; full history; exact prompts and sources preserved. See REPRODUCE.md. Future provider availability and exact output are not guaranteed. |
+| Public GitHub link and 2–3 sentence entry comment | Pending. No actual repository URL supplied or publication performed. See SUBMISSION-COMMENT.md. |
+| Premium/VIP membership | User confirmation pending. |
+| Deadline | Supplied wording: Tuesday, October 13th, 11:59 PM EST. Submit before 11:59 PM Eastern local time as a conservative interpretation of the timezone label. |
 
-The spec explicitly judges a question the entrant did not write; it does not expressly require a human author. Do not promise moderators will treat a separate Claude session as independent. Preserve the original authoring output, context disclosure and source-only input hashes, freeze the specialist, and test before making a generalization claim.
-
-## Status update after execution (2026-10-13)
-| Requirement | Status |
-|---|---|
-| Same model, questions and order; raw A/B committed | **Done for corrected v2** (A/B/C_V2_01) and U1–U8 (A/B/C_U_01): `claude-opus-5-5`, CLI 2.1.288, fixed order, unedited transcripts committed before scoring. |
-| Root control/ and treatment/ with prompts and raw evidence | **Done**: `control/README.md` and `treatment/README.md` index every run and the exact prompt files. |
-| results.md reports losses and ties | **Done**: B vs C ties 8/8 on v2 and 7/8 on U, with **one loss (U8)**. No structure advantage is claimed. Folder unchanged, with the reason stated. |
-| Advantage on a question you did not write | **Tested** on separate-session U1–U8: folder beats no folder 8/8, but versus sources alone it tied 7 and lost 1. Same-family AI authorship is disclosed. |
-| Public GitHub repo, comment, eligibility | **PENDING (user)**. Nothing published. |
+The supplied spec asks for a question the entrant did not write; it does not expressly require a human author. Separate-session AI authorship is disclosed, not certified as independent. Historical chronology cannot be repaired retroactively, and this release does not conceal it.

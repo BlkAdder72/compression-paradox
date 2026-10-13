@@ -8,7 +8,11 @@
 >
 > The folder beats no folder on every question, but A has no policy text, so A/B mostly measures source availability. Against the six sources alone (C), the folder tied on all corrected v2 questions and on 7 of 8 questions it did not write. It **lost U8** by 3 points: it treated a genuinely ambiguous vendor branch as settled, where the frozen criterion required both readings. Nothing in the folder was changed because of this; the folder is frozen for these tests (see the end of this report). Sections below are chronological. Everything before "Corrected official v2" scores the original **v1** questions (archived in `history/questions-v1.md`). Root `questions.md` is now v2: Q4 was made self-contained after the folder already existed, so v2 is a correction, not original pre-registration.
 
-# Results — Compression Paradox benchmark, Stage 2 (single run per arm)
+# Results — current headline above; chronological evidence below
+
+**Reading historical status notes:** statements about missing rules, pending tests or unavailable authors below describe the dated stage only. Current v2/U execution is complete; the supplied competition text is now in competition/. Frozen manifests retain their pre-run status labels. Current publication and eligibility gates are in RELEASE-READINESS.md.
+
+## Historical Stage 2 (single run per arm)
 
 **Scored 2026-10-12 · model `claude-opus-5-5` via Claude Code CLI 2.1.288 · n = 8 questions · one run per arm · no statistical significance claimed.**
 
@@ -179,7 +183,7 @@ Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Un
 - v2 is a separate evidence set. v1 Q4 scores are not reused.
 - Evidence and run records: `evidence/v2-20261013/` (`RUN-RECORD.md`, `tool-access-review.txt`). Scoring files: `evaluation/v2-20261013/official/`.
 
-| Arm | Score /80 | Strict evidence | Correct conclusions | False auth. | Critical omissions | Mean wall time |
+| Arm | Score /80 | Strict evidence | Fully correct conclusions | False auth. | Critical omissions | Mean wall time |
 |---|---|---|---|---|---|---|
 | A — no folder | **14** | 14 | 0 / 8 | 0 | 8 (no policy access) | 13.1 s |
 | B — specialist folder | **80** | 80 | 8 / 8 | 0 | 0 | 18.9 s |
@@ -208,10 +212,10 @@ Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Un
 - **Scoring** used the frozen rules in `evaluation/unseen-20261013/REVIEW-AND-RUN-PLAN.md`, committed before any run. These include the prospective U6/U8 "acknowledge both readings" criterion and the U8 24-hour-notice clarification.
 - Evidence and run records: `evidence/unseen-20261013/`. Scoring files: `evaluation/unseen-20261013/scoring-U_01/`.
 
-| Arm | Score /80 | Strict evidence | Correct conclusions | False auth. | Critical omissions | Ambiguity deductions | Mean wall time |
+| Arm | Score /80 | Strict evidence | Fully correct conclusions | False auth. | Critical omissions | Ambiguity deductions | Mean wall time |
 |---|---|---|---|---|---|---|---|
 | A — no folder | **8** | 8 | 0 / 8 | 0 | 8 (no policy access) | 0 | 13.6 s |
-| B — specialist folder | **77** | 77 | 8 / 8 | 0 | 1 (U8 branch) | **3 (U8)** | 21.7 s |
+| B — specialist folder | **77** | 77 | 7 / 8 (U8 partial) | 0 | 1 (U8 branch) | **3 (U8)** | 21.7 s |
 | C — sources only | **80** | 80 | 8 / 8 | 0 | 0 | 0 | 22.6 s |
 
 | | U1 | U2 | U3 | U4 | U5 | U6 | U7 | U8 |
@@ -220,6 +224,7 @@ Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Un
 | B | 10 | 10 | 10 | 10 | 10 | 10 | 10 | **7** |
 | C | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
 
+- **Conclusion metric clarification:** B has seven fully correct conclusions (4/4) and one partial conclusion (U8, 2/4). The earlier aggregate counted absence of a disqualifying conclusion as "correct". The derived summary now separates these fields; original assessor scores, adjudication and the 77/80 total are unchanged.
 - **Category scores:**
   - Every A answer scored 0/0/0/0/1: the policy was unavailable and no answer was given.
   - B U8 scored 2/2/1/1/1.
