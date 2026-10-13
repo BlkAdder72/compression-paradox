@@ -1,0 +1,602 @@
+{
+ "official": {
+  "run_ids": {
+   "A": "A_FRESH_20261013_01",
+   "B": "B_FRESH_20261013_01",
+   "C": "C_FRESH_20261013_01"
+  },
+  "assessor_1_totals": {
+   "C": 80,
+   "A": 17,
+   "B": 80
+  },
+  "assessor_2_totals": {
+   "C": 80,
+   "A": 16,
+   "B": 80
+  },
+  "arms": {
+   "A": {
+    "run_id": "A_FRESH_20261013_01",
+    "total": 16,
+    "total_strict_evidence": 16,
+    "per_question": {
+     "Q1": 1,
+     "Q2": 1,
+     "Q3": 1,
+     "Q4": 4,
+     "Q5": 1,
+     "Q6": 1,
+     "Q7": 4,
+     "Q8": 3
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q2": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q3": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q4": {
+      "conclusion": 2,
+      "rules": 1,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q5": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q6": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q7": {
+      "conclusion": 2,
+      "rules": 0,
+      "exceptions": 1,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q8": {
+      "conclusion": 2,
+      "rules": 1,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 0,
+      "evidence_strict": 0
+     }
+    },
+    "correct_conclusions": 1,
+    "false_authorizations": [],
+    "critical_omissions": {
+     "Q1": "No answer: manager approval only, $2,500 inclusive threshold",
+     "Q2": "No answer: manager and finance approval, $2,600 > $2,500",
+     "Q3": "No answer: manager before purchase, finance notified within 24h, no advance finance approval",
+     "Q4": "Does not establish that the prohibited-vendor restriction survives the emergency (leaves an emergency route open)",
+     "Q5": "No answer: travel-office and manager approval, $900 > $800, approvals independent",
+     "Q6": "No answer: historic $2,000 threshold, manager and finance approval",
+     "Q7": "Manager AND finance approval required ($4,000 > $2,500)",
+     "Q8": "Does not state that manager approval is required before purchase; suggests a backup approver or after-the-fact approval may suffice"
+    },
+    "transparent_uncertainty": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4",
+     "Q5",
+     "Q6",
+     "Q7",
+     "Q8"
+    ]
+   },
+   "B": {
+    "run_id": "B_FRESH_20261013_01",
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "Q1": 10,
+     "Q2": 10,
+     "Q3": 10,
+     "Q4": 10,
+     "Q5": 10,
+     "Q6": 10,
+     "Q7": 10,
+     "Q8": 10
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "transparent_uncertainty": []
+   },
+   "C": {
+    "run_id": "C_FRESH_20261013_01",
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "Q1": 10,
+     "Q2": 10,
+     "Q3": 10,
+     "Q4": 10,
+     "Q5": 10,
+     "Q6": 10,
+     "Q7": 10,
+     "Q8": 10
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "transparent_uncertainty": []
+   }
+  },
+  "pairwise": {
+   "A vs B": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "A vs C": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "B vs C": {
+    "wins": 0,
+    "ties": 8,
+    "losses": 0
+   }
+  }
+ },
+ "holdout": {
+  "run_ids": {
+   "C": "CH_FRESH_01",
+   "D": "DH_FRESH_01",
+   "E": "EH_FRESH_01"
+  },
+  "assessor_1_totals": {
+   "E": 80,
+   "D": 80,
+   "C": 80
+  },
+  "assessor_2_totals": {
+   "E": 80,
+   "D": 80,
+   "C": 80
+  },
+  "arms": {
+   "C": {
+    "run_id": "CH_FRESH_01",
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "H1": 10,
+     "H2": 10,
+     "H3": 10,
+     "H4": 10,
+     "H5": 10,
+     "H6": 10,
+     "H7": 10,
+     "H8": 10
+    },
+    "categories": {
+     "H1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "transparent_uncertainty": []
+   },
+   "D": {
+    "run_id": "DH_FRESH_01",
+    "total": 80,
+    "total_strict_evidence": 79,
+    "per_question": {
+     "H1": 10,
+     "H2": 10,
+     "H3": 10,
+     "H4": 10,
+     "H5": 10,
+     "H6": 10,
+     "H7": 10,
+     "H8": 10
+    },
+    "categories": {
+     "H1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "H2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "transparent_uncertainty": []
+   },
+   "E": {
+    "run_id": "EH_FRESH_01",
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "H1": 10,
+     "H2": 10,
+     "H3": 10,
+     "H4": 10,
+     "H5": 10,
+     "H6": 10,
+     "H7": 10,
+     "H8": 10
+    },
+    "categories": {
+     "H1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "H8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "transparent_uncertainty": []
+   }
+  },
+  "pairwise": {
+   "C vs D": {
+    "wins": 0,
+    "ties": 8,
+    "losses": 0
+   },
+   "C vs E": {
+    "wins": 0,
+    "ties": 8,
+    "losses": 0
+   },
+   "D vs E": {
+    "wins": 0,
+    "ties": 8,
+    "losses": 0
+   }
+  }
+ }
+}
