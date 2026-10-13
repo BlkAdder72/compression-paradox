@@ -1,45 +1,81 @@
-# Reproduce the official Competition #14 experiment
+# Reproduce and audit Competition #14
 
-## Prerequisites
+## Actual prerequisites
 
-- A fresh Git clone of the committed repository and a Bash-compatible shell (Git Bash or WSL on Windows).
-- Python 3.9+ and authenticated **Claude Code CLI 2.1.288**, if available. The original sessions identify model `claude-opus-5-5`. Model aliases may resolve to changed server weights or be unavailable at re-test time.
-- An empty absolute run workspace **outside** the repository; no repository files or prior prompts mounted in the control workspace.
-- The same model identifier, session flags and access permissions in A and B. The recorded CLI default system prompt and sampling parameters are not fully exportable or controllable; see `protocol.md` and `results.md`.
+- Git with full history and Python **3.10+**, standard library only, on PATH as `python`. No pip packages, jq, Node or SDK required. Bash is optional for the `.sh` wrappers.
+- For real calls: installed authenticated Claude Code CLI, model entitlement, network access and quota. Imported records identify CLI 2.1.288 and `claude-opus-5-5`; current availability is not guaranteed. Check `claude --version` and authenticate with the installed CLI's documented login flow. Override with `--claude /absolute/path/to/claude` and `--model IDENTIFIER`; disclose any change. Use a native executable on Windows.
+- Clean committed checkout; never-used run IDs; separate writable absolute output and session directories outside the repository. Replace the example C:/paradox-* locations with user-owned paths as necessary. On Linux/macOS use appropriate absolute paths.
+- Controlled CLI account/user configuration. Fresh directories are NOT OS isolation: parent instructions, inherited settings and permitted external reads can contaminate sessions. Keep identical configuration/permissions and inspect every tool trace. Hidden prompts, temperature and server model revisions may not be controllable.
+- Human evaluation using the frozen rubric and key. Capture success does not establish a score, external authorship or provider authenticity.
 
-## Verify before any model call
+## Fresh clone and line endings
 
-```bash
+The release ZIP includes `.git`, retaining the full supplied history. Clone from its extracted repository:
+
+```text
+git clone --no-local -c core.autocrlf=false /absolute/path/to/extracted/compression-paradox /absolute/path/to/fresh-checkout
+```
+
+For an actual public repository, substitute its verified URL; none is known here. From the fresh checkout:
+
+```text
+git config core.autocrlf false
+git status --porcelain
+git fsck --full
+python --version
+```
+
+Status must be empty. `.gitattributes` forces LF for ordinary text even with `core.autocrlf=true`; raw evidence and historical reports are `-text`. Never normalize transcripts or regenerate frozen prompts. Historical commits retain the old case collision; on Windows inspect their blobs with `git show COMMIT:PATH` rather than checking out conflicting trees. HEAD has exactly one root `results.md`.
+
+## Offline checks (no model calls)
+
+```text
+python scripts/verify_submission.py
 python scripts/verify_stage3.py
 python scripts/preflight_stage4.py
 python scripts/verify_control_capture.py
-python scripts/verify_stage4_capture.py --arm C --run-id CH1
-python scripts/verify_stage4_capture.py --arm D --run-id DH1
-python scripts/verify_stage4_capture.py --arm E --run-id EH1
+python scripts/audit_evidence.py
+python scripts/test_runner.py
 ```
 
-`verify_fixture.py` is a historical *Stage 1-only* guard: it deliberately rejects repositories containing the completed specialist folder. Run it at commit `df36e7d`, not at HEAD. `verify_submission.py` is the final-state guard.
+The audit checks stored checksums, scored capture result records and arithmetic, not independent grading or authenticity. `verify_fixture.py` and `prepare_control.py` are historical Stage 1 tools that intentionally reject completed specialist folders at HEAD. `prepare_holdout.py` writes materials and is not a read-only gate.
 
-## Original A/B rerun, without overwriting original captures
+## Fresh A/B/C
 
-The supplied scripts write directly under tracked `control/raw/` and `treatment/raw/`. **Use distinct new run IDs** and a clean clone for the rerun. Never reuse `A2`, `B1`, or any existing run ID; check that the output names do not exist before starting. Use a workspace directory containing no reference files for A.
+Dry-run validates inputs without invoking Claude or creating captures:
 
-```bash
-export CLAUDE_BIN="$(command -v claude)"
-export MODEL=claude-opus-5-5
-export SANDBOX_BASE="$(mktemp -d)/sessions"
-RUN_ID=A_REPRO_1 bash scripts/run_control_cli.sh
-RUN_ID=B_REPRO_1 SRC_DIR=specialist OUT_DIR=treatment/raw bash scripts/run_arm_cli.sh
+```text
+python scripts/run_trials.py --arm A --run-id A_FRESH_20261013_01 --workspace C:/paradox-sessions --output C:/paradox-captures --dry-run
 ```
 
-Both runners take Q1–Q8 in their listed order using isolated fresh CLI sessions with the same flags and user prompts. Their recorded output includes JSONL tool traces and stderr, but exact provider hidden prompts are not available. Save CLI version (`claude --version`), UTC timestamp, `git rev-parse HEAD`, and environment details separately. Do not edit output files. The runners currently log exit status but do **not** fail the entire script on a failed single question; inspect every run-log line and retain all failures.
+With real authenticated access, run:
 
-**Warning:** A model may attempt external reads or rely on hidden environment context. Use the same tool permissions and record denials; reproduce from the repository root only where required, with per-question sessions starting inside isolated copied workspaces. If CLI aliases or access are different, report a reproduction limitation rather than claiming exact replication.
+```text
+python scripts/run_trials.py --arm A --run-id A_FRESH_20261013_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+python scripts/run_trials.py --arm B --run-id B_FRESH_20261013_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+python scripts/run_trials.py --arm C --run-id C_FRESH_20261013_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+```
 
-## Independent evaluation
+A receives no files; B gets ten specialist files; C gets six primary sources. All receive unchanged Q1-Q8 bytes, identical CLI flags and fresh sessions. C is necessary to separate architecture from source availability. Predeclare repetitions/order and counterbalance subsequent rounds (e.g. C/B/A). Never reuse historical IDs, especially A_REPRO_1/B_REPRO_1.
 
-Use `evaluation/scoring-rubric.md`, `evaluation/expected-answers.md`, and the raw output streams. Grade each response independently, ideally blind to arm labels, record the 0–10 category scores, and summarize wins, ties, losses, caveats, and disagreements. A scripted transcript integrity check is **not** an independently graded model reproduction. Distinguish B/A improvement from B/C incremental architecture benefit; A lacks source documents while B has them.
+The runner refuses existing run directories, stops on failed exits/timeouts/incomplete result events, and retains raw stdout/stderr. Each output run folder contains manifests with prompt/source hashes, revision, CLI version, requested model, commands, timestamps/exits and checksums. COMPLETE_UNGRADED only means structurally completed captures. Review actual model IDs, outside reads and denials; disclose/exclude contamination. Commit raw evidence before grading. Retain every failed attempt.
 
-## Independently written unseen question
+Grade using `evaluation/scoring-rubric.md` and `evaluation/expected-answers.md`, preferably with blinded independent assessors; preserve category/per-question scores, disagreements, wins/ties/losses and provenance. Do not change scoring criteria after viewing results.
 
-Have a third party who did **not** create the original questions or specialist inspect only the six primary `fixture/` documents, write one or more checkable questions and gold answers, and commit them **before** running the frozen treatment and control. Record authorship, hash, commit, time and any grader conflict. Do not call the existing H1–H8 'independent unseen questions'; they were written after initial A/B/C analysis.
+## Fresh H-series (not independent holdout)
+
+```text
+python scripts/run_trials.py --arm C --suite holdout --run-id CH_FRESH_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+python scripts/run_trials.py --arm D --suite holdout --run-id DH_FRESH_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+python scripts/run_trials.py --arm E --suite holdout --run-id EH_FRESH_01 --workspace C:/paradox-sessions --output C:/paradox-captures
+```
+
+Use `evaluation/holdout/expected-answers.md`, the original rubric and disclosed H-series false-authorization mapping. H1-H8 are post-analysis questions. The new runner excludes all historical raw/manifest files from sessions. Its output layout differs from legacy runners; do not pass new captures to the old `verify_stage4_capture.py`.
+
+## Generated challenge and external unseen author
+
+See `evaluation/challenge/PROTOCOL.md` for exact G-series run and blinded-packet commands and the external-author procedure. G1-G4 are generated, unexecuted and NOT independent. No external authorship or new Claude scores are claimed.
+
+## Optional Bash wrappers
+
+Set PYTHON_BIN, CLAUDE_BIN, MODEL, RUN_ID, SANDBOX_BASE and OUTPUT_BASE. `run_control_cli.sh` fixes A; `run_arm_cli.sh` uses ARM=B or C; `run_holdout_cli.sh` uses ARM=C, D or E. Old SRC_DIR/OUT_DIR examples are obsolete; direct Python commands are preferred on Windows.
