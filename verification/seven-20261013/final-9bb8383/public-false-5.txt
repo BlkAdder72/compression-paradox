@@ -1,0 +1,2 @@
+PASS: seven exact original questions AND gold answers predate control/folder; frozen inputs intact.
+DISCLOSURE: original key was a separate file; seven-item selection occurred after earlier results.

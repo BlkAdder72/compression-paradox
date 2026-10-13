@@ -1,0 +1,1 @@
+PASS: 399 protected existing files byte-identical to prior licensed release ZIP at f1a9db9. Git blob bytes for editable text can differ from Windows checkout line endings; archive-to-working-byte comparison used.

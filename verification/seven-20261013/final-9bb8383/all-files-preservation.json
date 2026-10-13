@@ -1,0 +1,19 @@
+{
+  "unchanged_existing_files": 753,
+  "changed_existing_files": [
+    "CHANGELOG.md",
+    "HANDOFF-TO-CODEX.md",
+    "README.md",
+    "RELEASE-READINESS.md",
+    "REPRODUCE.md",
+    "SUBMISSION-COMMENT.md",
+    "competition/SPEC-CHECK.md",
+    "control/README.md",
+    "questions.md",
+    "results.md",
+    "scripts/run_trials.py",
+    "scripts/test_runner.py",
+    "scripts/verify_control_capture.py",
+    "treatment/README.md"
+  ]
+}

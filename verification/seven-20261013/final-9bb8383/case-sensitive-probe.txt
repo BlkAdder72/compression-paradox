@@ -1,0 +1,1 @@
+PASS actual distinct check and CHECK files with independent content in inherited NTFS case-sensitive test directory. Probe removed before clean-tree checks.

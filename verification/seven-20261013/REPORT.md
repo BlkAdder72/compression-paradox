@@ -9,3 +9,9 @@ Compared against the prior licensed ZIP at f1a9db9: 753 existing non-Git files r
 Final clean-tree/public-clone/ZIP checks and exact final SHA are recorded in the accompanying release-seven verification report after this commit. Earlier verification folders refer to their named revisions. Tests are offline checks unless explicitly identified as the 21 new real Claude captures.
 
 Remaining external gates: competition-comment posting and Premium/VIP eligibility. Qualifications: original separate gold file, post-results seven-item selection, CLI rather than Projects, single unblinded fresh assessor, and future provider variability. This is technical verification, not moderator certification.
+
+## Post-publication verification on 9bb8383
+
+A fresh HTTPS clone of the public GitHub repository (credential helper disabled) matched HEAD 9bb8383 and all 53 reachable commits. All ten check scripts and Git fsck passed with core.autocrlf=false and true, with clean trees after checkout/index refresh. A second fresh public clone into an NTFS directory with case sensitivity enabled also passed all ten checks and fsck; a probe verified separate check/CHECK files with independent content in an inheriting subdirectory. The probe was removed before clean-tree checks. Logs are in final-9bb8383/.
+
+These records are added in a documentation-only commit after 9bb8383. Actual test inputs, runner, captures and scores are unchanged. The accompanying ZIP checksum/publication report names the final packaging commit. No new model calls were made for this verification-only addition.
