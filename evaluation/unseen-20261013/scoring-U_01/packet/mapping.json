@@ -1,0 +1,102 @@
+{
+  "seed": 3948792715948796105,
+  "questions_sha256": "b229c9fe6ede47b5130eb42bfa66fe9c3bc05ed126a4069d6f2e7b7a1369b2ae",
+  "responses": {
+    "R001": {
+      "arm": "B",
+      "question": "U2"
+    },
+    "R002": {
+      "arm": "A",
+      "question": "U2"
+    },
+    "R003": {
+      "arm": "A",
+      "question": "U6"
+    },
+    "R004": {
+      "arm": "C",
+      "question": "U1"
+    },
+    "R005": {
+      "arm": "C",
+      "question": "U2"
+    },
+    "R006": {
+      "arm": "B",
+      "question": "U6"
+    },
+    "R007": {
+      "arm": "C",
+      "question": "U8"
+    },
+    "R008": {
+      "arm": "A",
+      "question": "U1"
+    },
+    "R009": {
+      "arm": "A",
+      "question": "U7"
+    },
+    "R010": {
+      "arm": "B",
+      "question": "U8"
+    },
+    "R011": {
+      "arm": "C",
+      "question": "U5"
+    },
+    "R012": {
+      "arm": "B",
+      "question": "U1"
+    },
+    "R013": {
+      "arm": "C",
+      "question": "U7"
+    },
+    "R014": {
+      "arm": "B",
+      "question": "U5"
+    },
+    "R015": {
+      "arm": "C",
+      "question": "U6"
+    },
+    "R016": {
+      "arm": "B",
+      "question": "U4"
+    },
+    "R017": {
+      "arm": "B",
+      "question": "U7"
+    },
+    "R018": {
+      "arm": "A",
+      "question": "U3"
+    },
+    "R019": {
+      "arm": "A",
+      "question": "U8"
+    },
+    "R020": {
+      "arm": "C",
+      "question": "U3"
+    },
+    "R021": {
+      "arm": "A",
+      "question": "U4"
+    },
+    "R022": {
+      "arm": "C",
+      "question": "U4"
+    },
+    "R023": {
+      "arm": "B",
+      "question": "U3"
+    },
+    "R024": {
+      "arm": "A",
+      "question": "U5"
+    }
+  }
+}
