@@ -30,3 +30,8 @@ Input: `compression-paradox-release-2026-10-13.zip`, SHA-256 `02d126059be7b9e7df
 - Embedded expected answers in root questions.md; model runner uses question-only files.
 - Default official suite now v2; explicit legacy suite preserves reproduction of all existing Q scores.
 - Added supplied competition spec and requirement check; public repo not yet created, unseen-question and corrected-run checks pending.
+
+## Separate-session author input acceptance
+- Preserved external-questions.json and AUTHORING-NOTE.md byte-for-byte.
+- Validated U1–U8 schema, citations, self-containment, arithmetic and source-policy support; froze source, specialist, rubric and plan hashes.
+- Added prospective ambiguity grading and A/B/C run instructions plus verify_unseen.py. No tested-folder changes or model calls.

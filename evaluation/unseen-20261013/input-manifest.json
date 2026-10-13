@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_INPUTS_NO_MODEL_RUNS",
+  "provenance": "Separate Claude session, as reported in supplied authoring note; same-family AI authorship, not independently verified human/external review.",
+  "baseline_commit": "410885317ab142091f6f60008f5fc4a9e5c082cb",
+  "inputs": {
+    "AUTHORING-NOTE.md": "b59a46a1a00f8bdf940cd824fbb0c62eac86f6c2f2723fd6ef528dca1133cd9b",
+    "external-questions.json": "b229c9fe6ede47b5130eb42bfa66fe9c3bc05ed126a4069d6f2e7b7a1369b2ae",
+    "REVIEW-AND-RUN-PLAN.md": "047b23e9d568e791c7d5dce115a743bdfd050b6453afaf78d7925a288178c011"
+  },
+  "fixture": {
+    "fixture/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "fixture/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "fixture/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "fixture/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "fixture/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "fixture/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163"
+  },
+  "specialist": {
+    "specialist/examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "specialist/identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "specialist/README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "specialist/reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "specialist/reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "specialist/reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "specialist/reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "specialist/reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "specialist/reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163",
+    "specialist/rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7"
+  },
+  "rubric_sha256": "925dee9b17d61cfc21ae30ff5f44a625d85c52f0f32627013131079dc46a8d90",
+  "question_count": 8,
+  "status_by_arm": {
+    "A": "PENDING",
+    "B": "PENDING",
+    "C": "PENDING"
+  }
+}

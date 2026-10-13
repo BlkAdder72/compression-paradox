@@ -163,3 +163,7 @@ Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Un
    - The server-side model revision is not observable, and temperature is not controllable.
    - These are same-day results on a small, near-ceiling benchmark, with no significance claimed.
 6. **Not run:** G1–G4 (`evaluation/challenge/`) remain generated, non-independent and unexecuted. No external author was available, so no independent unseen questions exist.
+
+## Separately authored U1–U8: inputs accepted, execution pending
+
+The user supplied external-questions.json and AUTHORING-NOTE.md from a separate Claude session. Original bytes are preserved under evaluation/unseen-20261013/. Eight standalone questions and cited sections were validated; the specialist was not changed. U6/U8 expose approved-vendor versus authorized-prohibited-vendor ambiguity; the prospective evaluation plan states the scoring treatment before any U-series run. No U-series score or folder advantage is claimed. Provenance is same-family AI authorship reported by the source, not independent human review.

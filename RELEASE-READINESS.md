@@ -6,7 +6,7 @@ Completed: malformed disagreement output replaced by a valid JSON array, origina
 
 Remaining:
 1. Execute and grade corrected v2 A/B, preferably C as well, using REPRODUCE.md. Existing Q-series results apply only to original v1. The correction occurred after the original folder; this is disclosed, not retroactively preregistered.
-2. Obtain separately authored questions from a new source-only Claude session, preserve authorship/context disclosure, commit before testing the frozen folder, and run them. New-session authorship is not independent human or different-model-family authorship. G1–G4 remain unexecuted and non-independent.
+2. Separate-session U1–U8 and the authoring note have now been received, validated and frozen under evaluation/unseen-20261013/. Execute and grade A/B/C under its REVIEW-AND-RUN-PLAN.md; no U-series calls or scores exist yet. New-session authorship is not independent human or different-model-family authorship. G1–G4 remain unexecuted and non-independent.
 3. Create and publish the public GitHub repository, verify signed-out access and the exact tested commit, then submit its link with 2–3 sentences in the competition comments. User confirms repository not yet created. No publication performed.
 4. Confirm Premium/VIP eligibility and submit before the supplied cutoff: Tuesday October 13, 11:59 PM EST. Because the post's EST label is ambiguous in October, target the earlier Eastern local-time cutoff.
 

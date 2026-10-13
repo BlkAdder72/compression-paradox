@@ -1,0 +1,101 @@
+{
+  "provenance": "Generated in a separate Claude session using only the supplied primary documents. Session: a Claude agent session (cloud workspace) on 2026-10-13, configured model identifier 'claude-opus-5-5'; the actual serving model is reported by the environment as Opus 5.5 but cannot be independently verified from inside the session. Materials accessed: one uploaded ZIP archive (claude-question-author-SOURCES-ONLY.zip) containing six UTF-8 Markdown files: 01-expense-policy.md, 02-travel-policy.md, 03-emergency-policy.md, 04-vendor-policy.md, 05-policy-amendments.md, 06-definitions.md. No web browsing, other conversations, project files, existing question sets, model outputs, specialist instructions, or results were consulted. The session environment automatically included a brief account-profile context about the requesting user that is unrelated to Meridian Works; it was not used as source material. Questions, gold answers, and critical requirements were written by the model and checked programmatically and by re-reading the source text within the same session. No human authorship, independent external review, cross-model-family review, model comparison, or grading of responses was performed.",
+  "questions": [
+    {
+      "id": "U1",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. On September 15, 2025, an MW employee wants to buy office equipment as a routine, non-travel, non-emergency purchase from a vendor designated as approved. The quote shows: equipment $2,350.00, sales tax $164.50, delivery fee $40.00. (a) Which approvals are required, and when must they be obtained? (b) Before ordering, the vendor offers a $54.50 discount that applies to the same order, with tax and the delivery fee unchanged. Which approvals are then required?",
+      "gold": "(a) Total transaction amount including tax and fees is $2,350.00 + $164.50 + $40.00 = $2,554.50, which is above the current $2,500 routine threshold, so both manager approval and finance approval are required before purchase (EXP-2; EXP-4; AMD-2). (b) With the $54.50 discount the total is $2,500.00 exactly. 'Or less' is inclusive, so only manager approval is required before purchase; finance approval is not required (EXP-1; EXP-4). The $2,500 threshold applies because the purchase is on or after July 1, 2025 (AMD-2).",
+      "critical_requirements": [
+        "Computes the total including tax and delivery fee as $2,554.50 for part (a) (EXP-4)",
+        "Part (a): requires both manager and finance approval, obtained before purchase (EXP-2)",
+        "Computes the discounted total as exactly $2,500.00 for part (b)",
+        "Part (b): manager approval only, before purchase, because $2,500 is inclusive ('or less') (EXP-1, EXP-4)",
+        "Does not compare the pre-tax equipment price alone against the threshold"
+      ]
+    },
+    {
+      "id": "U2",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. An MW routine, non-travel, non-emergency purchase from a vendor designated as approved was incurred on June 20, 2025. Its total, including all taxes and fees, was $2,300.00. Only the requester's manager approved it in advance; nobody in finance approved it. In an audit conducted in October 2025, the requester argues that the purchase was compliant because the current routine limit is $2,500. (a) Was the advance approval sufficient? (b) Would the answer differ if the identical purchase had been incurred on July 1, 2025?",
+      "gold": "(a) No. For a purchase incurred before July 1, 2025, the historic threshold applies: routine purchases above $2,000 required both manager and finance approval (AMD-1). The $2,500 limit is effective July 1, 2025 and does not apply retroactively (AMD-2), and the Amendments Policy controls which threshold applies to the transaction date (DEF-3). $2,300 is above $2,000, so advance finance approval was also required; manager-only approval was insufficient. The audit date does not change the applicable threshold. (b) Yes. On or after July 1, 2025, a $2,300 routine purchase is $2,500 or less, so manager approval alone before purchase would have been sufficient (EXP-1; AMD-2).",
+      "critical_requirements": [
+        "Applies the historic $2,000 threshold to the June 20, 2025 purchase (AMD-1)",
+        "States the $2,500 limit is not retroactive / the transaction date, not the audit date, controls (AMD-2, DEF-3)",
+        "Concludes manager-only approval was insufficient; advance finance approval was also required for (a)",
+        "For (b), concludes manager approval alone before purchase would suffice on July 1, 2025 (EXP-1, AMD-2)"
+      ]
+    },
+    {
+      "id": "U3",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. In October 2025, the cooling system in an MW server room fails. The facilities director documents that rising temperatures create an immediate operational and safety risk that cannot reasonably await normal approval. Portable cooling units are available from a vendor designated as approved, for a total of $4,800.00 including all taxes and fees. The director's manager is reachable. (a) What approvals and notifications does MW policy require for this purchase, and when? (b) Suppose instead that expedited shipping raises the total, including all taxes and fees, to $5,150.00, with every other fact unchanged. What is then required?",
+      "gold": "(a) The facts meet the DEF-1 definition of a qualifying emergency, the vendor is approved, and the total of $4,800.00 is $5,000 or less, so the emergency exception applies: advance finance approval is waived, but manager approval is still required before proceeding, and finance must be notified within 24 hours after the purchase (EMG-1; DEF-1; DEF-2; EXP-3). The notification is a post-purchase requirement and is not finance approval (DEF-2). (b) At $5,150.00 the total exceeds the $5,000 emergency cap, so the emergency exception does not apply even though the circumstances qualify. Ordinary purchase rules apply: because the amount is above $2,500 (current threshold), both manager and finance approval are required before purchase (EMG-1; EXP-2; EXP-4; AMD-2).",
+      "critical_requirements": [
+        "Part (a): advance finance approval is waived under the emergency exception (EMG-1)",
+        "Part (a): manager approval is still required before proceeding (EMG-1, EXP-3, EMG-3)",
+        "Part (a): finance must be notified within 24 hours after the purchase, and this is not an approval (EMG-1, DEF-2)",
+        "Part (b): recognizes $5,150 exceeds the $5,000 emergency cap, so the exception is unavailable",
+        "Part (b): requires both manager and finance approval before purchase (EXP-2)"
+      ]
+    },
+    {
+      "id": "U4",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. In November 2025, an MW marketing coordinator submits a request labelled \"URGENT\" to buy trade-show booth materials from a vendor designated as approved, for a total of $3,100.00 including all taxes and fees. The request says only that the materials are needed for an event in three days; it contains no other information about any operational or safety risk. The coordinator proposes to get manager approval, place the order immediately, and notify finance the next morning. (a) Does that proposal comply with MW policy on these facts? (b) What would change if additional facts were supplied establishing that the purchase is necessary to address an immediate operational or safety risk that cannot reasonably await normal approval?",
+      "gold": "(a) No. Labelling a request 'urgent' is not sufficient to establish a qualifying emergency (EMG-3; DEF-1), and without evidence that the circumstances meet DEF-1, emergency qualification is not established and ordinary approvals apply (EMG-2). At $3,100.00 (above the current $2,500 threshold), both manager approval and finance approval are required before purchase (EXP-2; AMD-2). Notifying finance after purchase is not finance approval (DEF-2). (b) If facts meeting DEF-1 were supplied, the purchase would qualify for the emergency exception because it is from an approved vendor and totals $5,000 or less: advance finance approval would be waived, manager approval would still be required before proceeding, and finance would have to be notified within 24 hours after purchase (EMG-1). The coordinator's next-morning notice would satisfy the 24-hour requirement only if it actually occurs within 24 hours of the purchase.",
+      "critical_requirements": [
+        "States that the 'urgent' label alone does not establish a qualifying emergency (EMG-3, DEF-1, EMG-2)",
+        "Part (a): requires both manager and finance approval before purchase because $3,100 exceeds $2,500 (EXP-2)",
+        "Part (a): states post-purchase notification is not a substitute for finance approval (DEF-2)",
+        "Part (b): finance advance approval waived but manager approval still required before proceeding (EMG-1)",
+        "Part (b): finance must be notified within 24 hours after purchase (EMG-1)"
+      ]
+    },
+    {
+      "id": "U5",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. In August 2025, an MW team lead wants to buy software training from a vendor that is on MW's prohibited vendor list. The total, including all taxes and fees, is $1,200.00. The purchase is routine and not an emergency. The team lead's manager has approved the purchase in writing, and the finance director has also sent an email saying \"approved from a finance perspective.\" No one else has reviewed it. (a) May the purchase proceed? (b) What, if anything, must be obtained before it can proceed, and is finance approval required?",
+      "gold": "(a) No. A purchase from a prohibited vendor must not proceed without written compliance-officer authorization (VEN-1). Compliance-officer authorization cannot be inferred from manager approval or finance approval (VEN-2), so the existing approvals do not permit it. Vendor restrictions always apply (EXP-3). (b) A specific written authorization from the compliance officer for this transaction is required (VEN-2), in addition to manager approval before purchase, which has been obtained (EXP-1). Finance approval is not required because $1,200.00 is $2,500 or less under the threshold in effect for August 2025 (EXP-1; AMD-2); the finance director's email is neither required nor a substitute for compliance authorization.",
+      "critical_requirements": [
+        "Concludes the purchase may not proceed on the current approvals (VEN-1)",
+        "States that manager and finance approval do not substitute for, and cannot imply, compliance-officer authorization (VEN-2)",
+        "Identifies a specific written compliance-officer authorization for this transaction as the missing requirement (VEN-2)",
+        "States manager approval is still required (and has been obtained); finance approval is not required at $1,200 (EXP-1)"
+      ]
+    },
+    {
+      "id": "U6",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. In February 2026, a water-main break floods an MW warehouse. The operations manager documents that the flooding creates an immediate operational and safety risk that cannot reasonably await normal approval. The only contractor able to start pumping work immediately is on MW's prohibited vendor list and is not designated as an approved vendor. The compliance officer issues a specific written authorization permitting MW to use this contractor for this transaction. The total cost, including all taxes and fees, is $3,900.00. (a) Does the vendor prohibition prevent the purchase? (b) Is manager approval required? (c) Is advance finance approval waived under the Emergency Policy? If the policy text does not settle any point, say so and explain the consequence of each reading.",
+      "gold": "(a) No. The compliance officer's specific written authorization permits use of the otherwise prohibited vendor for this transaction (VEN-1; VEN-2). (b) Yes. Manager approval is required before proceeding; neither the emergency nor the vendor authorization waives it (EXP-3; EMG-1; EMG-3). (c) The policy text is genuinely ambiguous. EMG-1 makes the finance-approval waiver available only for a qualifying emergency purchase 'from an approved vendor', and under VEN-3 a vendor is approved only if the facts designate it approved, which these facts do not. EMG-2, however, says the exception does not apply to a prohibited vendor 'unless the vendor has received written compliance-officer authorization under VEN-2', which implies an authorized prohibited vendor can use the exception. Under the EMG-1/VEN-3 reading the waiver is unavailable, so ordinary rules apply and advance finance approval is required because $3,900.00 exceeds $2,500 (EXP-2; AMD-2). Under the EMG-2 reading, advance finance approval is waived, but finance must be notified within 24 hours after purchase (EMG-1; DEF-2). The emergency itself qualifies under DEF-1 and the $3,900.00 total is within the $5,000 cap, so vendor status is the only open question. The prudent course pending clarification is to obtain advance finance approval if feasible.",
+      "critical_requirements": [
+        "States the written compliance-officer authorization removes the vendor prohibition for this transaction (VEN-2)",
+        "States manager approval is required before proceeding regardless (EMG-1, EMG-3, EXP-3)",
+        "Explicitly identifies the conflict between EMG-1's 'approved vendor' requirement (with VEN-3) and EMG-2's implication that an authorized prohibited vendor may use the exception",
+        "Gives the consequence of the restrictive reading: advance finance approval required because $3,900 exceeds $2,500 (EXP-2)",
+        "Gives the consequence of the permissive reading: finance approval waived but finance notified within 24 hours after purchase (EMG-1)",
+        "Does not present either reading as definitively settled by the text"
+      ]
+    },
+    {
+      "id": "U7",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. On October 6, 2025, an MW employee books a routine (non-emergency) business-class airfare from an airline designated as an approved vendor. The ticket price is $2,430.00 base fare plus $270.00 in taxes and carrier fees. Before booking, the employee obtained advance travel-office approval and manager approval, but no finance approval. (a) Was the booking compliant? Identify every required approval. (b) Separately, consider a different routine economy airfare booked on the same date from the same airline: base fare $742.50 plus $57.50 in taxes and fees. Which approvals are required for that ticket?",
+      "gold": "(a) No. The total including taxes and fees is $2,700.00 (EXP-4). Airfare is subject both to the Travel Policy and to the Expense Policy purchase threshold (EXP-3; TRV-2). Because $2,700.00 is above $800, advance travel-office approval is required (TRV-1), and because it is above $2,500 (the threshold in effect on and after July 1, 2025; AMD-2), both manager and finance approval are required before purchase (EXP-2). Travel-office approval never replaces finance approval (TRV-2), so the missing finance approval made the booking non-compliant. Required approvals: travel office (advance), manager (before purchase), finance (before purchase). (b) The total is exactly $800.00. Amounts of $800 or less do not require travel-office approval (TRV-1; EXP-4). At $800.00, which is $2,500 or less, manager approval before purchase is required and finance approval is not (EXP-1; EXP-3; TRV-2).",
+      "critical_requirements": [
+        "Part (a): computes total of $2,700 including taxes and fees, which exceeds $2,500 even though the base fare does not (EXP-4)",
+        "Part (a): identifies all three required approvals: advance travel-office, manager, and finance (TRV-1, EXP-2, EXP-3)",
+        "Part (a): states travel-office approval does not replace finance approval and the booking was non-compliant (TRV-2)",
+        "Part (b): computes total of exactly $800.00 and concludes no travel-office approval is required (TRV-1)",
+        "Part (b): manager approval only; no finance approval (EXP-1)"
+      ]
+    },
+    {
+      "id": "U8",
+      "prompt": "Answer using only the Meridian Works (MW) policy documents (Expense, Travel, Emergency, Vendor, Policy Amendments, and Definitions). Cite the controlling section identifiers. In November 2025, equipment failure at a remote MW plant creates an immediate safety risk that cannot reasonably await normal approval, and a qualified MW engineer must fly there today. The airfare totals $3,200.00 including all taxes and fees. The engineer's manager approved the booking in advance. No travel-office or finance approval has been obtained. The transaction record does not state whether the airline is an approved vendor, a prohibited vendor, or neither. What approvals and notifications are required before and after booking? Where the answer depends on facts not given, state each alternative outcome.",
+      "gold": "Regardless of vendor status: manager approval before proceeding is required and has been obtained (EMG-1; EXP-3); advance travel-office approval is required because the airfare exceeds $800, and the emergency exception does not waive it (TRV-1; EMG-1); travel-office approval does not replace any other required approval (TRV-2). The circumstances meet DEF-1 and the total is within the $5,000 cap, but finance treatment depends on the unstated vendor status: (1) If the airline is designated an approved vendor, advance finance approval is waived under EMG-1, and finance must be notified within 24 hours after purchase (EMG-1; DEF-2). (2) If the airline is not designated approved and not prohibited (or its status remains unknown), the emergency exception's approved-vendor condition is not met (EMG-1; VEN-3), so ordinary rules apply and advance finance approval is required because $3,200.00 exceeds $2,500 (EXP-2; EXP-3; TRV-2; AMD-2). (3) If the airline is prohibited, the booking must not proceed without specific written compliance-officer authorization (VEN-1; VEN-2; EMG-3); emergency status does not change this. If such authorization is obtained, whether the finance waiver is available is ambiguous (EMG-1's approved-vendor requirement versus EMG-2's reference to authorized prohibited vendors); if the waiver is unavailable, advance finance approval is required (EXP-2).",
+      "critical_requirements": [
+        "States advance travel-office approval is required because the fare exceeds $800 and the emergency does not waive it (TRV-1, EMG-1)",
+        "States manager approval is required before proceeding (and was obtained) (EMG-1)",
+        "Treats finance requirements as conditional on the unstated vendor status rather than assuming it",
+        "If approved vendor: advance finance approval waived and finance notified within 24 hours after purchase (EMG-1)",
+        "If not designated approved / status unknown: emergency exception not available; advance finance approval required since $3,200 exceeds $2,500 (EXP-2, VEN-3)",
+        "If prohibited: cannot proceed without specific written compliance-officer authorization; emergency does not override (VEN-1, VEN-2)"
+      ]
+    }
+  ]
+}
