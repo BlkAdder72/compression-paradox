@@ -18,7 +18,7 @@ Per question (capped totals):
 
 - **The official result reproduced.** B vs A: 8 wins, 0 ties, 0 losses, identical to the original. Every question score matches the original run.
 - **Same caveat as the original.** A has no policy text and B does. This difference confirms that supplying sources plus structure helps. On its own, it does not isolate the value of the folder's structure (see the source-only arm C in `RESULTS.md`).
-- **A behaviour.** Every A response said it lacked the Meridian Works policy and invented no thresholds (7 of 8 marked transparent uncertainty). On Q7, A again reasoned conditionally that "urgent" alone probably would not qualify, which earned partial credit (capped 4). This is the same pattern and the same judgement call as A2.
+- **A behaviour.** Every A response said it lacked the Meridian Works policy and invented no thresholds (all 8 marked transparent uncertainty). On Q7, A again reasoned conditionally that "urgent" alone probably would not qualify, which earned partial credit (capped 4). This is the same pattern and the same judgement call as A2.
 - **B behaviour.** All 8 answers were fully correct and cited real section IDs. No omissions, regressions or false authorizations.
 
 ## Secondary metrics (measured from captures)
