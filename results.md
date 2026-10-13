@@ -96,7 +96,7 @@ This lowercase `results.md` is the exact competition-required report path. The l
 
 ## Repair audit and imported A/B reproduction (2026-10-13)
 
-This repair performed offline integrity and arithmetic checks, not fresh Claude calls or independent grading. The uploaded archive already contained A_REPRO_1/B_REPRO_1. Their raw captures, manifests and scorer files support the recorded totals below; provider authenticity and assessor independence have not been externally verified. `REPRODUCTION-RESULTS.md` contains the imported report with repair clarifications.
+This repair performed offline integrity and arithmetic checks, not fresh Claude calls or independent grading. The uploaded archive already contained A_REPRO_1/B_REPRO_1. Their raw captures, manifests and scorer files support the recorded totals below; provider authenticity and assessor independence have not been externally verified. `history/REPRODUCTION-RESULTS-repair-annotated.md` contains the imported report with repair clarifications.
 
 | Evidence | A total /80 | B total /80 | B wins / ties / losses |
 |---|---:|---:|---|

@@ -13,6 +13,7 @@ check(all((ROOT/p).is_file() for p in ['README.md','questions.md','results.md','
 tracked = git('ls-files').splitlines()
 check('results.md' in tracked and 'RESULTS.md' not in tracked, 'exact lowercase root results.md tracked without uppercase collision')
 check(len(tracked) == len({p.casefold() for p in tracked}), 'tracked paths have no case-insensitive collisions')
+check([p for p in tracked if '/' not in p and 'results' in p.casefold()] == ['results.md'], 'results.md is the only root results report (others live under history/)')
 check((ROOT/'history/RESULTS-original.md').read_bytes() == subprocess.check_output(['git','show','4392931:RESULTS.md'],cwd=ROOT), 'historical uppercase report bytes preserved')
 check(len(list((ROOT/'specialist/reference').glob('*.md')))==6, 'reference corpus present')
 check('df36e7d' in git('log','--oneline'), 'original preregistration commit still in history')

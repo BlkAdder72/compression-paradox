@@ -1,4 +1,4 @@
-> Repair clarification (2026-10-13): This is an imported earlier-run report, not a run executed in the current repair. Score arithmetic and capture structure were rechecked; provider provenance and assessor independence were not independently established. The Windows hazards described at the end are historical and are fixed in the release. Original bytes are preserved at `history/REPRODUCTION-RESULTS-original.md`.
+> Repair clarification (2026-10-13): This is an imported earlier-run report, not a run executed in the current repair. Score arithmetic and capture structure were rechecked; provider provenance and assessor independence were not independently established. The Windows hazards described at the end are historical and are fixed in the release. Original bytes are preserved at `history/REPRODUCTION-RESULTS-original.md`. (2026-10-13 verification: moved from the repository root so that `results.md` is the only root results report; a mechanical RESULTS→results rename that had garbled item 5(b) was reverted for that sentence.)
 
 # Reproduction results — official A/B rerun (A_REPRO_1, B_REPRO_1)
 
@@ -47,4 +47,4 @@ Per question (capped totals):
    - One run per arm.
 5. **Fresh-clone hazards found (Windows).**
    - (a) The system Git config sets `core.autocrlf=true`, which rewrites prompts and policy files to CRLF on clone. The run used `git clone -c core.autocrlf=false`. `REPRODUCE.md` should say so.
-   - (b) The repository tracks both `results.md` and `results.md`. On case-insensitive filesystems only one is checked out, so `git status` is never clean and `verify_submission.py`'s clean-tree check fails. For this reason these results are recorded in this separate file rather than in either `results.md` or `results.md`.
+   - (b) The repository tracked both `RESULTS.md` and `results.md`. On case-insensitive filesystems only one is checked out, so `git status` is never clean and `verify_submission.py`'s clean-tree check fails. For this reason these results are recorded in this separate file rather than in either `RESULTS.md` or `results.md`.
