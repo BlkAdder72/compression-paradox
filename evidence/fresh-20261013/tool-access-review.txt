@@ -1,0 +1,3522 @@
+[
+  {
+    "run_id": "A_FRESH_20261013_01",
+    "arm": "A",
+    "suite": "official",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "Q1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 20633,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q1\\memory",
+            "pattern": "*",
+            "result_head": "No files found"
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 13386,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q2\\memory",
+            "pattern": "*",
+            "result_head": "No files found"
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 12449,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q3\\memory",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14303,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 10467,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q5\\memory",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          }
+        ],
+        "denials": []
+      },
+      "Q6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 11276,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q6\\memory",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          }
+        ],
+        "denials": []
+      },
+      "Q7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14561,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Grep",
+            "target": "C:\\paradox-sessions-20261013",
+            "pattern": "Meridian",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013, but you haven't granted it yet."
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          },
+          {
+            "tool": "Grep",
+            "input": {
+              "pattern": "Meridian",
+              "path": "C:\\paradox-sessions-20261013"
+            }
+          }
+        ]
+      },
+      "Q8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16856,
+        "reads": [],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "No files found"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\A_FRESH_20261013_01, but you haven't granted it yet."
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\A_FRESH_20261013_01"
+            }
+          }
+        ]
+      }
+    },
+    "violations": [],
+    "notes": [
+      "Q1: Glob outside session permitted but returned nothing: C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q1\\memory",
+      "Q2: Glob outside session permitted but returned nothing: C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q2\\memory",
+      "Q3: Glob outside session permitted but returned nothing: C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q3\\memory",
+      "Q5: Glob outside session permitted but returned nothing: C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q5\\memory",
+      "Q6: Glob outside session permitted but returned nothing: C:\\Users\\mmazu\\.claude\\projects\\C--paradox-sessions-20261013-A-FRESH-20261013-01-Q6\\memory"
+    ],
+    "verdict": "CLEAN"
+  },
+  {
+    "run_id": "B_FRESH_20261013_01",
+    "arm": "B",
+    "suite": "official",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "Q1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19154,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q1\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 18209,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "reference/04-vendor-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q2\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "Q3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 20008,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q3\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19988,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "examples.md",
+          "identity.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01",
+            "pattern": "**/*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\B_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q4\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "**/*",
+              "path": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19839,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "examples.md\nREADME.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q5\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16043,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q6\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 22387,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q7\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 20308,
+        "reads": [
+          "readme.md",
+          "rules.md",
+          "identity.md",
+          "examples.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nexamples.md\nidentity.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nre"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works Policy Specialist \u2014 start here\n2\t\n3\tThis folder answers questions about the fictional **Meridian Works (MW)** purchasing policies.\n4\tThe prim"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\rules.md",
+            "pattern": null,
+            "result_head": "1\t# Working rules (mandatory)\n2\t\n3\t1. **Read the primary text.** Before answering, open the relevant files in `reference/` using the navigation index in `README"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\identity.md",
+            "pattern": null,
+            "result_head": "1\t# Identity\n2\t\n3\tYou are the Meridian Works Policy Specialist. You answer questions about the fictional Meridian Works purchasing, travel, emergency and vendor"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\examples.md",
+            "pattern": null,
+            "result_head": "1\t# Worked examples (illustrative facts \u2014 not the evaluation questions)\n2\t\n3\tThese examples show the *procedure*. Always re-read the cited sections for the actu"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\B_FRESH_20261013_01\\Q8\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      }
+    },
+    "violations": [],
+    "notes": [],
+    "verdict": "CLEAN"
+  },
+  {
+    "run_id": "C_FRESH_20261013_01",
+    "arm": "C",
+    "suite": "official",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "Q1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16082,
+        "reads": [
+          "01-expense-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md",
+          "04-vendor-policy.md",
+          "03-emergency-policy.md",
+          "02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q1\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "Q2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14674,
+        "reads": [
+          "01-expense-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md",
+          "04-vendor-policy.md",
+          "03-emergency-policy.md",
+          "02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q2\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "Q3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14463,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q3\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17575,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Glob",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01",
+            "pattern": "*",
+            "result_head": "Claude requested permissions to read from C:\\paradox-sessions-20261013\\C_FRESH_20261013_01, but you haven't granted it yet."
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q4\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": [
+          {
+            "tool": "Glob",
+            "input": {
+              "pattern": "*",
+              "path": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01"
+            }
+          }
+        ]
+      },
+      "Q5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16464,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q5\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 15037,
+        "reads": [
+          "01-expense-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q6\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "Q7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16876,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q7\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "Q8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16171,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\C_FRESH_20261013_01\\Q8\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      }
+    },
+    "violations": [],
+    "notes": [],
+    "verdict": "CLEAN"
+  },
+  {
+    "run_id": "CH_FRESH_01",
+    "arm": "C",
+    "suite": "holdout",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "H1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16788,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H1\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16081,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H2\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 15778,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H3\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 15674,
+        "reads": [
+          "01-expense-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H4\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          }
+        ],
+        "denials": []
+      },
+      "H5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14907,
+        "reads": [
+          "01-expense-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md",
+          "04-vendor-policy.md",
+          "03-emergency-policy.md",
+          "02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H5\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "H6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17021,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H6\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16311,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H7\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16699,
+        "reads": [
+          "01-expense-policy.md",
+          "02-travel-policy.md",
+          "03-emergency-policy.md",
+          "04-vendor-policy.md",
+          "05-policy-amendments.md",
+          "06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "01-expense-policy.md\n02-travel-policy.md\n03-emergency-policy.md\n04-vendor-policy.md\n05-policy-amendments.md\n06-definitions.md"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\CH_FRESH_01\\H8\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      }
+    },
+    "violations": [],
+    "notes": [],
+    "verdict": "CLEAN"
+  },
+  {
+    "run_id": "DH_FRESH_01",
+    "arm": "D",
+    "suite": "holdout",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "H1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19015,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nSUMMARY.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H1\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17975,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H2\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19985,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nSUMMARY.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H3\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16095,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "reference/04-vendor-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H4\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          }
+        ],
+        "denials": []
+      },
+      "H5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 18298,
+        "reads": [
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "readme.md",
+          "summary.md",
+          "reference/04-vendor-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H5\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          }
+        ],
+        "denials": []
+      },
+      "H6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17857,
+        "reads": [
+          "reference/01-expense-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "reference/04-vendor-policy.md",
+          "reference/02-travel-policy.md",
+          "readme.md",
+          "summary.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H6\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          }
+        ],
+        "denials": []
+      },
+      "H7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17504,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H7\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 18744,
+        "reads": [
+          "readme.md",
+          "summary.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nSUMMARY.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-po"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant D \u2014 Aggressively compressed specialist\n2\t\n3\tUse SUMMARY.md as the quick operating guide. Original policy documents are available in reference/ for v"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\SUMMARY.md",
+            "pattern": null,
+            "result_head": "1\t# Meridian Works: short purchasing guide (lossy by design)\n2\t\n3\t- Up to $2,500 in routine spending: manager; above $2,500: manager plus finance.\n4\t- Emergenci"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\DH_FRESH_01\\H8\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      }
+    },
+    "violations": [],
+    "notes": [],
+    "verdict": "CLEAN"
+  },
+  {
+    "run_id": "EH_FRESH_01",
+    "arm": "E",
+    "suite": "holdout",
+    "status": "COMPLETE_UNGRADED",
+    "commit": "9e79e0e981bb739c53b44c996cd0eca61782b1db",
+    "cli_version": "2.1.288 (Claude Code)",
+    "model_requested": "claude-opus-5-5",
+    "checksums_ok": true,
+    "sessions": {
+      "H1": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 19195,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H1\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H2": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 18549,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H2\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H3": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 17398,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H3\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H4": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 14883,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "reference/04-vendor-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H4\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "H5": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 16138,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md",
+          "reference/04-vendor-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/02-travel-policy.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H5\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          }
+        ],
+        "denials": []
+      },
+      "H6": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 15905,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H6\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H7": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 20492,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H7\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      },
+      "H8": {
+        "exit": 0,
+        "init_model": "claude-opus-5-5",
+        "assistant_models": [
+          "claude-opus-5-5"
+        ],
+        "tools_available": [
+          "Glob",
+          "Grep",
+          "Read"
+        ],
+        "mcp_servers": [],
+        "permission_mode": "default",
+        "duration_ms": 21207,
+        "reads": [
+          "readme.md",
+          "reference/01-expense-policy.md",
+          "reference/02-travel-policy.md",
+          "reference/03-emergency-policy.md",
+          "reference/04-vendor-policy.md",
+          "reference/05-policy-amendments.md",
+          "reference/06-definitions.md"
+        ],
+        "tool_calls": [
+          {
+            "tool": "Glob",
+            "target": "",
+            "pattern": "**/*",
+            "result_head": "README.md\nreference\\01-expense-policy.md\nreference\\02-travel-policy.md\nreference\\03-emergency-policy.md\nreference\\04-vendor-policy.md\nreference\\05-policy-amendm"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\README.md",
+            "pattern": null,
+            "result_head": "1\t# Variant E \u2014 Minimal index-first specialist\n2\t\n3\tThe index below identifies relevant sections only. It is **not** a substitute for the text in reference/.\n4\t"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\01-expense-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Expense Policy \u2014 Fictional Meridian Works (MW)\n2\tFixture version: 1.0. All rules in this repository are fictional. The text is authoritative for the exercis"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\02-travel-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Travel Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## TRV-1 Airfare authorization\n4\tAirfare purchases above $800 require **advance travel-office approval**,"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\03-emergency-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Emergency Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## EMG-1 Narrow exception\n4\tFor a **qualifying emergency** purchase totaling **$5,000 or less** from a"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\04-vendor-policy.md",
+            "pattern": null,
+            "result_head": "1\t# Vendor Policy \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## VEN-1 Prohibited vendors\n4\tA purchase from a prohibited vendor **must not proceed** without written co"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\05-policy-amendments.md",
+            "pattern": null,
+            "result_head": "1\t# Policy Amendments \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## AMD-1 Historic purchasing limit\n4\tBefore July 1, 2025, routine purchases of **$2,000 or less** req"
+          },
+          {
+            "tool": "Read",
+            "target": "C:\\paradox-sessions-20261013\\EH_FRESH_01\\H8\\reference\\06-definitions.md",
+            "pattern": null,
+            "result_head": "1\t# Definitions \u2014 Fictional Meridian Works (MW)\n2\t\n3\t## DEF-1 Qualifying emergency\n4\tA qualifying emergency is a purchase necessary to address an **immediate op"
+          }
+        ],
+        "denials": []
+      }
+    },
+    "violations": [],
+    "notes": [],
+    "verdict": "CLEAN"
+  }
+]
+# A_FRESH_20261013_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=7 violations=0 notes=5
+# B_FRESH_20261013_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=1 violations=0 notes=0
+# C_FRESH_20261013_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=1 violations=0 notes=0
+# CH_FRESH_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=0 violations=0 notes=0
+# DH_FRESH_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=0 violations=0 notes=0
+# EH_FRESH_01: CLEAN status=COMPLETE_UNGRADED cli=2.1.288 (Claude Code) sessions=8 denials=0 violations=0 notes=0

@@ -1,0 +1,26 @@
+== 2026-10-13T19:12:33Z start A_FRESH_20261013_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:34Z end A_FRESH_20261013_01 rc=2
+== 2026-10-13T19:12:34Z start B_FRESH_20261013_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:34Z end B_FRESH_20261013_01 rc=2
+== 2026-10-13T19:12:34Z start C_FRESH_20261013_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:35Z end C_FRESH_20261013_01 rc=2
+== 2026-10-13T19:12:35Z start CH_FRESH_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:35Z end CH_FRESH_01 rc=2
+== 2026-10-13T19:12:35Z start DH_FRESH_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:36Z end DH_FRESH_01 rc=2
+== 2026-10-13T19:12:36Z start EH_FRESH_01
+                     [--model MODEL] [--timeout TIMEOUT] [--dry-run]
+run_trials.py: error: Claude CLI unavailable; no model execution performed
+== 2026-10-13T19:12:36Z end EH_FRESH_01 rc=2
+
+[exited with code 0]
