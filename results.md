@@ -102,10 +102,62 @@ This repair performed offline integrity and arithmetic checks, not fresh Claude 
 |---|---:|---:|---|
 | Original A2/B1 | 11 | 80 | 8 / 0 / 0 |
 | Imported A_REPRO_1/B_REPRO_1 | 11 | 80 | 8 / 0 / 0 |
-| New execution during this repair | PENDING | PENDING | Not measured |
+| New execution during this repair | PENDING | PENDING | Not measured (superseded: see "Fresh verification runs" below) |
 
 The imported rerun matches all original per-question scores. Recomputed mean duration: A 12.919625 seconds; B 26.106875 seconds. This is evidence from the supplied archive, not an independent clean-machine reproduction. Source availability still confounds A/B; B/C operational correctness remains tied in the original comparison.
 
 `python scripts/audit_evidence.py` verifies stored score arithmetic, eight completed result records per scored arm/run, and 238 existing checksum entries. It does not regrade answers or prove that the provider generated them. All original raw files, including failed and excluded attempts, remain unchanged. Historical assessor descriptions are reported claims, not independently established external review.
 
-Fresh A/B and H-series tests: PENDING because no accessible Claude CLI was found in this environment and browser access failed. External unseen author: NOT AVAILABLE. The G-series kit in `evaluation/challenge/` is generated, unexecuted, and explicitly NOT independent. No Git remote or actual public repository URL was present, so public GitHub access and publication are UNVERIFIED. Competition rule source and exact deadline/timezone were not supplied; full external rule compliance cannot be certified from package structure alone. See `RELEASE-READINESS.md`.
+At the time of that repair, fresh A/B and H-series tests were PENDING because no accessible Claude CLI was found in that environment; they were executed later the same day (next section). External unseen author: NOT AVAILABLE. The G-series kit in `evaluation/challenge/` is generated, unexecuted, and explicitly NOT independent. No Git remote or actual public repository URL was present, so public GitHub access and publication are UNVERIFIED. Competition rule source and exact deadline/timezone were not supplied; full external rule compliance cannot be certified from package structure alone. See `RELEASE-READINESS.md`.
+
+## Fresh verification runs (executed 2026-10-13)
+
+**New runs, distinct from the imported A_REPRO_1/B_REPRO_1 records. Six runs at revision `9e79e0e` · Claude Code CLI 2.1.288 · actual model `claude-opus-5-5` in all 48 sessions · `scripts/run_trials.py` from a fresh clone · pre-registered in `evaluation/fresh-20261013/PLAN.md` before any call · raw evidence committed (`64b3ca9`) before scoring.** Run record: `evidence/fresh-20261013/RUN-RECORD.md`. Scoring: `evaluation/fresh-20261013/` (two blinded assessors per set, adjudication, `summary.json`).
+
+### Official Q1–Q8 (A/B/C)
+| Arm | Run | Score /80 | Strict-evidence /80 | Correct conclusions | False authorizations | Mean wall time |
+|---|---|---|---|---|---|---|
+| A — no folder | A_FRESH_20261013_01 | **16** | 16 | 0 fully correct (Q4 partial, 2/4 conclusion) | 0 | 14.2 s |
+| B — specialist folder | B_FRESH_20261013_01 | **80** | 80 | 8 / 8 | 0 | 19.5 s |
+| C — source only | C_FRESH_20261013_01 | **80** | 80 | 8 / 8 | 0 | 15.9 s |
+
+| | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
+|---|---|---|---|---|---|---|---|---|
+| A | 1 | 1 | 1 | 4 | 1 | 1 | 4 | 3 |
+| B | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+| C | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+
+- **B vs A: 8 wins, 0 ties, 0 losses. C vs A: 8 / 0 / 0. B vs C: 0 / 8 / 0.**
+- The official A/B comparison is **confounded**: B has the policy text and A does not, so it does not isolate the folder's architecture. The architecture test is B vs C. In this fresh run B and C tie on every question, and the original run's +2 B advantage did not recur, because C now cited section IDs. This run therefore shows **no measurable benefit from the specialist structure beyond supplying the sources**.
+- **A behaviour:** all 8 responses said the policy was unavailable and invented no thresholds (transparent uncertainty 8/8).
+  - On Q4, Q7 and Q8, A reasoned conditionally and earned partial credit.
+  - Q8 lost the unsupported-claims point: it floated a backup approver or after-the-fact approval as "most likely", which contradicts the policy's pre-purchase manager approval.
+  - A scored 16 here versus 11 in A2 and A_REPRO_1, a run-to-run difference in how far the model reasons without sources.
+- **Critical omissions:** A, on every question. B and C: none.
+- **Benchmark design note (disclosed, unchanged):** Q4 says "The same facts as Q3 apply", but each question runs in an independent session. In this run one B and one C answer remarked that they could not see Q3's facts, yet both answered correctly. Q4 depends on context the session does not supply.
+
+### H-series H1–H8 (C/D/E; post-analysis questions, not independent holdouts)
+| Arm | Run | Score /80 | Strict-evidence /80 | Correct conclusions | False authorizations | Critical omissions | Mean wall time |
+|---|---|---|---|---|---|---|---|
+| C — source only | CH_FRESH_01 | **80** | 80 | 8 / 8 | 0 | 0 | 16.2 s |
+| D — aggressive summary | DH_FRESH_01 | **80** | 79 | 8 / 8 | 0 | 0 | 18.2 s |
+| E — index first | EH_FRESH_01 | **80** | 80 | 8 / 8 | 0 | 0 | 18.0 s |
+
+Every question scored 10 in every arm. **C vs D, C vs E, D vs E: 0 / 8 / 0.** Under the strict evidence reading, D H1 drops to 9: it cited mostly `file:line`, and its only section ID was DEF-1, which is real but not a controlling section for H1. Every D session again read the full sources as well as SUMMARY.md, and five D answers explicitly flagged the summary's omissions. The aggressive summary therefore again did not cause a missed condition. Combined with the three Stage 4 runs, the pre-registered E-over-D hypothesis remains **not supported** on condition coverage.
+
+### Contamination review, provenance and disclosures
+1. **Tool access:** all six runs were CLEAN under the pre-registered review (`evidence/fresh-20261013/tool-access-review.txt`). No read outside the session or off the arm allowlist occurred, and no outside search returned content. Session folders held exactly the allowlisted files (`session-workspace-listing.txt`).
+   - A had 7 denied attempts to search its parent folders; B and C had 1 each. All were blocked.
+   - Five A sessions globbed Claude Code's own per-session auto-memory folder. It was permitted, every one returned "No files found", and no content was obtained.
+2. **Unsuccessful attempt:** the first launch was rejected by the runner before any session started, because native Python cannot see the MSIX-virtualized CLI path. No call was made and the log is retained. The runs used the identical binary (same SHA-256) at its real path.
+3. **Assessors:** four assessor subagents, two per packet, each reading only its blinded packet.
+   - **Conflict:** they are the same model family as the tested model and as the orchestrating agent. They are not independent humans.
+   - **Agreement:** the assessors agreed on 47 of 48 items. The one disagreement (A Q8, unsupported point) was adjudicated with a written reason. Assessor totals were official 177/176 and H 240/240.
+   - **Evidence item:** the ambiguous evidence item was resolved in the plan before scoring. Primary means any real section ID used correctly; strict means a key-listed ID only. Both totals are reported.
+4. **Recognisable arms:** A responses are recognisable by content, and several name their `A_FRESH…` folder. Five D responses name `SUMMARY.md`, and one B response cites `examples.md`. Responses were not edited.
+5. **Limits:**
+   - One round per arm in a fixed order (A, B, C, then C, D, E), so not counterbalanced.
+   - Same machine and account, and user-level Claude Code configuration was inherited.
+   - The server-side model revision is not observable, and temperature is not controllable.
+   - These are same-day results on a small, near-ceiling benchmark, with no significance claimed.
+6. **Not run:** G1–G4 (`evaluation/challenge/`) remain generated, non-independent and unexecuted. No external author was available, so no independent unseen questions exist.

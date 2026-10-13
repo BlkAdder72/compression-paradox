@@ -1,18 +1,27 @@
-# Release readiness — 2026-10-13
+# Release readiness — updated 2026-10-13 (verification pass)
 
-Verdict: repaired local package ready for review and authenticated testing; NOT certified as a fully verified public competition submission.
+Verdict: **locally verified research package with fresh model evidence; NOT certified as a submitted public competition entry.** Two external gates remain open (rules/deadline source, public repository). See `HANDOFF-TO-CODEX.md`.
 
-## Completed locally
+## Completed in the verification pass
+- **Fresh Claude tests: DONE.** Six new runs (A/B/C official and C/D/E H-series) at `9e79e0e`, 48/48 sessions on CLI 2.1.288 with actual model `claude-opus-5-5`. All runs were clean under the pre-registered tool-access review, and evidence was committed before scoring. Two blinded assessors per set scored them, with one adjudicated item. Results are in `results.md`, under "Fresh verification runs". The rejected pre-execution attempt is retained.
+- **Offline gates, regression tests and `git fsck --full`:** pass on the received release, on fresh clones (default `autocrlf=true` and documented `autocrlf=false`) and in a genuinely case-sensitive directory (NTFS per-directory case sensitivity). Logs are in `verification/2026-10-13/`.
+- **Defects fixed** (one at a time, retested after each):
+  - (1) A second root results report was moved to `history/`, with a guard added to `verify_submission.py`.
+  - (2) A stale `RESULTS.md` pointer in the Stage 3 README was corrected.
+  - (3) The undocumented MSIX CLI-path failure is now documented in `REPRODUCE.md`.
+  - (4) A garbled sentence from the earlier mechanical rename was fixed in the moved report.
 
-One lowercase root report; historical originals and supplied Git history retained; raw evidence preserved; score arithmetic/checksum audit; corrected documentation; portable no-overwrite test kit; explicit generated-question provenance and external-author protocol. See the accompanying release verification report for tests and their limits.
-
-## Hard blockers to the requested fully verified state
-
-1. **Fresh Claude tests PENDING.** No Claude executable found on PATH or in the checked standard user locations. Browser access failed loading its request-header policy. No authenticated Claude execution was accessible through exposed tools. A_REPRO_1/B_REPRO_1 are earlier imported records. Execute and grade the A/B/C and H-series commands in `REPRODUCE.md` with real access.
-2. **Independent unseen question PENDING.** No genuinely external author is accessible in this session. G1-G4 are generated after repository review, NOT independent, and have no model responses. Follow `evaluation/challenge/PROTOCOL.md` to obtain and freeze external questions before testing.
-3. **Public GitHub accessibility UNVERIFIED.** No remote or actual public GitHub URL is present. No push, publication or public availability claimed. Check the actual URL signed out and verify its published commit matches the release.
-4. **Official rules/deadline verification PENDING.** No authoritative rules URL or exact deadline/timezone is included. The user identifies tonight's deadline; no invented cutoff is used. Local structure follows the supplied root-report and specialist-component requirements; full external compliance cannot be certified without actual rules.
+## Open blockers
+1. **Independent unseen questions: PENDING (no external author available).** No genuinely external author was accessible; a fresh subagent does not qualify. G1–G4 remain generated, non-independent and unexecuted. Follow `evaluation/challenge/PROTOCOL.md` when an external author is available.
+2. **Official rules and deadline: PENDING.** No authoritative Competition #14 rules URL, requirement text or deadline/timezone could be identified from the repository, local files or web search. The user must supply the link. No requirement or deadline is assumed.
+3. **Public GitHub: UNVERIFIED / not published.**
+   - No Git remote is configured, and no `gh` CLI or GitHub authentication is available.
+   - Unauthenticated GitHub commit search for `df36e7d`, `4392931` and `c12af4a` returned 0 results. The search index is not exhaustive.
+   - Nothing was pushed. Publication requires the user's explicit authorization and repository URL.
 
 ## Scientific limits retained
-
-A/B confounds source availability with architecture. Original B/C operational correctness is tied; +2 points concern citation format. H-series is post-analysis, with ceiling effects and two scored repetitions. Imported scores use same-family assessor judgments without second-assessor adjudication. Provider authenticity and server revision are not independently established. Failed/excluded raw attempts are retained.
+- A/B confounds source availability with architecture. Fresh B vs C is 0/8/0.
+- The H-series are post-analysis questions, with ceiling effects. There are now four scored H rounds.
+- Assessors are the same model family as the tested model. Provider authenticity and server revision are not independently established.
+- Each set was run as one round in a fixed order.
+- Failed and excluded raw attempts are retained.

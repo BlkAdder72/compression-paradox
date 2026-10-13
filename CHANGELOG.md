@@ -10,3 +10,16 @@ Input: latest `compression-paradox.zip` attachment exposed by the referenced cha
 6. Rewrote prerequisites, core.autocrlf guidance, fresh-run commands and limits.
 
 See the accompanying verification report for executed checkout, history, script, evidence and ZIP checks. See `RELEASE-READINESS.md` for unresolved external gates.
+
+# Verification pass — 2026-10-13 (Claude Code)
+
+Input: `compression-paradox-release-2026-10-13.zip`, SHA-256 `02d126059be7b9e7df05f8215bf898254d41996117f0dcc9da9cda8e2c5f8b58`, HEAD `c12af4a`. History is preserved, with nothing rewritten or overwritten.
+
+1. `02bb445`: fix, `results.md` is the only root results report. The annotated A_REPRO_1/B_REPRO_1 report moved to `history/`, and a guard was added to `verify_submission.py`.
+2. `7122334`: docs, the Stage 3 README points to `results.md`.
+3. `9e79e0e`: pre-registration of fresh runs (IDs, order, contamination review, frozen scoring), plus `evidence/** -text`.
+4. `c810226`: `scripts/review_fresh_captures.py`, a read-only tool-access and provenance review.
+5. `64b3ca9`: raw evidence of six fresh runs, review, run record and retained failed attempt (committed before scoring).
+6. `a941589`: `scripts/prepare_fresh_packets.py` and the blinded packets.
+7. `07e2cbe`: two assessors per set, adjudication, and `scripts/score_fresh.py` summary.
+8. Documentation: results, readiness, the MSIX CLI path in `REPRODUCE.md`, verification logs and `HANDOFF-TO-CODEX.md`.
