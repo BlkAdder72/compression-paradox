@@ -36,7 +36,7 @@ def prompts(suite, question_file=None):
         data = json.loads(Path(question_file).read_text(encoding='utf-8'))
         rows = [(q['id'], q['prompt'].encode('utf-8') + b'\n') for q in data['questions']]
     else:
-        prefix, folder = ('Q', 'control/prompts') if suite == 'official' else ('H', 'diagnostics/holdout-prompts')
+        prefix, folder = {'official': ('Q', 'control/prompts-v2'), 'legacy': ('Q', 'control/prompts'), 'holdout': ('H', 'diagnostics/holdout-prompts')}[suite]
         rows = [(f'{prefix}{i}', (ROOT / folder / f'{prefix}{i}.txt').read_bytes()) for i in range(1, 9)]
     if not rows or len({q for q, _ in rows}) != len(rows) or any(not re.fullmatch(r'[A-Za-z0-9_-]+', q) for q, _ in rows):
         raise ValueError('Empty, duplicate or unsafe question IDs')
@@ -50,7 +50,7 @@ def successful_stream(path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--arm', choices=SOURCES, required=True)
-    ap.add_argument('--suite', choices=['official', 'holdout', 'challenge'], default='official')
+    ap.add_argument('--suite', choices=['official', 'legacy', 'holdout', 'challenge'], default='official')
     ap.add_argument('--questions', help='Challenge JSON, kept outside model workspace')
     ap.add_argument('--run-id', required=True)
     ap.add_argument('--workspace', required=True, type=Path)
@@ -78,7 +78,7 @@ def main():
         if not p.is_file() or p.is_symlink():
             ap.error('Missing or symlink source: ' + str(p))
     manifest = {'status': 'DRY_RUN' if a.dry_run else 'STARTED', 'arm': a.arm, 'suite': a.suite,
-                'model_requested': a.model, 'run_id': a.run_id,
+                'model_requested': a.model, 'run_id': a.run_id, 'benchmark_version': 'v2' if a.suite == 'official' else ('v1' if a.suite == 'legacy' else a.suite),
                 'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
                 'sources': {name: sha(p) for p, name in files},
                 'prompts': {q: hashlib.sha256(b).hexdigest() for q, b in rows},
