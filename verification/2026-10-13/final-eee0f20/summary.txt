@@ -1,0 +1,33 @@
+== fresh-clone-default: 2026-10-13T19:36:07Z head=eee0f20caf4ae0cdceb761a3931ad3a018131b71 autocrlf=true status_lines=0 case_folded_collisions=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0 summary_unchanged=yes
+git-fsck --full rc=0
+== fresh-clone-documented: 2026-10-13T19:36:13Z head=eee0f20caf4ae0cdceb761a3931ad3a018131b71 autocrlf=false status_lines=0 case_folded_collisions=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0 summary_unchanged=yes
+git-fsck --full rc=0
+Case sensitive attribute on directory C:\Users\mmazu\AppData\Local\Temp\claude\C--Users-mmazu-Dropbox-00-Claude-Code-Folder-ICM-COP-14-Astra\56d6a35c-a554-4ec4-9655-eb29c3bbf28d\scratchpad\release-verify\cs-test is enabled.
+case probe distinct files: 2
+== case-sensitive-ntfs-clone: 2026-10-13T19:36:19Z head=eee0f20caf4ae0cdceb761a3931ad3a018131b71 autocrlf=true status_lines=0 case_folded_collisions=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0 summary_unchanged=yes
+git-fsck --full rc=0
+case-sensitive: historical 4392931 checks out both: RESULTS.md results.md 

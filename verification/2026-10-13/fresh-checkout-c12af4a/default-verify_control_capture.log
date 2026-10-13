@@ -1,0 +1,2 @@
+PASS: all 8 control prompts match frozen benchmark exactly
+CAPTURES PRESENT: 53 (existence is NOT proof of genuine provider execution)

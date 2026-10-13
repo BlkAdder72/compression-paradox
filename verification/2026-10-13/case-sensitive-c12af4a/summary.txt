@@ -1,0 +1,14 @@
+filesystem: NTFS (C:), directory case-sensitivity attribute enabled via 'fsutil file setCaseSensitiveInfo <dir> enable' on C:/Users/mmazu/AppData/Local/Temp/claude/C--Users-mmazu-Dropbox-00-Claude-Code-Folder-ICM-COP-14-Astra/56d6a35c-a554-4ec4-9655-eb29c3bbf28d/scratchpad/release-verify/cs-test
+os: MINGW64_NT-10.0-26300 3.6.9-b4195d69.x86_64 x86_64; git git version 2.55.0.windows.1; Python 3.13.14
+probe: distinct files for probe.txt/PROBE.txt -> 2
+head=c12af4a4843ed14e152ec183dd1b1daf444740bc status_lines=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+fsck rc=0
+historical 4392931 checkout: RESULTS.md results.md  status_lines=0
+worktree_removed

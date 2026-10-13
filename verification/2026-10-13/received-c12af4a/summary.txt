@@ -1,0 +1,8 @@
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+git-fsck rc=0

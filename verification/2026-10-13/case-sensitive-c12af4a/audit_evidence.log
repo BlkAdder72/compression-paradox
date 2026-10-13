@@ -1,0 +1,179 @@
+{
+  "scope": "Stored evidence integrity and arithmetic only; no new model execution, independent authorship verification or independent grading.",
+  "scores": {
+    "scoring-run-1": {
+      "A": {
+        "run": "A2",
+        "total": 11,
+        "per_question": {
+          "Q1": 1,
+          "Q2": 1,
+          "Q3": 1,
+          "Q4": 1,
+          "Q5": 1,
+          "Q6": 1,
+          "Q7": 4,
+          "Q8": 1
+        },
+        "mean_duration_ms": 13830.0
+      },
+      "B": {
+        "run": "B1",
+        "total": 80,
+        "per_question": {
+          "Q1": 10,
+          "Q2": 10,
+          "Q3": 10,
+          "Q4": 10,
+          "Q5": 10,
+          "Q6": 10,
+          "Q7": 10,
+          "Q8": 10
+        },
+        "mean_duration_ms": 25968.5
+      },
+      "C": {
+        "run": "C1",
+        "total": 78,
+        "per_question": {
+          "Q1": 9,
+          "Q2": 10,
+          "Q3": 10,
+          "Q4": 10,
+          "Q5": 10,
+          "Q6": 9,
+          "Q7": 10,
+          "Q8": 10
+        },
+        "mean_duration_ms": 19639.875
+      }
+    },
+    "scoring-repro-1": {
+      "A": {
+        "run": "A_REPRO_1",
+        "total": 11,
+        "per_question": {
+          "Q1": 1,
+          "Q2": 1,
+          "Q3": 1,
+          "Q4": 1,
+          "Q5": 1,
+          "Q6": 1,
+          "Q7": 4,
+          "Q8": 1
+        },
+        "mean_duration_ms": 12919.625
+      },
+      "B": {
+        "run": "B_REPRO_1",
+        "total": 80,
+        "per_question": {
+          "Q1": 10,
+          "Q2": 10,
+          "Q3": 10,
+          "Q4": 10,
+          "Q5": 10,
+          "Q6": 10,
+          "Q7": 10,
+          "Q8": 10
+        },
+        "mean_duration_ms": 26106.875
+      }
+    },
+    "scoring-run-2": {
+      "C": {
+        "run": "CH1",
+        "total": 80,
+        "per_question": {
+          "H1": 10,
+          "H2": 10,
+          "H3": 10,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 10,
+          "H8": 10
+        },
+        "mean_duration_ms": 19957.625
+      },
+      "D": {
+        "run": "DH1",
+        "total": 80,
+        "per_question": {
+          "H1": 10,
+          "H2": 10,
+          "H3": 10,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 10,
+          "H8": 10
+        },
+        "mean_duration_ms": 23681.0
+      },
+      "E": {
+        "run": "EH1",
+        "total": 80,
+        "per_question": {
+          "H1": 10,
+          "H2": 10,
+          "H3": 10,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 10,
+          "H8": 10
+        },
+        "mean_duration_ms": 24108.0
+      }
+    },
+    "scoring-run-3": {
+      "C": {
+        "run": "CH2",
+        "total": 80,
+        "per_question": {
+          "H1": 10,
+          "H2": 10,
+          "H3": 10,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 10,
+          "H8": 10
+        },
+        "mean_duration_ms": 21038.125
+      },
+      "D": {
+        "run": "DH3",
+        "total": 77,
+        "per_question": {
+          "H1": 10,
+          "H2": 9,
+          "H3": 9,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 9,
+          "H8": 10
+        },
+        "mean_duration_ms": 23935.625
+      },
+      "E": {
+        "run": "EH3",
+        "total": 80,
+        "per_question": {
+          "H1": 10,
+          "H2": 10,
+          "H3": 10,
+          "H4": 10,
+          "H5": 10,
+          "H6": 10,
+          "H7": 10,
+          "H8": 10
+        },
+        "mean_duration_ms": 22460.0
+      }
+    }
+  },
+  "hash_entries_checked": 238
+}

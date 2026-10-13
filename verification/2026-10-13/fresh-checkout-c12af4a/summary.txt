@@ -1,0 +1,22 @@
+== documented clone: autocrlf=false head=c12af4a status_lines=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+fsck rc=0
+  control/prompts/Q1.txt: ASCII text
+  specialist/rules.md:    ASCII text
+== default clone: autocrlf=true head=c12af4a status_lines=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+fsck rc=0
+  control/prompts/Q1.txt: ASCII text
+  specialist/rules.md:    ASCII text
