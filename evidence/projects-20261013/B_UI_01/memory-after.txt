@@ -1,0 +1,15 @@
+- dialog "Memory":
+  - heading "Memory" [level=2]
+  - button "Close" [active]:
+    - generic: 
+  - heading "No memory yet" [level=3]
+  - paragraph: Project memory will show here after a few sessions.
+  - group "Use account memory":
+    - generic: Use account memory
+    - text: Allow Claude to share memory between this project and your chats outside of projects.
+    - button "View account memory"
+    - switch "Use account memory"
+    - checkbox
+- status
+- status
+- region "Notifications"

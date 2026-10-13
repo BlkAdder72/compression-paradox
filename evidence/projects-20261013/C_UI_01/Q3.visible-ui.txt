@@ -1,0 +1,108 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Meridian Works emergency purchase approvals, rename session":
+    - generic: Meridian Works emergency purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works emergency purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an immediate operational risk that cannot reasonably await normal approval requires a $4,000 non-travel purchase on October 12, 20…" [level=2]'
+      - paragraph: Under Meridian Works policy, an immediate operational risk that cannot reasonably await normal approval requires a $4,000 non-travel purchase on October 12, 2026, from an approved vendor. What approvals and notifications are required?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Required:" [level=2]'
+      - generic: Checking emergency approval against policy requirements.
+      - status: Checking emergency approval against policy requirements.
+      - paragraph:
+        - strong: "Required:"
+      - list:
+        - strong: Manager approval, before the purchase.
+        - text: At $4,000 on a post–July 1, 2025 date, this is above the $2,500 routine threshold (EXP-2, AMD-2), so manager approval is required. The emergency exception never waives it (EXP-3, EMG-1, EMG-3).
+        - strong: Finance notification within 24 hours after the purchase.
+        - text: This is a post-purchase notice, not an approval (EMG-1, DEF-2).
+      - paragraph:
+        - strong: "Not required:"
+      - list:
+        - strong: Advance finance approval.
+        - text: Ordinarily EXP-2 would require it, but EMG-1 waives it. The facts meet DEF-1 (an immediate operational risk that cannot reasonably await normal approval), the total is within the $5,000 emergency cap, and the vendor is approved.
+        - strong: Travel-office approval.
+        - text: This is a non-travel purchase, so TRV-1 doesn’t apply.
+        - strong: Compliance-officer authorization.
+        - text: The vendor is approved, not prohibited, so VEN-1 and VEN-2 don’t apply.
+      - paragraph: The purchase was on October 12, 2026. If it has already gone through, the 24-hour finance notification window closes on October 13, 2026, today, at the time of the purchase.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

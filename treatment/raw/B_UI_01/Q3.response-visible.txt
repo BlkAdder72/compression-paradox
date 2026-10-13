@@ -1,0 +1,36 @@
+Claude responded: Conclusion: The purchase may proceed with manager approval before purchase.
+Checking the threshold against the applicable amount.
+Checking the threshold against the applicable amount.
+
+Conclusion: The purchase may proceed with manager approval before purchase. Advance finance approval is waived, but finance must be notified within 24 hours after the purchase.
+
+How the rules apply
+
+Threshold by date. The transaction is on October 12, 2026, so the current $2,500 routine threshold applies (AMD-2, DEF-3). At $4,000 total (EXP-4), it is above $2,500. Ordinarily this would need both manager and finance approval before purchase (EXP-2).
+Emergency exception applies. Each condition in EMG-1 is met by the facts:
+Qualifying emergency: It addresses an immediate operational risk that cannot reasonably await normal approval, which meets DEF-1. It is not merely labeled “urgent” (EMG-3).
+Amount: $4,000 is within the $5,000-or-less cap (EMG-1, EXP-4).
+Vendor: The vendor is approved (VEN-3), so the vendor limit in EMG-2 does not come into play.
+What the exception changes:
+Waived: advance finance approval (EMG-1, EXP-3).
+Not waived: manager approval, which is still required before proceeding (EMG-1, EXP-3, EMG-3).
+Added: finance must be notified within 24 hours after the purchase. This is a post-purchase notification, not an approval (EMG-1, DEF-2).
+Not applicable:
+Travel-office approval: not required, because this is a non-travel purchase (TRV-1).
+Vendor restrictions: none are triggered, because the vendor is approved (VEN-1, VEN-3).
+
+Summary of requirements
+
+Requirement	Timing	Source
+Manager approval	Before purchase	EMG-1, EXP-3
+Finance notification	Within 24 hours after purchase	EMG-1, DEF-2
+Finance approval	Waived	EMG-1
+Travel-office approval	Not applicable	TRV-1
+
+Create a spreadsheet
+
+
+
+
+
+just now

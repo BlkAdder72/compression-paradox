@@ -1,0 +1,134 @@
+
+  - status
+  - status
+  - link "CP14 UI A 20261013":
+    - /url: /project/01a13779-b44e-7105-bdf4-3ea9e18408a9
+    - generic: CP14 UI A 20261013
+  - generic: /
+  - button "Emergency exception approval requirements, rename session":
+    - generic: Emergency exception approval requirements
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Emergency exception approval requirements":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: An employee requests a $4,000 non-travel purchase on October 12, 2026, calling it ''urgent'' but providing no evidence of immediate operational or safety risk." [level=2]'
+      - paragraph: An employee requests a $4,000 non-travel purchase on October 12, 2026, calling it 'urgent' but providing no evidence of immediate operational or safety risk. Can the employee use Meridian Works' emergency exception, and what approval requirements apply on the supplied facts?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: I can''t give a definitive answer on Meridian Works'' rules, because the policy isn''t here." [level=2]'
+      - generic: Looked for files, used a tool
+      - button "Looked for files, used a tool" [expanded]:
+        - generic: 
+      - status: Looked for files, used a tool
+      - generic: I'll check for the Meridian Works policy in this conversation first.
+      - generic "*":
+        - generic: Looked for files
+        - generic "*"
+        - button "Looked for files *" [expanded]:
+          - generic: 
+      - generic: Response
+      - paragraph: No files found
+      - generic "Checked the project":
+        - generic: Checked the project
+        - button "Checked the project" [expanded] [active]:
+          - generic: 
+      - generic: Response
+      - term: Method
+      - definition: project_info
+      - term: Name
+      - definition: CP14 UI A 20261013
+      - term: Description
+      - definition
+      - term: Instructions
+      - definition
+      - term: Docs
+      - definition: —
+      - term: Files
+      - definition: —
+      - term: Sync sources
+      - definition: —
+      - term: Knowledge knowledge size
+      - definition: "0"
+      - term: Knowledge max knowledge size
+      - definition: "2000000"
+      - paragraph: I can’t give a definitive answer on Meridian Works’ rules, because the policy isn’t here. There’s no attached file, and the project linked to this conversation has no documents in it. Any approval thresholds or exception criteria I named would be invented.
+      - paragraph: "Here is what the supplied facts do support, in general terms:"
+      - list:
+        - strong: The emergency exception probably doesn’t apply.
+        - text: Emergency or urgent-purchase exceptions in procurement policies are usually limited to real, documented risks, such as a safety hazard, a critical operational outage, or legal exposure. Calling a request “urgent” without evidence of such a risk typically doesn’t qualify. Many policies also require the requester to write down why it’s an emergency, and that justification is missing here.
+        - strong: The standard approval path for a $4,000 non-travel purchase would apply.
+        - text: "What that path requires depends on Meridian’s dollar tiers: how many approvers, at what level, whether quotes or a purchase order are needed, and whether the budget owner or finance must sign off. That’s exactly the part I can’t fill in without the policy."
+        - strong: The date may matter.
+        - text: Some policies set extra controls near fiscal period ends or have submission lead times. The October 12, 2026 date could be relevant depending on Meridian’s fiscal calendar.
+      - paragraph: If you attach or paste Meridian’s purchasing or expense policy, I’ll apply it to these facts. I can name the exact approval tier, the emergency exception criteria and what documentation is missing, with references to the specific sections.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude":
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

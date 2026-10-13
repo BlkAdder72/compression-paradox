@@ -1,0 +1,34 @@
+Claude responded: No, the emergency exception isn't available on these facts.
+Checking which policy period applies to the transaction date.
+Checking which policy period applies to the transaction date.
+
+No, the emergency exception isn’t available on these facts. This is an ordinary purchase above $2,500, so it needs both manager approval and finance approval before the purchase is made.
+
+Why the emergency exception doesn’t apply
+
+Calling the request “urgent” is not enough to establish an emergency (EMG-3, DEF-1).
+A qualifying emergency requires an immediate operational or safety risk that cannot reasonably wait for normal approval (DEF-1). No evidence of that was provided.
+Under EMG-2, without facts meeting DEF-1, emergency status is not established and the ordinary approval rules apply.
+The facts also don’t say the vendor is approved. EMG-1 requires an approved vendor, and VEN-3 says vendor status must be stated in the transaction facts. So the exception would fail on this point too, even with a real emergency.
+
+Which threshold applies
+
+The purchase is dated October 12, 2026, which is after the July 1, 2025 amendment. The current $2,500 threshold therefore applies (AMD-2, DEF-3), not the earlier $2,000 one. Since $4,000 is above $2,500, EXP-2 governs. Under either threshold, the result would be the same.
+
+What approvals are needed
+
+Manager approval before the purchase.
+Finance approval before the purchase. Notifying finance within 24 hours afterward does not count as approval (DEF-2).
+Vendor check. The facts don’t give the vendor’s status. If the vendor is prohibited, the purchase cannot go ahead without specific written authorization from the compliance officer (VEN-1, VEN-2). Manager or finance approval does not stand in for that.
+No travel-office approval. This is a non-travel purchase, so the Travel Policy doesn’t apply.
+
+What could change the answer
+
+The exception could become available if the employee shows an immediate operational or safety risk and confirms the vendor is approved. The $4,000 amount is within the $5,000 emergency cap. Advance finance approval would then be waived, but manager approval would still be required beforehand, and finance would need to be notified within 24 hours after the purchase (EMG-1).
+
+
+
+
+
+
+just now

@@ -1,0 +1,30 @@
+Claude responded: No.
+
+No. The employee may not proceed. The emergency exception removes the need for advance finance approval, but it never removes the need for manager approval.
+
+Ordinary rule. The purchase is dated October 12, 2026, which is after the July 1, 2025 amendment, so the $2,500 threshold applies (AMD-2, DEF-3). Because $4,000 is above that threshold, an ordinary purchase would need both manager and finance approval before purchase (EXP-2).
+
+What the emergency exception changes. The purchase meets every condition of EMG-1:
+
+it is a qualifying emergency,
+it totals $5,000 or less,
+it uses an approved vendor.
+
+So advance finance approval is waived. Instead, finance must be notified within 24 hours after the purchase. That notice is a post-purchase step, not an approval (DEF-2).
+
+What it does not change. Manager approval is still required.
+
+EMG-1 says manager approval “remains required before proceeding.”
+EMG-3 says an emergency does not waive manager approval.
+EXP-3 confirms the Emergency Policy may waive advance finance approval, “but not manager approval.”
+
+Because this is not airfare, travel-office approval does not apply. The vendor is approved, so there are no vendor-policy issues.
+
+Conclusion: The emergency exception lets the employee skip advance finance approval, but it cannot replace the missing manager approval. Without manager approval, the purchase may not proceed. Once the employee obtains it, they may buy without waiting for finance and must notify finance within 24 hours.
+
+
+
+
+
+
+just now

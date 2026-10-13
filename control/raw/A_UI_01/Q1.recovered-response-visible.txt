@@ -1,0 +1,31 @@
+Claude responded: I don't have the Meridian Works policy in front of me.
+Used Connectors, looked for files, used a tool
+
+Used Connectors, looked for files, used a tool
+Connectors that could help
+
+
+Microsoft 365
+I could use Microsoft 365 here, but it’s turned off for this session.
+Dropbox
+I could use Dropbox here, but it’s turned off for this session.
+Google Drive
+Connect Google Drive to Claude to search through your documents, read file contents, upload new files, and analyze your data. Claude can find specific documents even when you don't remember the exact name, read and analyze the content of Google Docs, Sheets, Slides, and PDFs, and upload files directly to your Drive. Useful for finding project notes, extracting data from spreadsheets, preparing meeting materials, or organizing files scattered across your Drive.
+Connect
+
+I don’t have the Meridian Works policy in front of me. Nothing is attached to this chat, and the project is empty. Approval thresholds are specific to each company, so I won’t guess at what applies to a $2,400 purchase. A made-up answer could send the request to the wrong approver.
+
+Here are three ways I can give you the actual answer:
+
+Attach the policy (the procurement, purchasing or delegation-of-authority document) here, and I’ll find the thresholds and approvers that apply.
+Turn on Microsoft 365 or Dropbox for this chat. Both are already connected to your account but switched off for this conversation, so I can’t search them yet. You can enable them in this chat’s connector settings, and I’ll search SharePoint/OneDrive or Dropbox for the policy.
+Connect Google Drive if the policy is stored there.
+
+When I have the document, I’ll check the details that usually decide this kind of question. That includes the dollar tier the $2,400 falls into and whether “routine” or “equipment” purchases follow a different path. I’ll also check whether a revision with an effective date near October 12, 2026 changes which version of the rules applies.
+
+
+
+
+
+
+23 minutes ago

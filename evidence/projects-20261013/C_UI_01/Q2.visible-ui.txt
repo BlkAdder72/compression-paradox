@@ -1,0 +1,102 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Equipment purchase approvals, rename session":
+    - generic: Equipment purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Equipment purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,600 on October 12, 2026." [level=2]'
+      - paragraph: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,600 on October 12, 2026. What approvals are required before proceeding?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Both manager approval and finance approval are required before the purchase." [level=2]'
+      - paragraph:
+        - strong: Both manager approval and finance approval are required before the purchase.
+      - list:
+        - strong: "Threshold:"
+        - text: The purchase date (October 12, 2026) is after July 1, 2025, so the current $2,500 threshold applies (AMD-2, DEF-3), not the older $2,000 limit.
+        - strong: "Rule:"
+        - text: $2,600 is above $2,500, so EXP-2 requires both manager and finance approval in advance. Per EXP-4, the $2,600 is the total including taxes and fees.
+        - strong: "Travel Policy:"
+        - text: It doesn’t apply because this is not airfare or travel, so no travel-office approval is needed.
+        - strong: "Emergency Policy:"
+        - text: It doesn’t apply because the purchase is described as routine. No facts meet the DEF-1 definition of a qualifying emergency, so finance’s advance approval is not waived (EMG-2).
+        - strong: "Vendor:"
+        - text: The vendor isn’t identified. If it turned out to be a prohibited vendor, the purchase couldn’t proceed without written compliance-officer authorization (VEN-1, VEN-2), even with manager and finance approval.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

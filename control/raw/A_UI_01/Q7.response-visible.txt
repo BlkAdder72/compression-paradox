@@ -1,0 +1,48 @@
+Claude responded: I can't give a definitive answer on Meridian Works' rules, because the policy isn't here.
+Looked for files, used a tool
+
+Looked for files, used a tool
+I'll check for the Meridian Works policy in this conversation first.
+Looked for files
+*
+
+Response
+
+No files found
+
+Checked the project
+
+Response
+Method
+project_info
+Name
+CP14 UI A 20261013
+Description
+Instructions
+Docs
+—
+Files
+—
+Sync sources
+—
+Knowledge knowledge size
+0
+Knowledge max knowledge size
+2000000
+
+I can’t give a definitive answer on Meridian Works’ rules, because the policy isn’t here. There’s no attached file, and the project linked to this conversation has no documents in it. Any approval thresholds or exception criteria I named would be invented.
+
+Here is what the supplied facts do support, in general terms:
+
+The emergency exception probably doesn’t apply. Emergency or urgent-purchase exceptions in procurement policies are usually limited to real, documented risks, such as a safety hazard, a critical operational outage, or legal exposure. Calling a request “urgent” without evidence of such a risk typically doesn’t qualify. Many policies also require the requester to write down why it’s an emergency, and that justification is missing here.
+The standard approval path for a $4,000 non-travel purchase would apply. What that path requires depends on Meridian’s dollar tiers: how many approvers, at what level, whether quotes or a purchase order are needed, and whether the budget owner or finance must sign off. That’s exactly the part I can’t fill in without the policy.
+The date may matter. Some policies set extra controls near fiscal period ends or have submission lead times. The October 12, 2026 date could be relevant depending on Meridian’s fiscal calendar.
+
+If you attach or paste Meridian’s purchasing or expense policy, I’ll apply it to these facts. I can name the exact approval tier, the emergency exception criteria and what documentation is missing, with references to the specific sections.
+
+
+
+
+
+
+just now

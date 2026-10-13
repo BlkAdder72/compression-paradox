@@ -1,0 +1,17 @@
+Claude responded: Two approvals are required before the purchase: manager approval and advance travel-office approval.
+Checking an expense against the current approval threshold.
+Checking an expense against the current approval threshold.
+
+Two approvals are required before the purchase: manager approval and advance travel-office approval.
+
+Manager approval (EXP-1, AMD-2): The purchase date of October 12, 2026 is after July 1, 2025, so the current $2,500 routine threshold applies. $900 is at or below $2,500, so manager approval is required and finance approval is not.
+Travel-office approval (TRV-1): Airfare above $800 requires advance travel-office approval. $900 exceeds that amount. Under TRV-2, this approval is in addition to manager approval and does not replace it.
+
+The Emergency Policy doesn’t apply because the purchase is described as routine. No vendor status is given. If the airline were a prohibited vendor, the purchase could not proceed without written compliance-officer authorization (VEN-1).
+
+
+
+
+
+
+just now

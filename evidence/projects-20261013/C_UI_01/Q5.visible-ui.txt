@@ -1,0 +1,103 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Meridian Works airfare approval, rename session":
+    - generic: Meridian Works airfare approval
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works airfare approval":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: An employee plans a routine $900 airfare purchase on October 12, 2026, under Meridian Works policy." [level=2]'
+      - paragraph: An employee plans a routine $900 airfare purchase on October 12, 2026, under Meridian Works policy. What approvals are required before the purchase?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Two approvals are required before the purchase: manager approval and advance travel-office approval." [level=2]'
+      - generic: Checking an expense against the current approval threshold.
+      - status: Checking an expense against the current approval threshold.
+      - paragraph:
+        - text: "Two approvals are required before the purchase:"
+        - strong: manager approval
+        - text: and
+        - strong: advance travel-office approval
+        - text: .
+      - list:
+        - strong: "Manager approval (EXP-1, AMD-2):"
+        - text: The purchase date of October 12, 2026 is after July 1, 2025, so the current $2,500 routine threshold applies. $900 is at or below $2,500, so manager approval is required and finance approval is not.
+        - strong: "Travel-office approval (TRV-1):"
+        - text: Airfare above $800 requires advance travel-office approval. $900 exceeds that amount. Under TRV-2, this approval is in addition to manager approval and does not replace it.
+      - paragraph: The Emergency Policy doesn’t apply because the purchase is described as routine. No vendor status is given. If the airline were a prohibited vendor, the purchase could not proceed without written compliance-officer authorization (VEN-1).
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

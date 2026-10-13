@@ -1,0 +1,24 @@
+Claude responded: Only manager approval is required, and it must be obtained before the purchase.
+Checking the applicable threshold against the policy document.
+Checking the applicable threshold against the policy document.
+
+Only manager approval is required, and it must be obtained before the purchase.
+
+How this follows from the policy:
+
+Date first. The transaction date, October 12, 2026, is after July 1, 2025. That means the current $2,500 routine threshold applies, not the historic $2,000 limit (AMD-1, AMD-2, DEF-3).
+Amount. $2,400 is “$2,500 or less,” and that phrase is inclusive. The purchase therefore falls in the ordinary tier, which requires manager approval before purchase (EXP-1, EXP-4).
+Finance approval is not required. It applies only above $2,500 (EXP-2).
+No other provisions apply.
+The purchase is non-travel, so no travel-office approval is needed (TRV-1).
+No emergency is claimed, so the Emergency Policy is not engaged and there is no finance notification requirement (EMG-1).
+No vendor status is identified, so no vendor restriction is triggered on these facts (VEN-3).
+
+One caveat on the amount. Thresholds are measured on the total transaction amount, including taxes and fees (EXP-4). If $2,400 is a pre-tax or pre-fee figure and the total ends up above $2,500, EXP-2 applies instead, and both manager and finance approval would be required before purchase.
+
+
+
+
+
+
+just now

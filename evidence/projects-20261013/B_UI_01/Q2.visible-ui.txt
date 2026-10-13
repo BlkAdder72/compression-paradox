@@ -1,0 +1,109 @@
+
+  - status
+  - status
+  - link "CP14 UI B 20261013":
+    - /url: /project/01a13796-80b2-73c8-9994-b3025d10b02f
+    - generic: CP14 UI B 20261013
+  - generic: /
+  - button "Equipment purchase approvals, rename session":
+    - generic: Equipment purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Equipment purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,600 on October 12, 2026." [level=2]'
+      - paragraph: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,600 on October 12, 2026. What approvals are required before proceeding?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Both manager approval and finance approval are required before the purchase proceeds." [level=2]'
+      - generic: Applied the threshold rule to determine the applicable amount.
+      - status: Applied the threshold rule to determine the applicable amount.
+      - paragraph:
+        - strong: Both manager approval and finance approval are required before the purchase proceeds.
+      - list:
+        - strong: Which threshold applies.
+        - text: The transaction date is October 12, 2026, which is after July 1, 2025. So the current $2,500 routine threshold applies, not the historic $2,000 limit (AMD-1, AMD-2, DEF-3).
+        - strong: Which tier applies.
+        - text: $2,600 is above $2,500. Thresholds use the total transaction amount in US dollars, including taxes and fees (EXP-4). That puts the purchase in the higher-value tier, which requires
+        - strong: manager and finance approval, both before purchase
+        - text: (EXP-2).
+        - strong: No other approvals or notifications are triggered.
+        - list:
+          - strong: "Travel:"
+          - text: It isn’t airfare, so travel-office approval doesn’t apply (TRV-1).
+          - strong: "Emergency:"
+          - text: No emergency is claimed, so there’s no waiver of advance finance approval and no 24-hour notification step (EMG-1, EMG-2).
+          - strong: "Vendor:"
+          - text: No vendor status is given, so no vendor restriction is triggered on these facts (VEN-3).
+      - paragraph: If the vendor turned out to be prohibited, the purchase couldn’t proceed without a specific written authorization from the compliance officer, in addition to the two approvals above. Manager or finance approval can’t stand in for that authorization (VEN-1, VEN-2, EXP-3).
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

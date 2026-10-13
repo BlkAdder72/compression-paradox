@@ -1,0 +1,112 @@
+
+  - status
+  - status
+  - link "CP14 UI B 20261013":
+    - /url: /project/01a13796-80b2-73c8-9994-b3025d10b02f
+    - generic: CP14 UI B 20261013
+  - generic: /
+  - button "Meridian Works purchase approvals, rename session":
+    - generic: Meridian Works purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, what approvals were required for a routine, non-travel $2,300 purchase on June 15, 2025?" [level=2]'
+      - paragraph: Under Meridian Works policy, what approvals were required for a routine, non-travel $2,300 purchase on June 15, 2025?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Both manager approval and finance approval were required." [level=2]'
+      - generic: Applying the approval policy to the purchase date and amount.
+      - status: Applying the approval policy to the purchase date and amount.
+      - paragraph:
+        - strong: Both manager approval and finance approval were required.
+      - paragraph: The transaction date decides this. June 15, 2025 is before the July 1, 2025 effective date of the current limit, and the current $2,500 limit does not apply retroactively (AMD-2, DEF-3). The historic limit in AMD-1 therefore governs. Under AMD-1, routine purchases above $2,000 required both manager and finance approval. $2,300 exceeds $2,000, so both approvals were needed.
+      - paragraph:
+        - strong: "Why the $2,500 tier doesn’t help:"
+        - text: Under today’s rules, $2,300 would need only manager approval (EXP-1). But EXP-1 and EXP-2 apply only to purchases made on or after July 1, 2025, so they don’t cover this transaction.
+      - paragraph:
+        - strong: "Timing:"
+        - text: EXP-1 and EXP-2 say approvals are required “before purchase,” but they don’t cover this date. AMD-1 itself doesn’t say when the approvals had to occur, so I can’t confirm from the text that they had to be obtained in advance.
+      - paragraph:
+        - strong: "Amount basis:"
+        - text: Thresholds are measured on the total transaction amount in US dollars, including taxes and fees (EXP-4). I’ve assumed $2,300 is that all-in total. If $2,300 excluded taxes or fees, the result is the same, because the total would still be above $2,000.
+      - paragraph:
+        - strong: "What doesn’t apply:"
+      - list:
+        - strong: "Travel-office approval:"
+        - text: not required, because this was not a travel or airfare purchase (TRV-1).
+        - strong: "Emergency waiver:"
+        - text: not available, because no qualifying emergency is stated (EMG-2, DEF-1). There is also no post-purchase finance notification requirement.
+        - strong: "Vendor restrictions:"
+        - text: vendor status isn’t given. If the vendor had been prohibited, the purchase also could not have proceeded without written compliance-officer authorization (VEN-1, VEN-2).
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

@@ -1,0 +1,59 @@
+Claude responded: I can't answer this accurately yet, because the Meridian Works policy isn't anywhere I can read.
+Used Connectors, looked for files, used a tool
+
+Used Connectors, looked for files, used a tool
+I'll check whether the Meridian Works policy is available here before answering.
+Looked for files
+*
+
+Response
+
+No files found
+
+Checked the project
+
+Response
+Method
+project_info
+Name
+CP14 UI A 20261013
+Description
+Instructions
+Docs
+—
+Files
+—
+Sync sources
+—
+Knowledge knowledge size
+0
+Knowledge max knowledge size
+2000000
+Locating company data through available connectors.
+Searched connector directory
+procurement policy, company policy documents, google drive, sharepoint
+Connectors that could help
+
+
+Microsoft 365
+I could use Microsoft 365 here, but it’s turned off for this session.
+Google Drive
+Connect Google Drive to Claude to search through your documents, read file contents, upload new files, and analyze your data. Claude can find specific documents even when you don't remember the exact name, read and analyze the content of Google Docs, Sheets, Slides, and PDFs, and upload files directly to your Drive. Useful for finding project notes, extracting data from spreadsheets, preparing meeting materials, or organizing files scattered across your Drive.
+Connect
+
+I can’t answer this accurately yet, because the Meridian Works policy isn’t anywhere I can read. Nothing was attached to this conversation, and the project it’s in has no documents. Emergency-purchase rules (who signs off, how soon afterward, who gets notified, whether $4,000 crosses a threshold) differ a lot between companies, so guessing would risk giving you the wrong steps.
+
+You have a few ways to get me the policy:
+
+Attach it here. Upload the purchasing or procurement policy (PDF, Word, or pasted text) and I’ll pull out exactly what applies to a $4,000 emergency non-travel purchase from an approved vendor on October 12.
+Turn on Microsoft 365 for this chat. Your account is already connected, but it’s switched off for this conversation. If you enable it in this chat’s connector settings, I can search SharePoint/OneDrive for the policy myself.
+Connect Google Drive if the policy is stored there instead.
+
+Once I have it, I’ll also check timing for you. October 12 was yesterday, so any after-the-fact approval or notification deadline may already be running.
+
+
+
+
+
+
+just now

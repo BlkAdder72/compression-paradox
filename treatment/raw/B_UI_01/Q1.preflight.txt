@@ -1,0 +1,155 @@
+
+  - link "Projects":
+    - /url: /projects
+    - generic: Projects
+  - generic: /
+  - button "Rename CP14 UI B 20261013": CP14 UI B 20261013
+  - button "More options for CP14 UI B 20261013":
+    - generic: 
+  - button "Search this project":
+    - generic: 
+  - button "Unpin project":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - heading "CP14 UI B 20261013" [level=1]
+  - status
+  - status
+  - status
+  - generic: New session in CP14 UI B 20261013
+  - textbox "Write your prompt to Claude":
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Add files, connectors, and more" [expanded]:
+    - generic: 
+  - menu "Add files, connectors, and more":
+    - menuitem "Upload or add files":
+      - generic: 
+      - generic: Upload or add files
+      - generic: Ctrl
+      - generic: +
+      - generic: U
+    - separator
+    - menuitem "Skills":
+      - generic: 
+      - generic: Skills
+      - generic: 
+    - menuitem "Connectors" [expanded] [active]:
+      - generic: 
+      - generic: Connectors
+      - generic: 
+    - menu "Connectors":
+      - menuitem "Add connector":
+        - generic: 
+        - generic: Add connector
+        - generic: 
+      - menuitem "Manage connectors":
+        - generic: 
+        - generic: Manage connectors
+      - separator
+      - menuitemcheckbox "Dropbox icon Dropbox":
+        - img "Dropbox icon"
+        - generic: Dropbox
+        - switch
+        - checkbox
+      - menuitemcheckbox "Higgsfield.AI icon Higgsfield.AI":
+        - img "Higgsfield.AI icon"
+        - generic: Higgsfield.AI
+        - switch
+        - checkbox
+      - menuitemcheckbox "Hugging Face icon Hugging Face":
+        - img "Hugging Face icon"
+        - generic: Hugging Face
+        - switch
+        - checkbox
+      - menuitemcheckbox "Linear icon Linear":
+        - img "Linear icon"
+        - generic: Linear
+        - switch
+        - checkbox
+      - menuitemcheckbox "Microsoft 365 icon Microsoft 365":
+        - img "Microsoft 365 icon"
+        - generic: Microsoft 365
+        - switch
+        - checkbox
+      - menuitemcheckbox "Claude in Chrome icon Claude in Chrome":
+        - img "Claude in Chrome icon"
+        - generic: Claude in Chrome
+        - switch
+        - checkbox
+      - menuitem "Dropbox icon Add from Dropbox":
+        - img "Dropbox icon"
+        - generic: Add from Dropbox
+        - generic: 
+      - menuitem "Higgsfield.AI icon Add from Higgsfield.AI":
+        - img "Higgsfield.AI icon"
+        - generic: Add from Higgsfield.AI
+        - generic: 
+      - menuitem "Hugging Face icon Add from Hugging Face":
+        - img "Hugging Face icon"
+        - generic: Add from Hugging Face
+        - generic: 
+      - separator
+      - menuitem "Tool access":
+        - generic: 
+        - generic: Tool access
+        - generic: 
+    - menuitem "Design system":
+      - generic: 
+      - generic: Design system
+      - generic: 
+    - menuitem "Plugins":
+      - generic: 
+      - generic: Plugins
+      - generic: 
+    - menuitem "Devices":
+      - generic: 
+      - generic: Devices
+      - generic: 
+    - separator
+    - menuitemcheckbox "Research":
+      - generic: 
+      - generic: Research
+    - menuitemcheckbox "Memory":
+      - generic: 
+      - generic: Memory
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - generic: 
+  - paragraph: Claude references the same knowledge every time you talk to it in this project.
+  - region "Project knowledge":
+    - button "Edit instructions"
+    - generic: 
+    - generic: Instructions
+    - button "Add":
+      - generic: Add
+    - button "Show context"
+    - generic: 
+    - generic: Context
+    - generic: 10 files
+    - button "Add":
+      - generic: Add
+    - button "View memory"
+    - generic: 
+    - generic: Memory
+    - button "View":
+      - generic: View
+    - button "Add scheduled task"
+    - generic: 
+    - generic: Scheduled
+    - button "Add":
+      - generic: Add
+    - paragraph: Private
+- status
+- status
+- region "Notifications"

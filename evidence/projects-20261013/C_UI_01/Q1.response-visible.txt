@@ -1,0 +1,19 @@
+Claude responded: Only manager approval is required before the purchase.
+
+Only manager approval is required before the purchase.
+
+Which threshold applies: The purchase date is October 12, 2026. That is after the July 1, 2025 effective date, so the current $2,500 threshold applies (AMD-2, DEF-3). The old $2,000 limit in AMD-1 does not apply.
+Approval tier: $2,400 is at or below $2,500, so EXP-1 governs and only manager approval is needed. Finance approval is not required. It would have been under the pre-amendment rules, because $2,400 is above $2,000.
+Other policies don’t change the answer:
+Travel (TRV-1): This is a non-travel purchase, so no travel-office approval is needed.
+Emergency (EMG): None is claimed, and it wouldn’t remove manager approval anyway.
+Vendor (VEN-1): No vendor status is given. If the vendor turned out to be prohibited, the purchase couldn’t go ahead without written compliance-officer authorization, even with manager approval.
+
+Per EXP-4, the $2,400 is assumed to be the total including taxes and fees. If those charges push the total above $2,500, finance approval would also be required under EXP-2.
+
+
+
+
+
+
+just now

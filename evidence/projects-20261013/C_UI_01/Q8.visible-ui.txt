@@ -1,0 +1,117 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Meridian Works emergency purchase policy, rename session":
+    - generic: Meridian Works emergency purchase policy
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works emergency purchase policy":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, a $4,000 non-travel purchase on October 12, 2026, qualifies as an emergency and uses an approved vendor, but the employee cannot o…" [level=2]'
+      - paragraph: Under Meridian Works policy, a $4,000 non-travel purchase on October 12, 2026, qualifies as an emergency and uses an approved vendor, but the employee cannot obtain manager approval. May the employee proceed solely under the emergency exception? Explain.
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: No." [level=2]'
+      - paragraph:
+        - strong: No.
+        - text: The employee may not proceed. The emergency exception removes the need for advance finance approval, but it never removes the need for manager approval.
+      - paragraph:
+        - strong: Ordinary rule.
+        - text: The purchase is dated October 12, 2026, which is after the July 1, 2025 amendment, so the $2,500 threshold applies (AMD-2, DEF-3). Because $4,000 is above that threshold, an ordinary purchase would need both manager and finance approval before purchase (EXP-2).
+      - paragraph:
+        - strong: What the emergency exception changes.
+        - text: "The purchase meets every condition of EMG-1:"
+      - list:
+        - listitem: it is a qualifying emergency,
+        - listitem: it totals $5,000 or less,
+        - listitem: it uses an approved vendor.
+      - paragraph:
+        - text: So
+        - strong: advance finance approval is waived
+        - text: . Instead, finance must be notified within 24 hours after the purchase. That notice is a post-purchase step, not an approval (DEF-2).
+      - paragraph:
+        - strong: What it does not change.
+        - text: Manager approval is still required.
+      - list:
+        - listitem: EMG-1 says manager approval “remains required before proceeding.”
+        - listitem: EMG-3 says an emergency does not waive manager approval.
+        - listitem: EXP-3 confirms the Emergency Policy may waive advance finance approval, “but not manager approval.”
+      - paragraph: Because this is not airfare, travel-office approval does not apply. The vendor is approved, so there are no vendor-policy issues.
+      - paragraph:
+        - strong: "Conclusion:"
+        - text: The emergency exception lets the employee skip advance finance approval, but it cannot replace the missing manager approval. Without manager approval, the purchase may not proceed. Once the employee obtains it, they may buy without waiting for finance and must notify finance within 24 hours.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

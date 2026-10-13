@@ -1,0 +1,23 @@
+Claude responded: Required:
+Checking emergency approval against policy requirements.
+Checking emergency approval against policy requirements.
+
+Required:
+
+Manager approval, before the purchase. At $4,000 on a post–July 1, 2025 date, this is above the $2,500 routine threshold (EXP-2, AMD-2), so manager approval is required. The emergency exception never waives it (EXP-3, EMG-1, EMG-3).
+Finance notification within 24 hours after the purchase. This is a post-purchase notice, not an approval (EMG-1, DEF-2).
+
+Not required:
+
+Advance finance approval. Ordinarily EXP-2 would require it, but EMG-1 waives it. The facts meet DEF-1 (an immediate operational risk that cannot reasonably await normal approval), the total is within the $5,000 emergency cap, and the vendor is approved.
+Travel-office approval. This is a non-travel purchase, so TRV-1 doesn’t apply.
+Compliance-officer authorization. The vendor is approved, not prohibited, so VEN-1 and VEN-2 don’t apply.
+
+The purchase was on October 12, 2026. If it has already gone through, the 24-hour finance notification window closes on October 13, 2026, today, at the time of the purchase.
+
+
+
+
+
+
+just now

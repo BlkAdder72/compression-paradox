@@ -1,0 +1,118 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Emergency exception approval requirements, rename session":
+    - generic: Emergency exception approval requirements
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Emergency exception approval requirements":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: An employee requests a $4,000 non-travel purchase on October 12, 2026, calling it ''urgent'' but providing no evidence of immediate operational or safety risk." [level=2]'
+      - paragraph: An employee requests a $4,000 non-travel purchase on October 12, 2026, calling it 'urgent' but providing no evidence of immediate operational or safety risk. Can the employee use Meridian Works' emergency exception, and what approval requirements apply on the supplied facts?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: No, the emergency exception isn''t available on these facts." [level=2]'
+      - generic: Checking which policy period applies to the transaction date.
+      - status: Checking which policy period applies to the transaction date.
+      - paragraph:
+        - strong: No, the emergency exception isn’t available on these facts.
+        - text: This is an ordinary purchase above $2,500, so it needs both manager approval and finance approval before the purchase is made.
+      - paragraph:
+        - strong: Why the emergency exception doesn’t apply
+      - list:
+        - listitem: Calling the request “urgent” is not enough to establish an emergency (EMG-3, DEF-1).
+        - listitem: A qualifying emergency requires an immediate operational or safety risk that cannot reasonably wait for normal approval (DEF-1). No evidence of that was provided.
+        - listitem: Under EMG-2, without facts meeting DEF-1, emergency status is not established and the ordinary approval rules apply.
+        - listitem: The facts also don’t say the vendor is approved. EMG-1 requires an approved vendor, and VEN-3 says vendor status must be stated in the transaction facts. So the exception would fail on this point too, even with a real emergency.
+      - paragraph:
+        - strong: Which threshold applies
+      - paragraph: The purchase is dated October 12, 2026, which is after the July 1, 2025 amendment. The current $2,500 threshold therefore applies (AMD-2, DEF-3), not the earlier $2,000 one. Since $4,000 is above $2,500, EXP-2 governs. Under either threshold, the result would be the same.
+      - paragraph:
+        - strong: What approvals are needed
+      - list:
+        - strong: Manager approval
+        - text: before the purchase.
+        - strong: Finance approval
+        - text: before the purchase. Notifying finance within 24 hours afterward does not count as approval (DEF-2).
+        - strong: Vendor check.
+        - text: The facts don’t give the vendor’s status. If the vendor is prohibited, the purchase cannot go ahead without specific written authorization from the compliance officer (VEN-1, VEN-2). Manager or finance approval does not stand in for that.
+        - strong: No travel-office approval.
+        - text: This is a non-travel purchase, so the Travel Policy doesn’t apply.
+      - paragraph:
+        - strong: What could change the answer
+      - paragraph: The exception could become available if the employee shows an immediate operational or safety risk and confirms the vendor is approved. The $4,000 amount is within the $5,000 emergency cap. Advance finance approval would then be waived, but manager approval would still be required beforehand, and finance would need to be notified within 24 hours after the purchase (EMG-1).
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

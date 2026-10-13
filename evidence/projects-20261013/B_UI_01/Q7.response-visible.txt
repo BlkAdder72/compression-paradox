@@ -1,0 +1,31 @@
+Claude responded: No, the emergency exception is not available on these facts.
+Checking a threshold date against an applicable dollar amount.
+Checking a threshold date against an applicable dollar amount.
+
+No, the emergency exception is not available on these facts. The purchase follows the ordinary rules: manager approval and finance approval, both before purchase.
+
+Which threshold applies
+
+The transaction date is October 12, 2026, which is after July 1, 2025. The current routine threshold of $2,500 therefore applies (AMD-2, DEF-3). The pre-July 2025 $2,000 limit does not apply (AMD-1).
+$4,000, measured as the total including taxes and fees, is above $2,500. That puts it in the higher-value tier, which requires both manager and finance approval before purchase (EXP-2, EXP-4).
+
+Why the emergency exception does not apply
+
+A qualifying emergency requires an immediate operational or safety risk that cannot reasonably await normal approval (DEF-1).
+Calling a request “urgent” is not enough on its own (DEF-1, EMG-3).
+Without evidence meeting DEF-1, emergency status is not established, and the ordinary approvals continue to apply (EMG-2).
+So the waiver of advance finance approval in EMG-1 is unavailable. The 24-hour post-purchase finance notification does not apply either, because that is part of the exception (EMG-1, DEF-2).
+
+Facts not supplied
+
+Vendor status is not stated. Vendor restrictions apply in every case (EXP-3, EMG-3). If the vendor is prohibited, the purchase must not proceed without a specific written authorization from the compliance officer. Manager or finance approval cannot substitute for that authorization (VEN-1, VEN-2).
+What would change the answer: suppose evidence meeting DEF-1 were supplied and the vendor were approved. Then $4,000 falls within the $5,000 emergency cap, so advance finance approval would be waived. Manager approval would still be required before the purchase, and finance would need to be notified within 24 hours after it (EMG-1, EXP-3, VEN-3).
+
+Not applicable: this is a non-travel purchase, so travel-office approval is not triggered (TRV-1).
+
+
+
+
+
+
+just now

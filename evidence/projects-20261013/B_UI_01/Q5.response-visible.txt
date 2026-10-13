@@ -1,0 +1,24 @@
+Claude responded: Two approvals are required, both before the purchase: manager approval and advance travel-office approval.
+Checking the expense against the applicable threshold rule.
+Checking the expense against the applicable threshold rule.
+
+Two approvals are required, both before the purchase: manager approval and advance travel-office approval.
+
+How each applies
+
+Threshold in force. The transaction date is October 12, 2026. That is after the July 1, 2025 amendment, so the current $2,500 routine threshold applies, not the historic $2,000 limit (AMD-2, AMD-1, DEF-3).
+Purchase tier. $900 is at or below $2,500, so the Expense Policy requires manager approval before purchase (EXP-1). Finance approval is not required. Thresholds use the total amount including taxes and fees (EXP-4). That basis doesn’t change the result here unless the true total exceeds $2,500.
+Travel trigger. Airfare above $800 requires advance travel-office approval (TRV-1). $900 exceeds $800, so this applies. “Advance” means before the transaction proceeds (DEF-2).
+Layering. The two approvals are cumulative. Travel-office approval does not replace manager approval, and airfare stays subject to the Expense Policy threshold (TRV-2, EXP-3).
+
+What does not apply
+
+Emergency exception. The purchase is described as routine and no immediate operational or safety risk is stated. EMG-1 is not engaged (DEF-1, EMG-2). Even if it were, it would not waive manager or travel-office approval (EMG-1, EXP-3).
+Vendor restrictions. No vendor status is given, so none is triggered on these facts (VEN-3). If the vendor were prohibited, the purchase could not proceed without specific written compliance-officer authorization. Manager or travel-office approval could not substitute for it (VEN-1, VEN-2).
+Notifications. None are required. The 24-hour finance notification arises only under the emergency exception (EMG-1).
+
+
+
+
+
+just now

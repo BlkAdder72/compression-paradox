@@ -1,0 +1,14 @@
+Claude responded: Both manager approval and finance approval were required, and both had to be obtained before the purchase.
+
+Both manager approval and finance approval were required, and both had to be obtained before the purchase.
+
+The purchase date, June 15, 2025, falls before the July 1, 2025 effective date of the current $2,500 threshold. AMD-2 says that threshold does not apply retroactively, and DEF-3 says the Amendments Policy decides which threshold governs a given transaction date. So the historic limit in AMD-1 applies. Under AMD-1, routine purchases above $2,000 needed both manager and finance approval. $2,300 is above $2,000.
+
+Under today’s rules (EXP-1), the same $2,300 purchase would need only manager approval, so the date is what decides the answer. The Travel, Emergency, and Vendor policies don’t apply here, because the purchase is routine, non-travel, and no emergency or vendor facts were given.
+
+
+
+
+
+
+just now

@@ -16,6 +16,21 @@ def main():
     questions = json.loads((ROOT/'evaluation/seven-20261013/questions.json').read_text(encoding='utf-8'))['questions']
     manifest = json.loads((BASE/'manifest.json').read_text(encoding='utf-8'))
     assert manifest['capture_format'] == 'rendered-ui', 'Not API raw streams'
+    for arm, prefix, count in [('B','specialist/',10),('C','fixture/',6)]:
+        imported = BASE/(arm+'_UI_01')/'knowledge-import.json'
+        if not imported.exists():
+            assert manifest['status']=='INCOMPLETE'
+            continue
+        entries = json.loads(imported.read_text(encoding='utf-8'))
+        assert len(entries)==count
+        assert {e['source'] for e in entries}=={p for p in frozen if p.startswith(prefix)}
+        for entry in entries:
+            source=ROOT/entry['source']
+            assert digest(source)==entry['source_sha256']==frozen[entry['source']]
+            submitted=source.read_text(encoding='utf-8')
+            assert hashlib.sha256(submitted.encode()).hexdigest()==entry['submitted_text_sha256']
+            assert len(submitted)==entry['characters']
+            assert entry['title']==entry['source'][len(prefix):]
     seen = set()
     for row in manifest['records']:
         arm, qid = row['arm'], row['question']

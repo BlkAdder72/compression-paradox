@@ -1,0 +1,156 @@
+
+  - status
+  - status
+  - link "CP14 UI A 20261013":
+    - /url: /project/01a13779-b44e-7105-bdf4-3ea9e18408a9
+    - generic: CP14 UI A 20261013
+  - generic: /
+  - button "Meridian Works equipment purchase approvals, rename session":
+    - generic: Meridian Works equipment purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works equipment purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,400 on October 12, 2026." [level=2]'
+      - paragraph: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,400 on October 12, 2026. What approvals are required before proceeding?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: I don''t have the Meridian Works policy in front of me." [level=2]'
+      - generic: Used Connectors, looked for files, used a tool
+      - button "Used Connectors, looked for files, used a tool" [expanded]:
+        - generic: 
+      - status: Used Connectors, looked for files, used a tool
+      - generic: I'll look for the Meridian Works policy in your files and project first.
+      - generic "*":
+        - generic: Looked for files
+        - generic "*"
+        - button "Looked for files *" [expanded]:
+          - generic: 
+      - generic: Response
+      - paragraph: No files found
+      - generic "Checked the project":
+        - generic: Checked the project
+        - button "Checked the project" [expanded] [active]:
+          - generic: 
+      - generic: Response
+      - term: Method
+      - definition: project_info
+      - term: Name
+      - definition: CP14 UI A 20261013
+      - term: Description
+      - definition
+      - term: Instructions
+      - definition
+      - term: Docs
+      - definition: —
+      - term: Files
+      - definition: —
+      - term: Sync sources
+      - definition: —
+      - term: Knowledge knowledge size
+      - definition: "0"
+      - term: Knowledge max knowledge size
+      - definition: "2000000"
+      - generic "company policy, google drive, confluence, notion, sharepoint, dropbox":
+        - generic: Searched connector directory
+        - generic "company policy, google drive, confluence, notion, sharepoint, dropbox"
+      - generic: Connectors that could help
+      - link "Browse all connectors":
+        - /url: /customize/connectors
+        - generic: 
+      - button "Dismiss":
+        - generic: 
+      - list:
+        - generic: Microsoft 365
+        - generic: I could use Microsoft 365 here, but it’s turned off for this session.
+        - switch "Use Microsoft 365 here"
+        - checkbox
+        - generic: Dropbox
+        - generic: I could use Dropbox here, but it’s turned off for this session.
+        - switch "Use Dropbox here"
+        - checkbox
+        - generic: Google Drive
+        - generic: Connect Google Drive to Claude to search through your documents, read file contents, upload new files, and analyze your data. Claude can find specific documents even when you don't remember the exact name, read and analyze the content of Google Docs, Sheets, Slides, and PDFs, and upload files directly to your Drive. Useful for finding project notes, extracting data from spreadsheets, preparing meeting materials, or organizing files scattered across your Drive.
+        - button "Connect":
+          - generic: Connect
+      - paragraph: I don’t have the Meridian Works policy in front of me. Nothing is attached to this chat, and the project is empty. Approval thresholds are specific to each company, so I won’t guess at what applies to a $2,400 purchase. A made-up answer could send the request to the wrong approver.
+      - paragraph: "Here are three ways I can give you the actual answer:"
+      - list:
+        - strong: Attach the policy
+        - text: (the procurement, purchasing or delegation-of-authority document) here, and I’ll find the thresholds and approvers that apply.
+        - strong: Turn on Microsoft 365 or Dropbox for this chat.
+        - text: Both are already connected to your account but switched off for this conversation, so I can’t search them yet. You can enable them in this chat’s connector settings, and I’ll search SharePoint/OneDrive or Dropbox for the policy.
+        - strong: Connect Google Drive
+        - text: if the policy is stored there.
+      - paragraph: When I have the document, I’ll check the details that usually decide this kind of question. That includes the dollar tier the $2,400 falls into and whether “routine” or “equipment” purchases follow a different path. I’ll also check whether a revision with an effective date near October 12, 2026 changes which version of the rules applies.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude":
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

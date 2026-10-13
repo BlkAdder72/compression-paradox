@@ -1,0 +1,10 @@
+{
+  "arm": "A",
+  "question": "Q1",
+  "url": "https://claude.ai/chat/508bf004-68b7-4f2c-bdd2-43344eb6a851",
+  "started_at": "2026-10-13T22:57:43.646Z",
+  "captured_at": "2026-10-13T22:58:39.101Z",
+  "model_label": "Opus 5.5 Medium",
+  "method": "UI Copy response plus rendered main DOM",
+  "complete": true
+}

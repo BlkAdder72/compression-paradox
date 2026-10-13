@@ -1,0 +1,25 @@
+Claude responded: Both manager approval and finance approval were required.
+Applying the approval policy to the purchase date and amount.
+Applying the approval policy to the purchase date and amount.
+
+Both manager approval and finance approval were required.
+
+The transaction date decides this. June 15, 2025 is before the July 1, 2025 effective date of the current limit, and the current $2,500 limit does not apply retroactively (AMD-2, DEF-3). The historic limit in AMD-1 therefore governs. Under AMD-1, routine purchases above $2,000 required both manager and finance approval. $2,300 exceeds $2,000, so both approvals were needed.
+
+Why the $2,500 tier doesn’t help: Under today’s rules, $2,300 would need only manager approval (EXP-1). But EXP-1 and EXP-2 apply only to purchases made on or after July 1, 2025, so they don’t cover this transaction.
+
+Timing: EXP-1 and EXP-2 say approvals are required “before purchase,” but they don’t cover this date. AMD-1 itself doesn’t say when the approvals had to occur, so I can’t confirm from the text that they had to be obtained in advance.
+
+Amount basis: Thresholds are measured on the total transaction amount in US dollars, including taxes and fees (EXP-4). I’ve assumed $2,300 is that all-in total. If $2,300 excluded taxes or fees, the result is the same, because the total would still be above $2,000.
+
+What doesn’t apply:
+
+Travel-office approval: not required, because this was not a travel or airfare purchase (TRV-1).
+Emergency waiver: not available, because no qualifying emergency is stated (EMG-2, DEF-1). There is also no post-purchase finance notification requirement.
+Vendor restrictions: vendor status isn’t given. If the vendor had been prohibited, the purchase also could not have proceeded without written compliance-officer authorization (VEN-1, VEN-2).
+
+
+
+
+
+just now

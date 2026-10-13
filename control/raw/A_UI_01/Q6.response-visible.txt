@@ -1,0 +1,48 @@
+Claude responded: I couldn't find a Meridian Works purchasing policy anywhere I can reach: nothing is attached to this chat, and the project linked to this conversation is empty.
+Looked for files, used 2 tools
+
+Looked for files, used 2 tools
+I'll look for the Meridian Works policy in your files first.
+Looked for files
+*
+
+Response
+
+No files found
+
+Searched project knowledge
+Meridian Works purchase approval policy thresholds
+Checked the project
+
+Response
+Method
+project_info
+Name
+CP14 UI A 20261013
+Description
+Instructions
+Docs
+—
+Files
+—
+Sync sources
+—
+Knowledge knowledge size
+0
+Knowledge max knowledge size
+2000000
+Loaded tools
+Checked connectors
+
+I couldn’t find a Meridian Works purchasing policy anywhere I can reach: nothing is attached to this chat, and the project linked to this conversation is empty.
+
+Your policy may be in Dropbox or Microsoft 365 (SharePoint/OneDrive). Both are connected to your account but turned off for this chat. If you turn one on in this chat’s connector settings, I can search it. You can also attach or paste the policy here.
+
+When I have it, I’ll check which version was in force on June 15, 2025, since approval thresholds often change. Then I’ll tell you what a routine, non-travel $2,300 purchase required. I don’t want to guess at the thresholds without the document.
+
+
+
+
+
+
+just now

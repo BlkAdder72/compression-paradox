@@ -1,0 +1,156 @@
+
+  - heading "Context" [level=2]
+  - button "Search files":
+    - generic: 
+  - button "Select":
+    - generic: Select
+  - button "Add":
+    - generic: Add
+  - button "Close":
+    - generic: 
+  - region "Context files" [active]:
+    - table:
+      - rowgroup:
+        - row "Name Size Details Actions":
+          - columnheader "Name"
+          - columnheader "Size"
+          - columnheader "Details"
+          - columnheader "Actions"
+      - rowgroup:
+        - row "Open folder reference reference 4.3kB 6 items":
+          - cell "Open folder reference reference":
+            - button "Open folder reference" [expanded]
+            - generic: 
+            - generic: reference
+          - cell "4.3kB"
+          - cell "6 items":
+            - generic: 6 items
+          - cell:
+            - generic: 
+        - row "01-expense-policy.md 01-expense policy MD 1kB 1 minute ago More options for 01-expense-policy.md":
+          - cell "01-expense-policy.md 01-expense policy MD":
+            - button "01-expense-policy.md"
+            - generic: 
+            - generic: 01-expense policy
+            - generic: MD
+          - cell "1kB"
+          - cell "1 minute ago":
+            - time: 1 minute ago
+          - cell "More options for 01-expense-policy.md":
+            - button "More options for 01-expense-policy.md":
+              - generic: 
+        - row "02-travel-policy.md 02-travel policy MD 520B just now More options for 02-travel-policy.md":
+          - cell "02-travel-policy.md 02-travel policy MD":
+            - button "02-travel-policy.md"
+            - generic: 
+            - generic: 02-travel policy
+            - generic: MD
+          - cell "520B"
+          - cell "just now":
+            - time: just now
+          - cell "More options for 02-travel-policy.md":
+            - button "More options for 02-travel-policy.md":
+              - generic: 
+        - row "03-emergency-policy.md 03-emergency policy MD 941B just now More options for 03-emergency-policy.md":
+          - cell "03-emergency-policy.md 03-emergency policy MD":
+            - button "03-emergency-policy.md"
+            - generic: 
+            - generic: 03-emergency policy
+            - generic: MD
+          - cell "941B"
+          - cell "just now":
+            - time: just now
+          - cell "More options for 03-emergency-policy.md":
+            - button "More options for 03-emergency-policy.md":
+              - generic: 
+        - row "04-vendor-policy.md 04-vendor policy MD 649B just now More options for 04-vendor-policy.md":
+          - cell "04-vendor-policy.md 04-vendor policy MD":
+            - button "04-vendor-policy.md"
+            - generic: 
+            - generic: 04-vendor policy
+            - generic: MD
+          - cell "649B"
+          - cell "just now":
+            - time: just now
+          - cell "More options for 04-vendor-policy.md":
+            - button "More options for 04-vendor-policy.md":
+              - generic: 
+        - row "05-policy-amendments.md 05-policy amendments MD 541B just now More options for 05-policy-amendments.md":
+          - cell "05-policy-amendments.md 05-policy amendments MD":
+            - button "05-policy-amendments.md"
+            - generic: 
+            - generic: 05-policy amendments
+            - generic: MD
+          - cell "541B"
+          - cell "just now":
+            - time: just now
+          - cell "More options for 05-policy-amendments.md":
+            - button "More options for 05-policy-amendments.md":
+              - generic: 
+        - row "06-definitions.md 06-definitions MD 663B just now More options for 06-definitions.md":
+          - cell "06-definitions.md 06-definitions MD":
+            - button "06-definitions.md"
+            - generic: 
+            - generic: 06-definitions
+            - generic: MD
+          - cell "663B"
+          - cell "just now":
+            - time: just now
+          - cell "More options for 06-definitions.md":
+            - button "More options for 06-definitions.md":
+              - generic: 
+        - row "examples.md examples MD 1.9kB 2 minutes ago More options for examples.md":
+          - cell "examples.md examples MD":
+            - button "examples.md"
+            - generic: 
+            - generic: examples
+            - generic: MD
+          - cell "1.9kB"
+          - cell "2 minutes ago":
+            - time: 2 minutes ago
+          - cell "More options for examples.md":
+            - button "More options for examples.md":
+              - generic: 
+        - row "identity.md identity MD 765B 2 minutes ago More options for identity.md":
+          - cell "identity.md identity MD":
+            - button "identity.md"
+            - generic: 
+            - generic: identity
+            - generic: MD
+          - cell "765B"
+          - cell "2 minutes ago":
+            - time: 2 minutes ago
+          - cell "More options for identity.md":
+            - button "More options for identity.md":
+              - generic: 
+        - row "README.md README MD 2.2kB 3 minutes ago More options for README.md":
+          - cell "README.md README MD":
+            - button "README.md"
+            - generic: 
+            - generic: README
+            - generic: MD
+          - cell "2.2kB"
+          - cell "3 minutes ago":
+            - time: 3 minutes ago
+          - cell "More options for README.md":
+            - button "More options for README.md":
+              - generic: 
+        - row "rules.md rules MD 1.3kB just now More options for rules.md":
+          - cell "rules.md rules MD":
+            - button "rules.md"
+            - generic: 
+            - generic: rules
+            - generic: MD
+          - cell "1.3kB"
+          - cell "just now":
+            - time: just now
+          - cell "More options for rules.md":
+            - button "More options for rules.md":
+              - generic: 
+  - meter "1%"
+  - generic: 10 files · 1% of project capacity used
+  - button "More info":
+    - generic: 
+- status
+- status
+- region "Notifications"

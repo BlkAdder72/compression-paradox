@@ -1,0 +1,105 @@
+
+  - status
+  - status
+  - link "CP14 UI C 20261013":
+    - /url: /project/01a137a5-5d91-7750-aa2d-f652449252e2
+    - generic: CP14 UI C 20261013
+  - generic: /
+  - button "Meridian Works equipment purchase approvals, rename session":
+    - generic: Meridian Works equipment purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works equipment purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,400 on October 12, 2026." [level=2]'
+      - paragraph: Under Meridian Works policy, an employee requests a routine, non-travel equipment purchase of $2,400 on October 12, 2026. What approvals are required before proceeding?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: Only manager approval is required before the purchase." [level=2]'
+      - paragraph:
+        - strong: Only manager approval is required before the purchase.
+      - list:
+        - strong: "Which threshold applies:"
+        - text: The purchase date is October 12, 2026. That is after the July 1, 2025 effective date, so the current $2,500 threshold applies (AMD-2, DEF-3). The old $2,000 limit in AMD-1 does not apply.
+        - strong: "Approval tier:"
+        - text: $2,400 is at or below $2,500, so EXP-1 governs and only manager approval is needed. Finance approval is not required. It would have been under the pre-amendment rules, because $2,400 is above $2,000.
+        - strong: "Other policies don’t change the answer:"
+        - list:
+          - strong: "Travel (TRV-1):"
+          - text: This is a non-travel purchase, so no travel-office approval is needed.
+          - strong: "Emergency (EMG):"
+          - text: None is claimed, and it wouldn’t remove manager approval anyway.
+          - strong: "Vendor (VEN-1):"
+          - text: No vendor status is given. If the vendor turned out to be prohibited, the purchase couldn’t go ahead without written compliance-officer authorization, even with manager approval.
+      - paragraph: Per EXP-4, the $2,400 is assumed to be the total including taxes and fees. If those charges push the total above $2,500, finance approval would also be required under EXP-2.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude" [active]:
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"
