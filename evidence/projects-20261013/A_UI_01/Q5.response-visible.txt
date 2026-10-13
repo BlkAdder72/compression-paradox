@@ -1,0 +1,49 @@
+Claude responded: I couldn't find the Meridian Works travel or expense policy anywhere I can reach right now, so I can't tell you which approvals it requires.
+Looked for files, used a tool
+
+Looked for files, used a tool
+I'll check your files and project for the Meridian Works policy.
+Looked for files
+*
+
+Response
+
+No files found
+
+Checked the project
+
+Response
+Method
+project_info
+Name
+CP14 UI A 20261013
+Description
+Instructions
+Docs
+—
+Files
+—
+Sync sources
+—
+Knowledge knowledge size
+0
+Knowledge max knowledge size
+2000000
+Loaded tools
+Checked connectors
+Checking available sources for company information.
+
+I couldn’t find the Meridian Works travel or expense policy anywhere I can reach right now, so I can’t tell you which approvals it requires. I’d rather not guess, since approval thresholds and who signs off vary a lot between companies.
+
+Here’s where I looked: there are no files attached to this chat, and the project this conversation is in is empty. You do have Dropbox and Microsoft 365 (SharePoint, OneDrive, Outlook, Teams) connected to your account, but both are switched off for this chat. If the policy lives in either one, turn it on in this chat’s connector settings and ask again, and I’ll find it and answer.
+
+You can also just attach the policy document here.
+
+The date may matter too. If the policy was revised around October 2026, the version in effect on October 12 is the one that applies. If you have more than one version, send them all and I’ll check which rules covered that day.
+
+
+
+
+
+
+just now

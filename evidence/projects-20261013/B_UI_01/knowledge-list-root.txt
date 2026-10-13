@@ -1,0 +1,84 @@
+
+  - heading "Context" [level=2]
+  - button "Search files":
+    - generic: 
+  - button "Select":
+    - generic: Select
+  - button "Add" [active]:
+    - generic: Add
+  - button "Close":
+    - generic: 
+  - region "Context files":
+    - table:
+      - rowgroup:
+        - row "Name Size Details Actions":
+          - columnheader "Name"
+          - columnheader "Size"
+          - columnheader "Details"
+          - columnheader "Actions"
+      - rowgroup:
+        - row "Open folder reference reference 4.3kB 6 items":
+          - cell "Open folder reference reference":
+            - button "Open folder reference"
+            - generic: 
+            - generic: reference
+          - cell "4.3kB"
+          - cell "6 items":
+            - generic: 6 items
+          - cell:
+            - generic: 
+        - row "examples.md examples MD 1.9kB 2 minutes ago More options for examples.md":
+          - cell "examples.md examples MD":
+            - button "examples.md"
+            - generic: 
+            - generic: examples
+            - generic: MD
+          - cell "1.9kB"
+          - cell "2 minutes ago":
+            - time: 2 minutes ago
+          - cell "More options for examples.md":
+            - button "More options for examples.md":
+              - generic: 
+        - row "identity.md identity MD 765B 2 minutes ago More options for identity.md":
+          - cell "identity.md identity MD":
+            - button "identity.md"
+            - generic: 
+            - generic: identity
+            - generic: MD
+          - cell "765B"
+          - cell "2 minutes ago":
+            - time: 2 minutes ago
+          - cell "More options for identity.md":
+            - button "More options for identity.md":
+              - generic: 
+        - row "README.md README MD 2.2kB 3 minutes ago More options for README.md":
+          - cell "README.md README MD":
+            - button "README.md"
+            - generic: 
+            - generic: README
+            - generic: MD
+          - cell "2.2kB"
+          - cell "3 minutes ago":
+            - time: 3 minutes ago
+          - cell "More options for README.md":
+            - button "More options for README.md":
+              - generic: 
+        - row "rules.md rules MD 1.3kB just now More options for rules.md":
+          - cell "rules.md rules MD":
+            - button "rules.md"
+            - generic: 
+            - generic: rules
+            - generic: MD
+          - cell "1.3kB"
+          - cell "just now":
+            - time: just now
+          - cell "More options for rules.md":
+            - button "More options for rules.md":
+              - generic: 
+  - meter "1%"
+  - generic: 10 files · 1% of project capacity used
+  - button "More info":
+    - generic: 
+- status
+- status
+- region "Notifications"

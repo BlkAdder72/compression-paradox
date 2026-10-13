@@ -1,0 +1,132 @@
+
+  - status
+  - status
+  - link "CP14 UI A 20261013":
+    - /url: /project/01a13779-b44e-7105-bdf4-3ea9e18408a9
+    - generic: CP14 UI A 20261013
+  - generic: /
+  - button "Meridian Works purchase approvals, rename session":
+    - generic: Meridian Works purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, what approvals were required for a routine, non-travel $2,300 purchase on June 15, 2025?" [level=2]'
+      - paragraph: Under Meridian Works policy, what approvals were required for a routine, non-travel $2,300 purchase on June 15, 2025?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: I couldn''t find a Meridian Works purchasing policy anywhere I can reach: nothing is attached to this chat, and the project linked to this conversation is empty." [level=2]'
+      - generic: Looked for files, used 2 tools
+      - button "Looked for files, used 2 tools" [expanded]:
+        - generic: 
+      - status: Looked for files, used 2 tools
+      - generic: I'll look for the Meridian Works policy in your files first.
+      - generic "*":
+        - generic: Looked for files
+        - generic "*"
+        - button "Looked for files *" [expanded]:
+          - generic: 
+      - generic: Response
+      - paragraph: No files found
+      - generic "Meridian Works purchase approval policy thresholds":
+        - generic: Searched project knowledge
+        - generic "Meridian Works purchase approval policy thresholds"
+      - generic "Checked the project":
+        - generic: Checked the project
+        - button "Checked the project" [expanded] [active]:
+          - generic: 
+      - generic: Response
+      - term: Method
+      - definition: project_info
+      - term: Name
+      - definition: CP14 UI A 20261013
+      - term: Description
+      - definition
+      - term: Instructions
+      - definition
+      - term: Docs
+      - definition: —
+      - term: Files
+      - definition: —
+      - term: Sync sources
+      - definition: —
+      - term: Knowledge knowledge size
+      - definition: "0"
+      - term: Knowledge max knowledge size
+      - definition: "2000000"
+      - generic: Loaded tools
+      - generic: Checked connectors
+      - paragraph: "I couldn’t find a Meridian Works purchasing policy anywhere I can reach: nothing is attached to this chat, and the project linked to this conversation is empty."
+      - paragraph: Your policy may be in Dropbox or Microsoft 365 (SharePoint/OneDrive). Both are connected to your account but turned off for this chat. If you turn one on in this chat’s connector settings, I can search it. You can also attach or paste the policy here.
+      - paragraph: When I have it, I’ll check which version was in force on June 15, 2025, since approval thresholds often change. Then I’ll tell you what a routine, non-travel $2,300 purchase required. I don’t want to guess at the thresholds without the document.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button:
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude":
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"

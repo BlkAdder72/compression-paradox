@@ -1,0 +1,153 @@
+
+  - status
+  - status
+  - link "CP14 UI A 20261013":
+    - /url: /project/01a13779-b44e-7105-bdf4-3ea9e18408a9
+    - generic: CP14 UI A 20261013
+  - generic: /
+  - button "Meridian Works emergency purchase approvals, rename session":
+    - generic: Meridian Works emergency purchase approvals
+  - status:
+    - generic: Claude Desktop (Windows), Connected
+    - button "Claude Desktop (Windows), Connected":
+      - generic: 
+    - generic: Computer actions available — press Tab until focus enters the card, Escape to return.
+  - button "More options for Meridian Works emergency purchase approvals":
+    - generic: 
+  - generic: 
+  - generic: Memory is off for this chat
+  - button "Activity panel":
+    - generic: 
+  - button "Share":
+    - generic: Share
+  - feed "Chat messages":
+    - paragraph: Use the up and down arrow keys to move between messages.
+    - article "Message 1 of 2":
+      - 'heading "You said: Under Meridian Works policy, an immediate operational risk that cannot reasonably await normal approval requires a $4,000 non-travel purchase on October 12, 20…" [level=2]'
+      - paragraph: Under Meridian Works policy, an immediate operational risk that cannot reasonably await normal approval requires a $4,000 non-travel purchase on October 12, 2026, from an approved vendor. What approvals and notifications are required?
+      - toolbar "Message actions":
+        - time: just now
+        - button "Retry":
+          - generic: 
+        - button "Edit":
+          - generic: 
+        - button "Copy":
+          - generic: 
+        - status
+      - status
+    - article "Message 2 of 2":
+      - 'heading "Claude responded: I can''t answer this accurately yet, because the Meridian Works policy isn''t anywhere I can read." [level=2]'
+      - generic: Used Connectors, looked for files, used a tool
+      - button "Used Connectors, looked for files, used a tool" [expanded]:
+        - generic: 
+      - status: Used Connectors, looked for files, used a tool
+      - generic: I'll check whether the Meridian Works policy is available here before answering.
+      - generic "*":
+        - generic: Looked for files
+        - generic "*"
+        - button "Looked for files *" [expanded]:
+          - generic: 
+      - generic: Response
+      - paragraph: No files found
+      - generic "Checked the project":
+        - generic: Checked the project
+        - button "Checked the project" [expanded] [active]:
+          - generic: 
+      - generic: Response
+      - term: Method
+      - definition: project_info
+      - term: Name
+      - definition: CP14 UI A 20261013
+      - term: Description
+      - definition
+      - term: Instructions
+      - definition
+      - term: Docs
+      - definition: —
+      - term: Files
+      - definition: —
+      - term: Sync sources
+      - definition: —
+      - term: Knowledge knowledge size
+      - definition: "0"
+      - term: Knowledge max knowledge size
+      - definition: "2000000"
+      - generic: Locating company data through available connectors.
+      - generic "procurement policy, company policy documents, google drive, sharepoint":
+        - generic: Searched connector directory
+        - generic "procurement policy, company policy documents, google drive, sharepoint"
+      - generic: Connectors that could help
+      - link "Browse all connectors":
+        - /url: /customize/connectors
+        - generic: 
+      - button "Dismiss":
+        - generic: 
+      - list:
+        - generic: Microsoft 365
+        - generic: I could use Microsoft 365 here, but it’s turned off for this session.
+        - switch "Use Microsoft 365 here"
+        - checkbox
+        - generic: Google Drive
+        - generic: Connect Google Drive to Claude to search through your documents, read file contents, upload new files, and analyze your data. Claude can find specific documents even when you don't remember the exact name, read and analyze the content of Google Docs, Sheets, Slides, and PDFs, and upload files directly to your Drive. Useful for finding project notes, extracting data from spreadsheets, preparing meeting materials, or organizing files scattered across your Drive.
+        - button "Connect":
+          - generic: Connect
+      - paragraph: I can’t answer this accurately yet, because the Meridian Works policy isn’t anywhere I can read. Nothing was attached to this conversation, and the project it’s in has no documents. Emergency-purchase rules (who signs off, how soon afterward, who gets notified, whether $4,000 crosses a threshold) differ a lot between companies, so guessing would risk giving you the wrong steps.
+      - paragraph: "You have a few ways to get me the policy:"
+      - list:
+        - strong: Attach it here.
+        - text: Upload the purchasing or procurement policy (PDF, Word, or pasted text) and I’ll pull out exactly what applies to a $4,000 emergency non-travel purchase from an approved vendor on October 12.
+        - strong: Turn on Microsoft 365 for this chat.
+        - text: Your account is already connected, but it’s switched off for this conversation. If you enable it in this chat’s connector settings, I can search SharePoint/OneDrive for the policy myself.
+        - strong: Connect Google Drive
+        - text: if the policy is stored there instead.
+      - paragraph: Once I have it, I’ll also check timing for you. October 12 was yesterday, so any after-the-fact approval or notification deadline may already be running.
+      - toolbar "Message actions":
+        - button "Copy":
+          - generic: 
+        - status
+        - button "Read aloud":
+          - generic: 
+        - button "Good response":
+          - generic: 
+        - button "Bad response":
+          - generic: 
+        - button "Retry":
+          - generic: 
+        - time: just now
+  - button "Scroll to bottom":
+    - generic: 
+  - status
+  - status
+  - status
+  - status
+  - status
+  - status
+  - generic: Reply
+  - textbox "Write your prompt to Claude":
+    - paragraph
+  - button "Open Grammarly."
+  - status
+  - button "Send message" [disabled]:
+    - generic: 
+  - button "Add files, connectors, and more":
+    - generic: 
+  - button "Dictate":
+    - generic: 
+  - group "Use voice mode":
+    - button "Use voice mode":
+    - button "Microphone":
+      - generic: 
+  - note:
+    - link "Claude is AI and can make mistakes.":
+      - /url: https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on
+  - 'button "Model: Opus 5.5 Medium"':
+    - text: Opus 5.5
+    - generic: Medium
+  - button "Manual":
+    - generic: Manual
+  - status: Claude finished the response
+  - complementary
+  - status
+- status
+- status
+- region "Notifications"
