@@ -1,0 +1,39 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.265s
+
+OK
+{
+  "status": "DRY_RUN",
+  "arm": "B",
+  "suite": "official",
+  "model_requested": "claude-opus-5-5",
+  "run_id": "TEST",
+  "benchmark_version": "v2",
+  "commit": "0799b6c2a6dcbb20c3370ac8d939438533226b76",
+  "sources": {
+    "README.md": "98a6643155d23d2deb6d2227baac5793f0e118cbf789081c95bbe75c32d4b13c",
+    "examples.md": "9733929234e7074f4677d71bcd659dd214151ae4e9284029b3510d31d3b2bd21",
+    "identity.md": "0ea45bb9f9c71673786c710527402b4522797ac5ccc30d111913b8b8ab0712e7",
+    "reference/01-expense-policy.md": "8b025cc30d98360446535fb58750bccc7e213dbcc408182c2992baf322b978c2",
+    "reference/02-travel-policy.md": "7d8294d2f2418d3bdef1c5589a190e078238f33ea372d3aac1dcf3f9a66202d1",
+    "reference/03-emergency-policy.md": "fb4a4be8da4a975d292ed88e3d94e8cefcb37a08d68aeed329b568cec75b8f75",
+    "reference/04-vendor-policy.md": "4d00a1f6325a4527060fab00293472708423e359c14ff4945126e43b026992cc",
+    "reference/05-policy-amendments.md": "9f693e5f4cac77171bd5424c78de05da2894d41a9ab0dac1fdfadcb6c015d8bc",
+    "reference/06-definitions.md": "93349b9f191807042dfc1e8dae219870c5c6433319b8ca824f974433ed46c163",
+    "rules.md": "a6911108ef016713de489c3483ca1333b15e12fff81244a733866b73c494aac7"
+  },
+  "prompts": {
+    "Q1": "4ce2a9f10c2aa86c42b9047640f40084e6c7d9694baf8f9ab95bf193cbb8e021",
+    "Q2": "0eda8bbafd30b7b500f8e3d34164edc2f1eae42d9e422701cfa379b63ca13551",
+    "Q3": "1ba3cea20ae88ca7bb62bcac90afc632062b062ea2c0b78b0edf386d4e904e13",
+    "Q4": "0947ee66e12127a8bbcc893d61466c56dcc6e55d89dce87f090a129e9a94a5ef",
+    "Q5": "095888580aca1d5c3d9af477237e7013a8f4f41bee14f450e919aef6a1efb73f",
+    "Q6": "d7538c08a604a6a4079671e335e15fc562c17e5c0e526416228ee820df4b99bf",
+    "Q7": "c7dbaefc62ea7a0c7ebcd143bc8c5841873ec94eedbb4f94c8ad494c0bc6f88e",
+    "Q8": "01ed9e1af350ef45dff6cd8a8ffb85c34387eab632c27136c34609b169b32b18"
+  },
+  "question_file_sha256": null,
+  "limitations": "Directory separation is not OS isolation. Review tool reads and permission denials. Model alias and external authorship are not authenticated by this runner.",
+  "records": []
+}

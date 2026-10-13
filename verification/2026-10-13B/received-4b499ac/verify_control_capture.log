@@ -1,0 +1,3 @@
+PASS: all 8 legacy control prompts match archived v1 benchmark exactly
+PASS: v2 self-contained Q4, seven unchanged questions, expected answers and isolated prompts
+CAPTURES PRESENT: 53 (existence is NOT proof of genuine provider execution)

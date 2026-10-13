@@ -1,0 +1,49 @@
+== fresh-clone-default 2026-10-13T21:02:26Z head=0799b6c2a6dcbb20c3370ac8d939438533226b76 autocrlf=true status_lines=0 casefold_collisions=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+verify_unseen rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0
+score_v2_u rc=0
+review v2 rc=0 3/3 CLEAN
+review U rc=0 3/3 CLEAN
+json files=46 invalid=0
+after-aggregation status_lines=0
+git-fsck --full rc=0
+== fresh-clone-documented 2026-10-13T21:02:34Z head=0799b6c2a6dcbb20c3370ac8d939438533226b76 autocrlf=false status_lines=0 casefold_collisions=0
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+verify_unseen rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0
+score_v2_u rc=0
+review v2 rc=0 3/3 CLEAN
+review U rc=0 3/3 CLEAN
+json files=46 invalid=0
+after-aggregation status_lines=0
+git-fsck --full rc=0
+Case sensitive attribute on directory C:\Users\mmazu\AppData\Local\Temp\claude\C--Users-mmazu-Dropbox-00-Claude-Code-Folder-ICM-COP-14-Astra\56d6a35c-a554-4ec4-9655-eb29c3bbf28d\scratchpad\release-verify\cs-test is enabled.
+Note: first case-sensitive attempt (deep scratchpad path) failed checkout with 'Filename too long' (Windows MAX_PATH); repeated in short case-sensitive dir C:\Users\mmazu\pcs13.
+Case sensitive attribute on directory C:\Users\mmazu\pcs13 is enabled.
+== case-sensitive-ntfs-clone 2026-10-13T21:03:03Z head=0799b6c2a6dcbb20c3370ac8d939438533226b76 autocrlf=true status_lines=0 casefold_collisions=0
+Case sensitive attribute on directory C:\Users\mmazu\pcs13\co\evidence is enabled.
+verify_submission rc=0
+verify_stage3 rc=0
+preflight_stage4 rc=0
+verify_control_capture rc=0
+verify_unseen rc=0
+audit_evidence rc=0
+test_runner rc=0
+test_blind_packet rc=0
+score_fresh rc=0
+score_v2_u rc=0 status_lines=0
+git-fsck --full rc=0
+historical 4392931 checkout has: RESULTS.md results.md 

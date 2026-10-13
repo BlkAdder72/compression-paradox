@@ -1,0 +1,2 @@
+PASS: 8 standalone author questions, valid sections, exact prompt-only extraction, all frozen input hashes
+PENDING: real A/B/C execution and grading. Separate-session authorship is self-reported, not independent human review.
