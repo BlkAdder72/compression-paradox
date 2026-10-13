@@ -1,0 +1,58 @@
+[
+ {
+  "set": "official_v2",
+  "assessor_totals": [
+   175,
+   174
+  ],
+  "items_disagreeing": 1,
+  "rows": [
+   {
+    "id": "R11",
+    "q": "Q4",
+    "diff": {
+     "capped_total": [
+      5,
+      4
+     ],
+     "conclusion_wrong": [
+      false,
+      true
+     ]
+    },
+    "a1_note": "Conditional reasoning leans correctly toward 'no' but is not definitive, leaves an override branch open, and cites no section IDs.",
+    "a2_note": "Conditional reasoning leans toward the correct 'no' and identifies the written compliance-officer authorization, but it does not commit and allows a scenario where the purchase proceeds, so the hard cap applies; no section IDs are cited."
+   }
+  ]
+ },
+ {
+  "set": "unseen_U",
+  "assessor_totals": [
+   165,
+   167
+  ],
+  "items_disagreeing": 1,
+  "rows": [
+   {
+    "id": "R010",
+    "q": "U8",
+    "diff": {
+     "conclusion": [
+      2,
+      4
+     ],
+     "capped_total": [
+      7,
+      9
+     ],
+     "ambiguity_deduction": [
+      3,
+      1
+     ]
+    },
+    "a1_note": "Under the frozen both-readings criterion, the authorized-prohibited-vendor branch treats the restrictive reading as settled and never presents the textually supported permissive reading. Conclusion drops 4->2 and exceptions 2->1. This is conservative, so it is not a false authorization.",
+    "a2_note": "Authorized-prohibited branch treated as settled under the restrictive reading; conservative and not a false authorization, but fails the both-readings criterion (-1 exceptions)."
+   }
+  ]
+ }
+]

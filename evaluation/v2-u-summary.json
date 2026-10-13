@@ -1,0 +1,663 @@
+{
+ "official_v2": {
+  "assessor_1_totals": {
+   "A": 15,
+   "B": 80,
+   "C": 80
+  },
+  "assessor_2_totals": {
+   "A": 14,
+   "B": 80,
+   "C": 80
+  },
+  "arms": {
+   "A": {
+    "total": 14,
+    "total_strict_evidence": 14,
+    "per_question": {
+     "Q1": 1,
+     "Q2": 1,
+     "Q3": 1,
+     "Q4": 4,
+     "Q5": 1,
+     "Q6": 1,
+     "Q7": 4,
+     "Q8": 1
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q2": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q3": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q4": {
+      "conclusion": 2,
+      "rules": 1,
+      "exceptions": 1,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q5": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q6": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q7": {
+      "conclusion": 2,
+      "rules": 0,
+      "exceptions": 1,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "Q8": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     }
+    },
+    "correct_conclusions": 0,
+    "false_authorizations": [],
+    "critical_omissions": {
+     "Q1": "No conclusion: manager-only approval and $2,500 inclusive threshold not stated",
+     "Q2": "No conclusion: manager and finance approvals not identified",
+     "Q3": "No conclusion: manager approval before purchase and finance notice within 24 hours not identified",
+     "Q4": "Definitive 'no' -- prohibited-vendor restriction survives the emergency; the response leaves open that the purchase might proceed",
+     "Q5": "No conclusion: travel-office and manager approvals not identified",
+     "Q6": "No conclusion: historic $2,000 threshold and manager+finance approval not identified",
+     "Q7": "Does not identify required manager AND finance approval ($4,000 > $2,500)",
+     "Q8": "No conclusion that manager approval survives the emergency; offers a branch where the employee may proceed"
+    },
+    "ambiguity_deductions": {},
+    "transparent_uncertainty": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4",
+     "Q5",
+     "Q6",
+     "Q7",
+     "Q8"
+    ]
+   },
+   "B": {
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "Q1": 10,
+     "Q2": 10,
+     "Q3": 10,
+     "Q4": 10,
+     "Q5": 10,
+     "Q6": 10,
+     "Q7": 10,
+     "Q8": 10
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "ambiguity_deductions": {},
+    "transparent_uncertainty": []
+   },
+   "C": {
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "Q1": 10,
+     "Q2": 10,
+     "Q3": 10,
+     "Q4": 10,
+     "Q5": 10,
+     "Q6": 10,
+     "Q7": 10,
+     "Q8": 10
+    },
+    "categories": {
+     "Q1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "Q8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "ambiguity_deductions": {},
+    "transparent_uncertainty": []
+   }
+  },
+  "pairwise": {
+   "A vs B": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "A vs C": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "B vs C": {
+    "wins": 0,
+    "ties": 8,
+    "losses": 0
+   }
+  }
+ },
+ "unseen_U": {
+  "assessor_1_totals": {
+   "A": 8,
+   "B": 77,
+   "C": 80
+  },
+  "assessor_2_totals": {
+   "A": 8,
+   "B": 79,
+   "C": 80
+  },
+  "arms": {
+   "A": {
+    "total": 8,
+    "total_strict_evidence": 8,
+    "per_question": {
+     "U1": 1,
+     "U2": 1,
+     "U3": 1,
+     "U4": 1,
+     "U5": 1,
+     "U6": 1,
+     "U7": 1,
+     "U8": 1
+    },
+    "categories": {
+     "U1": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U2": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U3": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U4": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U5": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U6": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U7": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     },
+     "U8": {
+      "conclusion": 0,
+      "rules": 0,
+      "exceptions": 0,
+      "evidence": 0,
+      "unsupported": 1,
+      "evidence_strict": 0
+     }
+    },
+    "correct_conclusions": 0,
+    "false_authorizations": [],
+    "critical_omissions": {
+     "U1": [
+      "total $2,554.50",
+      "(a) manager+finance before purchase",
+      "discounted total $2,500.00",
+      "(b) manager only, inclusive"
+     ],
+     "U2": [
+      "historic $2,000 threshold (AMD-1)",
+      "not retroactive / transaction date controls",
+      "(a) manager-only insufficient",
+      "(b) manager alone suffices on July 1"
+     ],
+     "U3": [
+      "(a) finance waived",
+      "(a) manager required before proceeding",
+      "(a) 24h finance notice, not approval",
+      "(b) exceeds $5,000 cap",
+      "(b) manager+finance before purchase"
+     ],
+     "U4": [
+      "urgent label insufficient",
+      "(a) manager+finance before purchase",
+      "(a) notice not approval",
+      "(b) finance waived, manager required",
+      "(b) 24h notice"
+     ],
+     "U5": [
+      "may not proceed",
+      "manager/finance cannot imply compliance auth",
+      "specific written compliance auth required",
+      "manager required (obtained); finance not required"
+     ],
+     "U6": [
+      "authorization removes prohibition",
+      "manager required",
+      "identifies EMG-1/VEN-3 vs EMG-2 conflict",
+      "restrictive consequence",
+      "permissive consequence",
+      "not definitively settled"
+     ],
+     "U7": [
+      "(a) total $2,700",
+      "(a) three approvals",
+      "(a) travel office does not replace finance; non-compliant",
+      "(b) $800 no travel office",
+      "(b) manager only"
+     ],
+     "U8": [
+      "travel-office approval required, not waived",
+      "manager required (obtained)",
+      "conditional on vendor status",
+      "approved branch",
+      "not-approved branch",
+      "prohibited branch"
+     ]
+    },
+    "ambiguity_deductions": {},
+    "transparent_uncertainty": [
+     "U1",
+     "U2",
+     "U3",
+     "U4",
+     "U5",
+     "U6",
+     "U7",
+     "U8"
+    ]
+   },
+   "B": {
+    "total": 77,
+    "total_strict_evidence": 77,
+    "per_question": {
+     "U1": 10,
+     "U2": 10,
+     "U3": 10,
+     "U4": 10,
+     "U5": 10,
+     "U6": 10,
+     "U7": 10,
+     "U8": 7
+    },
+    "categories": {
+     "U1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U8": {
+      "conclusion": 2,
+      "rules": 2,
+      "exceptions": 1,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {
+     "U8": [
+      "prohibited-with-authorization branch: does not acknowledge permissive EMG-2 reading (waiver + 24h notice)"
+     ]
+    },
+    "ambiguity_deductions": {
+     "U8": 3
+    },
+    "transparent_uncertainty": []
+   },
+   "C": {
+    "total": 80,
+    "total_strict_evidence": 80,
+    "per_question": {
+     "U1": 10,
+     "U2": 10,
+     "U3": 10,
+     "U4": 10,
+     "U5": 10,
+     "U6": 10,
+     "U7": 10,
+     "U8": 10
+    },
+    "categories": {
+     "U1": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U2": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U3": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U4": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U5": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U6": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U7": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     },
+     "U8": {
+      "conclusion": 4,
+      "rules": 2,
+      "exceptions": 2,
+      "evidence": 1,
+      "unsupported": 1,
+      "evidence_strict": 1
+     }
+    },
+    "correct_conclusions": 8,
+    "false_authorizations": [],
+    "critical_omissions": {},
+    "ambiguity_deductions": {},
+    "transparent_uncertainty": []
+   }
+  },
+  "pairwise": {
+   "A vs B": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "A vs C": {
+    "wins": 0,
+    "ties": 0,
+    "losses": 8
+   },
+   "B vs C": {
+    "wins": 0,
+    "ties": 7,
+    "losses": 1
+   }
+  }
+ }
+}

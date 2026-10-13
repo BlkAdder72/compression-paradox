@@ -1,0 +1,570 @@
+[
+ {
+  "id": "R001",
+  "q": "U2",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R002",
+  "q": "U2",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "historic $2,000 threshold (AMD-1)",
+   "not retroactive / transaction date controls",
+   "(a) manager-only insufficient",
+   "(b) manager alone suffices on July 1"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R003",
+  "q": "U6",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "authorization removes prohibition",
+   "manager required",
+   "identifies EMG-1/VEN-3 vs EMG-2 conflict",
+   "restrictive consequence",
+   "permissive consequence",
+   "not definitively settled"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing",
+   "c": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R004",
+  "q": "U1",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R005",
+  "q": "U2",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R006",
+  "q": "U6",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct",
+   "c": "correct: both readings with consequences"
+  },
+  "note": ""
+ },
+ {
+  "id": "R007",
+  "q": "U8",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "travel_office": "correct",
+   "manager": "correct",
+   "branch_approved": "correct",
+   "branch_not_approved_or_unknown": "correct",
+   "branch_prohibited_no_auth": "correct",
+   "branch_prohibited_with_auth": "correct: table leads with permissive reading (waiver + 24h notice), follow-up note gives strict reading (finance approval required)"
+  },
+  "note": ""
+ },
+ {
+  "id": "R008",
+  "q": "U1",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "total $2,554.50",
+   "(a) manager+finance before purchase",
+   "discounted total $2,500.00",
+   "(b) manager only, inclusive"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R009",
+  "q": "U7",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "(a) total $2,700",
+   "(a) three approvals",
+   "(a) travel office does not replace finance; non-compliant",
+   "(b) $800 no travel office",
+   "(b) manager only"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R010",
+  "q": "U8",
+  "conclusion": 2,
+  "rules": 2,
+  "exceptions": 1,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 7,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 3,
+  "critical_omissions": [
+   "prohibited-with-authorization branch: does not acknowledge permissive EMG-2 reading (waiver + 24h notice)"
+  ],
+  "subparts": {
+   "travel_office": "correct",
+   "manager": "correct",
+   "branch_approved": "correct",
+   "branch_not_approved_or_unknown": "correct",
+   "branch_prohibited_no_auth": "correct",
+   "branch_prohibited_with_auth": "partial: definitively adopts restrictive reading (finance approval required); permissive EMG-2 reading and its 24h-notice consequence not acknowledged"
+  },
+  "note": "Under the frozen both-readings criterion, the authorized-prohibited-vendor branch treats the restrictive reading as settled and never presents the textually supported permissive reading. Conclusion drops 4->2 and exceptions 2->1. This is conservative, so it is not a false authorization."
+ },
+ {
+  "id": "R011",
+  "q": "U5",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R012",
+  "q": "U1",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R013",
+  "q": "U7",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R014",
+  "q": "U5",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R015",
+  "q": "U6",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct",
+   "c": "correct: both readings with consequences"
+  },
+  "note": ""
+ },
+ {
+  "id": "R016",
+  "q": "U4",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R017",
+  "q": "U7",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R018",
+  "q": "U3",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "(a) finance waived",
+   "(a) manager required before proceeding",
+   "(a) 24h finance notice, not approval",
+   "(b) exceeds $5,000 cap",
+   "(b) manager+finance before purchase"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R019",
+  "q": "U8",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "travel-office approval required, not waived",
+   "manager required (obtained)",
+   "conditional on vendor status",
+   "approved branch",
+   "not-approved branch",
+   "prohibited branch"
+  ],
+  "subparts": {
+   "travel_office": "missing",
+   "manager": "missing",
+   "branch_approved": "missing",
+   "branch_not_approved_or_unknown": "missing",
+   "branch_prohibited_no_auth": "missing",
+   "branch_prohibited_with_auth": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R020",
+  "q": "U3",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R021",
+  "q": "U4",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "urgent label insufficient",
+   "(a) manager+finance before purchase",
+   "(a) notice not approval",
+   "(b) finance waived, manager required",
+   "(b) 24h notice"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ },
+ {
+  "id": "R022",
+  "q": "U4",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R023",
+  "q": "U3",
+  "conclusion": 4,
+  "rules": 2,
+  "exceptions": 2,
+  "evidence": 1,
+  "evidence_strict": 1,
+  "unsupported": 1,
+  "capped_total": 10,
+  "conclusion_wrong": false,
+  "false_authorization": false,
+  "transparent_uncertainty": false,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [],
+  "subparts": {
+   "a": "correct",
+   "b": "correct"
+  },
+  "note": ""
+ },
+ {
+  "id": "R024",
+  "q": "U5",
+  "conclusion": 0,
+  "rules": 0,
+  "exceptions": 0,
+  "evidence": 0,
+  "evidence_strict": 0,
+  "unsupported": 1,
+  "capped_total": 1,
+  "conclusion_wrong": true,
+  "false_authorization": false,
+  "transparent_uncertainty": true,
+  "ambiguity_deduction": 0,
+  "critical_omissions": [
+   "may not proceed",
+   "manager/finance cannot imply compliance auth",
+   "specific written compliance auth required",
+   "manager required (obtained); finance not required"
+  ],
+  "subparts": {
+   "a": "missing",
+   "b": "missing"
+  },
+  "note": "No policy access; response transparently declines without inventing rules. Answer is checkable, so no conclusion/rules/exception credit; unsupported-claims point retained."
+ }
+]
