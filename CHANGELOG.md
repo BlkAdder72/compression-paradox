@@ -70,3 +70,11 @@ Added the LICENSE from the prior PrepMe_Sim entry unchanged, and linked it from 
 - Reconciled the handoff with completed GitHub publication/public-clone checks.
 - Synchronized SUBMISSION-COMMENT.md with the approved three-sentence comment, including why a separate Claude session authored the additional questions.
 - Comment posting remains unverified. Dated frozen plans, archived documents, raw evidence, scoring and specialist files are unchanged.
+
+
+## Actual Projects UI completion and assessment — 2026-10-13
+- Frozen UI plan 1318b4b; original A Q1 interruption retained. Edge recovery, pre-B text import adaptation and clean-context continuation preserved.
+- Complete ungraded A7/B7/C7 rendered captures committed/pushed at 5f52b52. No completed calls regenerated. A/B raw copies and C source-import hashes included.
+- One unblinded Codex assessment: UI A13/B64/C70, B/A seven wins, B/C six ties/one loss. Q6 timing interpretation and B70 sensitivity explicitly distinguish current judgment from earlier CLI treatment.
+- Added UI score/provenance verifier and reconciled README/results/reproduction/spec/readiness/control/treatment/comment draft. Preserved historical reports, CLI/U scores, frozen inputs and specialist unchanged.
+- Entrant reports comment posted; no independent check or Skool edit claimed. Full-history release and fresh-clone checks documented separately for the final revision.

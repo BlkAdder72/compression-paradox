@@ -1,9 +1,7 @@
-# Current seven-question release handoff
+# Completed Projects UI release handoff
 
-Use root questions.md and default --suite official for the seven retained original IDs. The prior eight-question corrected suite is --suite official-v2; legacy is original v1. All original prompts, gold rows, specialist and evidence remain traceable and unchanged.
+All21 UI calls complete; no more model calls pending. UI raw commit 5f52b52 was pushed before grading. UI A13/B64/C70; B/C six ties and one timing-dependent Q6 loss, sensitivity B70. Earlier CLI A10/B70/C70 and U A8/B77/C80 remain preserved. Use README, results.md, RELEASE-READINESS.md and REPRODUCE.md for current status; frozen historical STATUS/PLAN files keep their original meaning.
 
-Pre-call freeze and public push: 4f0c0b8. Raw-capture commit: 2df7042. New run IDs: A_SEVEN_01, B_SEVEN_01, C_SEVEN_01. Fresh scores: A10/B70/C70; B/C seven ties. The exact final release SHA is in the accompanying verification report and git log -1. Do not confuse the earlier licensed ZIP at f1a9db9 with this new release.
+The existing checkout's full history and uncommitted captures were preserved. New B Q6/Q7/Q8 and C7 were executed once through the existing Edge tab, after a clean-context handoff. Final verification identifies the released HEAD and ZIP. No sources, prompts, golds, rubric or specialist changes. No independent-human assessment claimed.
 
-The new scores have one disclosed unblinded Codex assessor. Earlier two-assessor U results and Q4 runs remain supplementary/historical. A's failed nonexistent-memory read is documented; no observed outside content. The current specialist remains frozen, and the seven combined question/answer file was committed before these new calls.
-
-Repository: https://github.com/BlkAdder72/compression-paradox. The seven-question release and verification records are published; public-clone checks passed. Use the current SUBMISSION-COMMENT.md for posting. VIP membership was confirmed by the entrant on October 13, 2026; actual comment posting remains unverified. Original separate answer-key packaging, post-results selection and CLI/Projects difference must remain disclosed; do not rewrite history to claim perfect original compliance.
+Entrant reported VIP eligibility and comment posted; no independent inspection or Skool edit by this assistant. Public GitHub publishing was explicitly authorized. Original separate key, post-results subset, text-import adaptation, clean-project order, hidden isolation and Q6 assessment sensitivity remain disclosed. Do not replace the results with a claim of full moderator compliance.

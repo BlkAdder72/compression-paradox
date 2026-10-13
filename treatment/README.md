@@ -1,3 +1,11 @@
+# Current Claude Projects UI treatment
+
+Actual rendered UI captures and exact prompts: [raw/B_UI_01/](raw/B_UI_01/). Complete ungraded evidence was committed at 5f52b52 before assessment. Identical copies live in evidence/projects-20261013/B_UI_01; each response is scored once. These are visible UI captures, not provider stream-json. See root results.md and the UI completion record for recovery and access limits.
+
+The following section indexes the separate earlier CLI evidence; its stream-json descriptions apply to CLI files only.
+
+---
+
 # Current seven-question treatment
 
 Current raw run: [`raw/B_SEVEN_01/`](raw/B_SEVEN_01/), including unedited stream-json, stderr, manifest and checksums. Exact prompts: `control/prompts-seven/` from repository root (Q1,Q2,Q3,Q5,Q6,Q7,Q8). These are byte-identical to the original pre-folder prompts. See root questions.md, results.md and REPRODUCE.md. Default --suite official executes seven; --suite official-v2 is the historical corrected eight-question set.

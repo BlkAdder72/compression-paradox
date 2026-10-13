@@ -1,0 +1,18 @@
+{
+  "evidence/projects-20261013/COMPLETION.md": "d5506f62bdd5dc6b5fc7a8542ac32fc87f7b2f372358b39691656ba9fbad92eb",
+  "evidence/projects-20261013/STATUS.md": "a14d2fe1e199c49291a2195042d49f5450564a61d2925c4de06f6882511aa3f9",
+  "evidence/projects-20261013/A_UI_01/memory-after.txt": "5bfabf4a6a017e7bf18a1efc394edcc78bded988e3490c7fe915a83dacef0457",
+  "evidence/projects-20261013/A_UI_01/SHA256SUMS.txt": "fcba7b1b5f01e0602d45cca90979214d1c2b1e5a5125d46700483a81884bf874",
+  "evidence/projects-20261013/B_UI_01/knowledge-import.json": "f5f958950aeb7de6ffb0e41f14a5fa41b6ea251a7cb907035c0b4cfd40b2ec67",
+  "evidence/projects-20261013/B_UI_01/knowledge-list-reference.txt": "3f00f9070671182a217266301911b1edaec145b7e5d4b4e4faca26c9631c45f5",
+  "evidence/projects-20261013/B_UI_01/knowledge-list-root.txt": "536542b5f339d47ee2e014be602c72929563d67eb6b490c19af661e3b1682176",
+  "evidence/projects-20261013/B_UI_01/knowledge.png": "69947242bafa859fbcc107c14b56f4a0c5c7c50473fd26a453184edc1fc99bec",
+  "evidence/projects-20261013/B_UI_01/memory-after.txt": "09cdf4b4817a1f82b4239c9ba63b84c742795ad555b6421c5691026c401f4fe1",
+  "evidence/projects-20261013/B_UI_01/memory-before.txt": "7a82073f59343731e0cf82301288bdfa4edeccb6fed2e611a7a4044f4d40d4e4",
+  "evidence/projects-20261013/C_UI_01/knowledge-import.json": "b8c44a317d118ec9d592bdf79bf3ee1990ca390ce48b7b8124628fdd97684efa",
+  "evidence/projects-20261013/C_UI_01/knowledge-list.png": "602f91452c01314627c9ae17a73d3f1c0779b3b62bf7a5eab51b82af29b8b51e",
+  "evidence/projects-20261013/C_UI_01/knowledge-list.txt": "a869f77d47822865dafb64b8f6b52514179d24dac1d98a935ebdd14f542cd5fe",
+  "evidence/projects-20261013/C_UI_01/memory-after.txt": "8bdd369f8b3350ff53fcaa2f0a35793aa9ade450dc33c6ad58504b8f4e7dc99a",
+  "evidence/projects-20261013/C_UI_01/memory-before.txt": "13ab7404d1e066cd75fbe9b0f2ee22065dc5788f4a1d0858457f693ac60e289c",
+  "evidence/projects-20261013/C_UI_01/project.json": "63ae0dc3fcf5634ac1e05c0cedce16f943c64ce7d90c84677e5929ed34733d8d"
+}

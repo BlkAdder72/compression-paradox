@@ -1,0 +1,67 @@
+{
+  "benchmark": "projects-seven-original",
+  "maximum_per_arm": 70,
+  "assessor": "One unblinded Codex assessor with prior experiment knowledge; not independent human or two-assessor review",
+  "raw_commit": "5f52b52",
+  "arms": {
+    "A": {
+      "total": 13,
+      "per_question": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": 4,
+        "Q8": 4
+      },
+      "fully_correct_conclusions": 0,
+      "false_authorizations": []
+    },
+    "B": {
+      "total": 64,
+      "per_question": {
+        "Q1": 10,
+        "Q2": 10,
+        "Q3": 10,
+        "Q5": 10,
+        "Q6": 4,
+        "Q7": 10,
+        "Q8": 10
+      },
+      "fully_correct_conclusions": 6,
+      "false_authorizations": []
+    },
+    "C": {
+      "total": 70,
+      "per_question": {
+        "Q1": 10,
+        "Q2": 10,
+        "Q3": 10,
+        "Q5": 10,
+        "Q6": 10,
+        "Q7": 10,
+        "Q8": 10
+      },
+      "fully_correct_conclusions": 7,
+      "false_authorizations": []
+    }
+  },
+  "pairwise": {
+    "B vs A": {
+      "wins": 7,
+      "ties": 0,
+      "losses": 0
+    },
+    "C vs A": {
+      "wins": 7,
+      "ties": 0,
+      "losses": 0
+    },
+    "B vs C": {
+      "wins": 0,
+      "ties": 6,
+      "losses": 1
+    }
+  }
+}

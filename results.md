@@ -1,4 +1,41 @@
-# Results — seven original questions, fresh execution
+# Results — actual Claude Projects UI replication
+
+All 21 calls completed in A_UI_01/B_UI_01/C_UI_01 with displayed Opus 5.5 Medium / Manual, the same seven prompts and order, and a fresh chat per question. The frozen UI plan at 1318b4b preceded calls. Complete raw evidence was committed and pushed at **5f52b52 before assessment**. The ungraded capture manifest stays frozen; assessment is a separate file. These are actual rendered UI responses, not CLI results relabeled as Projects.
+
+| Arm | Q1 | Q2 | Q3 | Q5 | Q6 | Q7 | Q8 | Total /70 | Full conclusions |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| A — no files | 1 | 1 | 1 | 1 | 1 | 4 | 4 | 13 | 0/7 |
+| B — specialist | 10 | 10 | 10 | 10 | 4 | 10 | 10 | 64 | 6/7 |
+| C — sources only | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 70 | 7/7 |
+
+- B vs A and C vs A: **7 wins / 0 ties / 0 losses** each.
+- B vs C: **0 wins / 6 ties / 1 loss**, on Q6's before-purchase timing.
+- False authorizations: none observed in any UI arm.
+- UI speed: **not measured reliably**. Start/capture timestamps include automation, waits and interruptions; no UI slower/faster inference or token count is claimed. Earlier CLI durations below are a separate measure.
+
+## UI scoring judgments and sensitivity
+One unblinded Codex assessor, with prior experiment knowledge, applied the unchanged 0/2/4 conclusion, 0–2 rules, 0–2 exceptions, 0/1 evidence and 0/1 unsupported-claims categories. Missing a mandatory approval condition invokes the operational four-point cap. This is not independent human grading or two-assessor agreement. [Per-answer rationales and raw hashes](evaluation/projects-20261013/assessment-codex.json) and [computed summary](evaluation/projects-20261013/summary.json) are checked by `python scripts/score_projects.py --check`; the script verifies arithmetic/provenance, not semantic judgments.
+
+**B Q6 is the material judgment.** It correctly names both manager and finance and the historic $2,000 threshold, but says: “I can’t confirm from the text that they had to be obtained in advance.” The frozen gold explicitly says both before purchase. Scores are 2/1/1/1/1, capped at 4 for the missing timing requirement. This is cautious refusal to confirm timing, not authorization to proceed. AMD-1 alone omits timing; AMD-3 says only the threshold changed. C supplies both approvals before purchase and receives full credit.
+
+The earlier CLI assessment below accepted a similar B Q6 caveat as fully correct. That historical judgment is preserved and this stricter UI application is made explicit. **Sensitivity:** accepting the caveat in this UI answer restores B to 70 and produces seven B/C ties. The six-point loss should therefore not be presented as a robust causal compression failure. Under either treatment, the added specialist architecture shows no accuracy advantage over sources alone.
+
+A Q1/Q2/Q3/Q5/Q6 transparently decline without policy access: 0/0/0/0/1. This sensible uncertainty does not provide the checkable policy answers. A Q7 identifies probable nonqualification and ordinary approval but omits both approvers: 2/0/1/0/1, capped at 4. A Q8 predicts probably no and conditionally preserves manager approval: 2/1/1/0/0 = 4. Its claim that the employee would still owe retroactive approval/documentation introduces an unsupported requirement. It does not authorize bypassing the manager. B's other six and all C answers earn 4/2/2/1/1.
+
+C Q3's calendar illustration is conditional on the purchase having occurred; its relative 24-hour notice and approval requirements are correct. Statements about no triggered vendor restriction on unspecified routine facts were not treated as permission to use a known prohibited vendor. These are exposed judgment calls, not hidden adjudication.
+
+## UI evidence, access and workflow
+Exact prompt, complete response article, main DOM, model label and chat URL are retained for each question. A/B direct copies in control/raw/A_UI_01 and treatment/raw/B_UI_01 match evidence/projects-20261013; each answer is scored once. A Q1's zero-byte clipboard file remains, and its same-original-chat recovered article is the selected response. The original interruption STATUS.md remains historical; COMPLETION.md records completion.
+
+A had zero project files. B imported ten unchanged specialist texts; C imported only six unchanged fixture texts. Original bytes and submitted text hashes were checked. B/C used Add text content with path/filename titles because file upload was unavailable; no hidden-storage equivalence is claimed. Separate clean projects in A/B/C order differ from literally adding and removing a folder in one project. Account memory was off, per-chat Memory off, and final project memory empty. Research/external connectors were visibly off. A still searched empty knowledge and discovered a connector directory; no outside policy content was observed. A Q2's saved preflight shows the Devices submenu; its connector-off inspection is described in the pre-Q2 resume record rather than saved in that same snapshot. Desktop-connected availability prevents claiming complete hidden isolation. A Q1 used Chrome, later calls Edge; the clean-context continuation resumed only the remaining B3/C7.
+
+The captures are not provider raw streams, hidden traces, token measurements or proof of a fixed backend revision. B/C's use of section IDs is not by itself proof of individual document reads. One fixed-order round and a small near-ceiling set limit inference. No specialist changes were made after results: a future timing-clarity or ambiguity-handling revision would require a new version and fresh tests.
+
+The original separate key, post-results seven-question selection, same-family supplementary authoring and all previous attempts remain disclosed below. This experiment provides reviewable evidence, not a promise of moderator acceptance.
+
+---
+
+# Earlier CLI results — seven original questions, fresh execution
 
 Runs A_SEVEN_01, B_SEVEN_01 and C_SEVEN_01, executed 2026-10-13 at 4f0c0b8: seven fresh independent sessions per arm, same Claude Code 2.1.288 and observed claude-opus-5-5. These are NEW responses to the exact submitted seven questions, not subsets of old run scores. Raw evidence was committed at 2df7042 before assessment. No statistical significance is claimed.
 

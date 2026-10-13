@@ -1,4 +1,26 @@
-# Reproduce the submitted seven-question benchmark
+# Reproduce the Projects UI comparison
+
+The current UI evidence is A_UI_01/B_UI_01/C_UI_01; the CLI commands below reproduce a separate interface and evidence set. Hosted UI/model behavior can change. The committed inputs are the reproducible artifact; exact future wording is not guaranteed.
+
+1. Clone the public repository with full history. Read the frozen UI plan, input-manifest.json and KNOWLEDGE-IMPORT.md under evaluation/projects-20261013. Run the offline checks below.
+2. Create three new private Claude Projects in A/B/C order. No project descriptions or extra instructions. Turn account-memory sharing off; confirm empty project memory. A receives no files, B the ten unchanged specialist files, C the six fixture sources only. Never import questions, golds, assessments or the whole repo.
+3. Match the observed import method: Add text content for each UTF-8 file, original contents unchanged (CRLF may normalize to LF). B titles are specialist-relative paths; C titles are fixture-relative filenames. Verify each form value against its source and save title/content hashes. Verify B has ten and C six files.
+4. For each arm, start a new chat for each Q1,Q2,Q3,Q5,Q6,Q7,Q8. Set displayed Opus 5.5 Medium / Manual, turn Memory off every time (it resets), leave Research and external connectors off. Save settings and disclose residual tool availability. Send only the exact `prompt` string from evaluation/seven-20261013/questions.json.
+5. After each response finishes, expand visible tool disclosures and save the complete response article and main DOM, exact prompt, chat URL, displayed model and timestamps. If interrupted, retain the attempt and recover the same chat; never silently regenerate. UI timestamps include observation delay and do not measure inference speed.
+6. Check empty project memory afterward. Commit raw captures before grading. Apply the unchanged scoring rubric and golds, record assessor exposure and item rationales; disclose the Q6 timing issue in results.md. Independent blinded review is preferable; this submission used one unblinded Codex assessor.
+
+The submitted UI run used separate clean projects to avoid contamination, not add/remove in one previously used project. B/C used text import, not a binary folder upload. Browser switching, A Q1 recovery, and visible-access limits are in evidence/projects-20261013/COMPLETION.md. Do not present this adaptation as exact literal walkthrough compliance.
+
+UI verification:
+```text
+python scripts/verify_projects.py
+python scripts/score_projects.py --check
+```
+The first validates all 21 captures and frozen/imported inputs. The second binds score arithmetic to pre-assessment commit 5f52b52. Neither certifies provider internals or semantic grading. CLI/session durations below must not be attributed to the UI runs.
+
+---
+
+# Reproduce the separate CLI seven-question benchmark
 
 The default official suite is now exactly Q1,Q2,Q3,Q5,Q6,Q7,Q8 from root questions.md. It sends prompt text only. Expected answers and the JSON gold fields never enter model sessions. The existing seven-run scores come from new A/B/C_SEVEN_01 captures, not recalculated earlier results.
 
