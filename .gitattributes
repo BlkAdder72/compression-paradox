@@ -1,4 +1,7 @@
-# Raw captures must stay byte-identical to their recorded SHA256 values.
+# Normalize editable text on every platform, even with core.autocrlf=true.
+* text=auto eol=lf
+# Immutable raw evidence and archived reports retain exact original bytes.
 control/raw/** -text
 treatment/raw/** -text
 diagnostics/**/raw/** -text
+history/** -text
