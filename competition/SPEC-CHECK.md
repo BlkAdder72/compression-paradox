@@ -17,7 +17,7 @@ Source: spec-user-supplied-2026-10-13.txt. No original post URL, separate full j
 | Claude Projects workflow | Actual calls use Claude Code CLI, not Projects. Interface difference disclosed; moderator interpretation unconfirmed. |
 | Public GitHub | https://github.com/BlkAdder72/compression-paradox; full history published. |
 | Comment with link and 2–3 sentences | Updated draft in SUBMISSION-COMMENT.md; actual posting not verified. |
-| Premium/VIP eligibility | User confirmation required. |
+| Premium/VIP eligibility | VIP membership confirmed by the entrant on October 13, 2026; not independently checked against a membership service. |
 | Deadline | Supplied wording: Tuesday, October 13th, 11:59 PM EST. Use 11:59 PM Eastern local time as conservative target. Judges pin the last commit before their cutoff. |
 
 The test is the deliverable: B/A demonstrates the folder including sources beats no folder; C asks whether architecture adds anything. A sources-only tie is relevant honest evidence, not grounds to conceal it. Reporting no specialist change preserves the measured artifact; a future change would require new tests. Do not claim independent human grading or an originally preregistered seven-item selection.

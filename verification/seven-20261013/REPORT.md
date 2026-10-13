@@ -8,7 +8,7 @@ Compared against the prior licensed ZIP at f1a9db9: 753 existing non-Git files r
 
 Final clean-tree/public-clone/ZIP checks and exact final SHA are recorded in the accompanying release-seven verification report after this commit. Earlier verification folders refer to their named revisions. Tests are offline checks unless explicitly identified as the 21 new real Claude captures.
 
-Remaining external gates: competition-comment posting and Premium/VIP eligibility. Qualifications: original separate gold file, post-results seven-item selection, CLI rather than Projects, single unblinded fresh assessor, and future provider variability. This is technical verification, not moderator certification.
+Current status update: VIP membership confirmed by the entrant on October 13, 2026. Competition-comment posting remains unverified. Qualifications: original separate gold file, post-results seven-item selection, CLI rather than Projects, single unblinded fresh assessor, and future provider variability. This is technical verification, not moderator certification.
 
 ## Post-publication verification on 9bb8383
 

@@ -64,3 +64,9 @@ Added the LICENSE from the prior PrepMe_Sim entry unchanged, and linked it from 
 - Default official runner now selects seven; official-v2 explicitly preserves corrected eight-question reproduction. Added exact original-content/chronology verifier and runner regression.
 - Placed current raw A/B files directly under root control/ and treatment/; preserved identical evidence copies, all Q4 records and full history. A's nonexistent-memory read retains its automated review flag and no-content manual disposition.
 - Reconciled current README/results/reproduction/spec/readiness/publication statements and submission comment. Archived earlier current-status documents. Specialist, fixture and original rubric unchanged.
+
+## Current-status cleanup — 2026-10-13
+- Recorded entrant-confirmed VIP membership in current README, readiness, handoff, spec matrix and verification status.
+- Reconciled the handoff with completed GitHub publication/public-clone checks.
+- Synchronized SUBMISSION-COMMENT.md with the approved three-sentence comment, including why a separate Claude session authored the additional questions.
+- Comment posting remains unverified. Dated frozen plans, archived documents, raw evidence, scoring and specialist files are unchanged.

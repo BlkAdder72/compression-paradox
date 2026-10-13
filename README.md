@@ -26,7 +26,7 @@ All seven prompts AND gold answers are unchanged from df36e7d, before original c
 
 Testing uses Claude Code CLI, not the Projects UI. The fresh seven-question scores have one disclosed, unblinded Codex assessor. Earlier two-assessor results remain supplementary; same-family U authoring is not human independence. One fixed-order round, inherited account configuration and ceiling effects limit inference. A failed attempt to read a nonexistent Claude memory file is retained and disclosed in results.md.
 
-Public repository: https://github.com/BlkAdder72/compression-paradox. Entry-comment submission and Premium/VIP eligibility are separate user steps.
+Public repository: https://github.com/BlkAdder72/compression-paradox. VIP membership was confirmed by the entrant on October 13, 2026. Entry-comment posting remains unverified; use the current draft in SUBMISSION-COMMENT.md.
 
 ## License
 [Competition Evaluation and Non-Commercial Review License](LICENSE), copyright 2026 Matthew Mazur. Judges may clone, run, locally modify for evaluation and retain reasonable copies. Commercial use requires separate permission.
