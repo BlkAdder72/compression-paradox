@@ -25,3 +25,7 @@ Original questions and a separate answer key preceded the original control and s
 U questions were generated from the six sources in a separate Claude session according to the supplied authoring note. Human or cross-family independence is not claimed; the operator saw them before execution. Tested model, author and assessors share a model family. CLI execution differs from the competition's Projects walkthrough. One fixed-order round per current set, inherited account configuration and ceiling effects limit inference. No significance or general causal claim is made.
 
 Current results and earlier v1/H results are separate. Historical documents and frozen pre-run manifests retain their original wording. No new model calls were made for this documentation and metric-label revision. Public GitHub publication, entry-comment submission and Premium/VIP eligibility remain unconfirmed.
+
+## License
+
+See [LICENSE](LICENSE) for the Competition Evaluation and Non-Commercial Review License, copyright 2026 Matthew Mazur. It expressly permits competition judging and non-commercial evaluation, including cloning, running and locally modifying the materials. Commercial use requires separate permission.

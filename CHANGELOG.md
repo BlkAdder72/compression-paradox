@@ -52,3 +52,7 @@ Input: `compression-paradox-unseen-ready-2026-10-13B.zip`, SHA-256 `6ff1ffb2103f
 - Replaced the ambiguous derived correct-conclusions field with explicit full-credit, partial-credit and no-disqualifying-conclusion counts. B U8 remains 7/10 and U total remains 77/80; raw scores and adjudications are unchanged. Archived previous summary.
 - Led with the sources-only control finding and U8 loss; added a three-sentence submission draft and explicit moderator-interpretation qualifications.
 - No new model execution, external author, GitHub publication or submission claimed. All original evidence and full Git ancestry preserved.
+
+## License addition — 2026-10-13
+
+Added the LICENSE from the prior PrepMe_Sim entry unchanged, and linked it from the judges' README. No test inputs, scores, scripts or raw evidence changed.
