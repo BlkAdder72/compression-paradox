@@ -1,3 +1,5 @@
+> Repair clarification (2026-10-13): This is an imported earlier-run report, not a run executed in the current repair. Score arithmetic and capture structure were rechecked; provider provenance and assessor independence were not independently established. The Windows hazards described at the end are historical and are fixed in the release. Original bytes are preserved at `history/REPRODUCTION-RESULTS-original.md`.
+
 # Reproduction results — official A/B rerun (A_REPRO_1, B_REPRO_1)
 
 **Executed 2026-10-13 · fresh clone of d85a8b8 · Claude Code CLI 2.1.288 · `claude-opus-5-5` · unmodified runners · one run per arm · scored blind against the original frozen key and rubric.** Run manifests: `control/run-manifest-A_REPRO_1.md`, `treatment/run-manifest-B_REPRO_1.md`. Raw captures committed (610ec2a) before scoring.
@@ -16,8 +18,8 @@ Per question (capped totals):
 | B1 (original) | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
 | B_REPRO_1 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
 
-- **The official result reproduced.** B vs A: 8 wins, 0 ties, 0 losses, identical to the original. Every question score matches the original run.
-- **Same caveat as the original.** A has no policy text and B does. This difference confirms that supplying sources plus structure helps. On its own, it does not isolate the value of the folder's structure (see the source-only arm C in `RESULTS.md`).
+- **The imported records report a matching official result.** B vs A: 8 wins, 0 ties, 0 losses, identical to the original. Every question score matches the original run.
+- **Same caveat as the original.** A has no policy text and B does. This difference confirms that supplying sources plus structure helps. On its own, it does not isolate the value of the folder's structure (see the source-only arm C in `results.md`).
 - **A behaviour.** Every A response said it lacked the Meridian Works policy and invented no thresholds (all 8 marked transparent uncertainty). On Q7, A again reasoned conditionally that "urgent" alone probably would not qualify, which earned partial credit (capped 4). This is the same pattern and the same judgement call as A2.
 - **B behaviour.** All 8 answers were fully correct and cited real section IDs. No omissions, regressions or false authorizations.
 
@@ -45,4 +47,4 @@ Per question (capped totals):
    - One run per arm.
 5. **Fresh-clone hazards found (Windows).**
    - (a) The system Git config sets `core.autocrlf=true`, which rewrites prompts and policy files to CRLF on clone. The run used `git clone -c core.autocrlf=false`. `REPRODUCE.md` should say so.
-   - (b) The repository tracks both `RESULTS.md` and `results.md`. On case-insensitive filesystems only one is checked out, so `git status` is never clean and `verify_submission.py`'s clean-tree check fails. For this reason these results are recorded in this separate file rather than in either `RESULTS.md` or `results.md`.
+   - (b) The repository tracks both `results.md` and `results.md`. On case-insensitive filesystems only one is checked out, so `git status` is never clean and `verify_submission.py`'s clean-tree check fails. For this reason these results are recorded in this separate file rather than in either `results.md` or `results.md`.

@@ -1,6 +1,6 @@
 # THE COMPRESSION PARADOX — Competition #14
 
-**Current status (2026-10-12):** Official A/B completed; supplementary C and D/E experiments completed. Actual records, caveats and failures appear in [`results.md`](results.md). The original uppercase `RESULTS.md` is retained as a historical record; `results.md` is the specification-required root report.
+**Current status (2026-10-12):** Official A/B completed; supplementary C and D/E experiments completed. Actual records, caveats and failures appear in [`results.md`](results.md). The original uppercase report is retained at `history/RESULTS-original.md`; `results.md` is the specification-required root report.
 
 ## What the folder does
 
@@ -23,4 +23,8 @@ The specialist interprets the six-document **fictional Meridian Works policy** b
 
 ## Scientific limitations
 
-A/B improvement cannot isolate context architecture; source-only provides the meaningful comparator. Single-run A/B, same-family assessor, eight-question ceiling effects, different levels of source exposure, and model aliases limit inference. We report those limitations rather than claim that compression architecture independently improved accuracy.
+A/B improvement cannot isolate context architecture; source-only provides the meaningful comparator. Limited A/B repetitions, same-family assessor, eight-question ceiling effects, different levels of source exposure, and model aliases limit inference. We report those limitations rather than claim that compression architecture independently improved accuracy.
+
+## Release repair status (2026-10-13)
+
+Offline repair and verification are separate from model execution. See [readiness and blockers](RELEASE-READINESS.md), [changelog](CHANGELOG.md), and the [generated challenge / external-author protocol](evaluation/challenge/PROTOCOL.md). Imported A/B rerun records score 11/80 and 80/80; no new Claude run occurred during this repair.

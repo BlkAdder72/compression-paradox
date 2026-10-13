@@ -30,7 +30,7 @@ Every A response said it lacked the Meridian Works policy and invented no thresh
 - Wall time per session (`duration_ms`): A mean ≈ 13.8 s, B ≈ 26.0 s, C ≈ 19.6 s.
 - Visible source reads: A 0 files. B read all 10 folder files in 7 of 8 sessions (8 in Q6). C read all 6 sources in every session.
 - Permission denials (attempted reads outside the session directory, all blocked): A 7 of 8 sessions, B 1 of 8, C 1 of 8.
-- Run-to-run consistency: **not measured** (single run per arm).
+- Stage 2 alone did not measure run-to-run consistency; the imported A/B rerun below and Stage 4 repeats provide limited repeat evidence.
 
 ## Limitations and disclosures
 1. **Folder author bias.** The specialist folder was written by Claude (Opus 5.5) in the same session that had already read the questions and answer key. The examples deliberately use different amounts and scenarios, but the folder cannot be called blind to the test.
@@ -40,7 +40,7 @@ Every A response said it lacked the Meridian Works policy and invented no thresh
 
 ## Stage 3 — Pre-registered supplemental work (executed in Stage 4, below)
 
-The aggressive-summary (D) and index-first (E) variants, together with eight supplemental post-analysis challenge questions (H1–H8), have been committed as experimental materials. **No D/E/H scores exist yet.** The H questions were designed after the Stage 2 results were known and are not truly blind unseen questions. All Stage 2 scores above remain unchanged. See `diagnostics/README-stage3.md` and `evaluation/holdout/`.
+The aggressive-summary (D) and index-first (E) variants, together with eight supplemental post-analysis challenge questions (H1–H8), have been committed as experimental materials. At Stage 3 no D/E/H scores existed; completed Stage 4 results follow below. The H questions were designed after the Stage 2 results were known and are not truly blind unseen questions. All Stage 2 scores above remain unchanged. See `diagnostics/README-stage3.md` and `evaluation/holdout/`.
 
 ## Stage 4 — H-series supplemental runs (executed 2026-10-12)
 
@@ -83,7 +83,7 @@ Run 2, per question: C and E scored 10 everywhere. D scored 9 on H2, H3 and H7, 
 - **D H7 (exceptions 1):** correct conclusion, but it hedged that a "strict reading" of EMG-1 ("approved vendor") might deny the exception that EMG-2 extends to authorised prohibited vendors. That ambiguity comes from the primary text, not the summary, which says nothing about vendors in emergencies.
 - **Pairwise, run 2:** E vs D 3 wins / 5 ties / 0 losses. C vs D 3 / 5 / 0. E vs C 0 / 8 / 0.
 
-**Consistency.** Across two runs, all 48 C/E responses and all 16 D responses reached the correct operational conclusion, with no false authorizations or critical omissions. C and E were perfectly stable (80/80 twice). D was the only arm to drop points (80 → 77), all on secondary rubric items.
+**Consistency.** Across two runs, all 32 C/E responses and all 16 D responses (48 total) reached the correct operational conclusion, with no false authorizations or critical omissions. C and E were perfectly stable (80/80 twice). D was the only arm to drop points (80 → 77), all on secondary rubric items.
 
 **Hypothesis, updated.** The pre-registered claim concerned *condition coverage*: that E would preserve conditions more consistently than D. It remains **not supported**, because neither arm omitted a condition in either run. There is a weak directional signal that D is less stable on citation form and hedging (3 points in one of two runs). It is too small to distinguish from run-to-run noise with n = 2. Mean wall time, run 2: C ≈ 21.0 s, D ≈ 23.9 s, E ≈ 22.5 s.
 
@@ -92,4 +92,20 @@ Run 2, per question: C and E scored 10 everywhere. D scored 9 on H2, H3 and H7, 
 
 ## Finalization audit note (2026-10-12)
 
-This lowercase `results.md` is the exact competition-required report path. The legacy `RESULTS.md` remains in Git for historical traceability. The first-stage and supplemental figures above are recorded outcomes, **not independently rerun in this finalization pass**. No independently authored third-party challenge has yet been captured. For exact fresh-clone procedures and limitations see `REPRODUCE.md`.
+This lowercase `results.md` is the exact competition-required report path. The legacy uppercase report is preserved byte-for-byte at `history/RESULTS-original.md` and in full Git history; there is only one root results report. The first-stage and supplemental figures above are recorded outcomes, **not independently rerun in this finalization pass**. No independently authored third-party challenge has yet been captured. For exact fresh-clone procedures and limitations see `REPRODUCE.md`.
+
+## Repair audit and imported A/B reproduction (2026-10-13)
+
+This repair performed offline integrity and arithmetic checks, not fresh Claude calls or independent grading. The uploaded archive already contained A_REPRO_1/B_REPRO_1. Their raw captures, manifests and scorer files support the recorded totals below; provider authenticity and assessor independence have not been externally verified. `REPRODUCTION-RESULTS.md` contains the imported report with repair clarifications.
+
+| Evidence | A total /80 | B total /80 | B wins / ties / losses |
+|---|---:|---:|---|
+| Original A2/B1 | 11 | 80 | 8 / 0 / 0 |
+| Imported A_REPRO_1/B_REPRO_1 | 11 | 80 | 8 / 0 / 0 |
+| New execution during this repair | PENDING | PENDING | Not measured |
+
+The imported rerun matches all original per-question scores. Recomputed mean duration: A 12.919625 seconds; B 26.106875 seconds. This is evidence from the supplied archive, not an independent clean-machine reproduction. Source availability still confounds A/B; B/C operational correctness remains tied in the original comparison.
+
+`python scripts/audit_evidence.py` verifies stored score arithmetic, eight completed result records per scored arm/run, and 238 existing checksum entries. It does not regrade answers or prove that the provider generated them. All original raw files, including failed and excluded attempts, remain unchanged. Historical assessor descriptions are reported claims, not independently established external review.
+
+Fresh A/B and H-series tests: PENDING because no accessible Claude CLI was found in this environment and browser access failed. External unseen author: NOT AVAILABLE. The G-series kit in `evaluation/challenge/` is generated, unexecuted, and explicitly NOT independent. No Git remote or actual public repository URL was present, so public GitHub access and publication are UNVERIFIED. Competition rule source and exact deadline/timezone were not supplied; full external rule compliance cannot be certified from package structure alone. See `RELEASE-READINESS.md`.
