@@ -38,6 +38,7 @@ def check(scores, key, label):
 
 
 def disagreements():
+    reports = []
     for name in ('official', 'holdout'):
         key = json.loads((BASE / name / 'blind_key.json').read_text(encoding='utf-8'))
         a1, a2 = (load(BASE / name / f'assessor-{i}-scores.json') for i in (1, 2))
@@ -48,7 +49,8 @@ def disagreements():
             if diff:
                 rows.append({'id': rid, 'q': a1[rid]['q'], 'diff': diff, 'a1_note': a1[rid]['note'], 'a2_note': a2[rid]['note']})
         t1 = sum(s['capped_total'] for s in a1.values()); t2 = sum(s['capped_total'] for s in a2.values())
-        print(json.dumps({'set': name, 'assessor_totals': [t1, t2], 'items_disagreeing': len(rows), 'rows': rows}, indent=1))
+        reports.append({'set': name, 'assessor_totals': [t1, t2], 'items_disagreeing': len(rows), 'rows': rows})
+    print(json.dumps(reports, indent=2))
 
 
 def summary():

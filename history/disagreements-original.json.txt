@@ -1,0 +1,35 @@
+{
+ "set": "official",
+ "assessor_totals": [
+  177,
+  176
+ ],
+ "items_disagreeing": 1,
+ "rows": [
+  {
+   "id": "R18",
+   "q": "Q8",
+   "diff": {
+    "unsupported": [
+     1,
+     0
+    ],
+    "capped_total": [
+     4,
+     3
+    ]
+   },
+   "a1_note": "Generic common-practice reasoning reaches 'cannot rely on emergency alone' but floats backup-approver or after-the-fact approval routes the key rules out; no section IDs.",
+   "a2_note": "Correctly doubts that the emergency exception alone suffices, but its 'most likely answer' relies on invented common-practice options (backup approver, approval afterwards) that contradict the pre-purchase manager requirement."
+  }
+ ]
+}
+{
+ "set": "holdout",
+ "assessor_totals": [
+  240,
+  240
+ ],
+ "items_disagreeing": 0,
+ "rows": []
+}
