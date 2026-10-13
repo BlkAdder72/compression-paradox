@@ -5,3 +5,4 @@ control/raw/** -text
 treatment/raw/** -text
 diagnostics/**/raw/** -text
 history/** -text
+evidence/** -text
